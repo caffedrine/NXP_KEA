@@ -26,3 +26,7 @@ Repository/
 # Crashlytics plugin (for Android Studio and IntelliJ)
 */com_crashlytics_export_strings.xml
 */*.properties
+
+*/.cproject
+*/.mxproject
+*/.project
