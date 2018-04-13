@@ -3,12 +3,19 @@
 */*/
 
 # Add exceptions
+
+# Directory
 !/*/Docs/
 !/*/Includes
 !/*/Static_Code/
 !/*/Sources/
 !/*/Project_Settings/
 !/*/Generated_Code/
+
+# Extensions
 !/*/*.md
 !/*/*.txt
 !/*/*.pdf
+!/*/.cproject
+!/*/.project
+!/*/*.pe		# Processor Expert
