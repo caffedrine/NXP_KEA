@@ -1,4 +1,0 @@
-/home/curiosul/Workspaces/STM32/LedBlink/build/CMakeFiles/rebuild_cache.dir
-/home/curiosul/Workspaces/STM32/LedBlink/build/CMakeFiles/edit_cache.dir
-/home/curiosul/Workspaces/STM32/LedBlink/build/CMakeFiles/LedBlink.elf.dir
-/home/curiosul/Workspaces/STM32/LedBlink/build/CMakeFiles/CMSIS.dir
