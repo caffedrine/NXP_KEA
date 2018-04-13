@@ -5,3 +5,5 @@
 !/*/Sources/
 !/*/Project_Settings
 !/*/Generated_Code
+!/*/*.md
+!/*/*.txt
