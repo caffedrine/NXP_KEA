@@ -7,10 +7,19 @@
 # Directory
 !/*/Docs/
 !/*/Includes
+!/*/include/
+!/*/Include/
+!/*/Headers/
 !/*/Static_Code/
 !/*/Sources/
+!/*/src/
+!/*/inc/
 !/*/Project_Settings/
 !/*/Generated_Code/
+
+!/*/SAMPLES/*/*
+!/*/SAMPLES/*
+!/*/SAMPLES
 
 # Extensions
 !/*/*.md
