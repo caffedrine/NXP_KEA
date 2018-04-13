@@ -1,9 +1,14 @@
+# Exclude everything
 */*
 */*/
 
+# Add exceptions
+!/*/Docs/
+!/*/Includes
 !/*/Static_Code/
 !/*/Sources/
-!/*/Project_Settings
-!/*/Generated_Code
+!/*/Project_Settings/
+!/*/Generated_Code/
 !/*/*.md
 !/*/*.txt
+!/*/*.pdf
