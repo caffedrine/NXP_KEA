@@ -1,0 +1,3 @@
+*Provides a template for I2C master with interrupt mode
+*Cycles to transfer a frame data(1 byte) and shows it on terminal
+*Provides a template for how to initialize I2C module

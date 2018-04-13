@@ -1,0 +1,4 @@
+*FTM2 Ch0 and adjacent Ch1 are combined to generate PWM signal on RED LED
+*RED LED positive pulse width is of 4.5 ms
+*BLUE LED will toggle every 100ms and at the start of PWM signal
+*Use an oscilloscope to measure the PWM signal of RED LED

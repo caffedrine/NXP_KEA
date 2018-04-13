@@ -1,0 +1,3 @@
+*Provides a template for the sample code
+*Demonstrates how to configure KBI module
+*ISR happens when SW2 or SW3 is pressed toggling BLUE LED

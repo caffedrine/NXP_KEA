@@ -1,0 +1,2 @@
+*The sector on the Flash memory is erased and the new data has been written
+*And then the sector is read again to ensure that the data is written perfectly

@@ -1,0 +1,3 @@
+*Demo continuously reads the Potentiometer
+*But wait until the user press any key
+*Results are shown on the screen through serial communication

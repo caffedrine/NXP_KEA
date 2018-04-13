@@ -1,0 +1,4 @@
+*Changing the voltage level of ACMP external pin between VDD and GND
+ ACMP ISR happens
+*When external voltage on pin crosses the 2.5V, 
+ a message will appear on the hyper terminal window

@@ -1,0 +1,2 @@
+*RTC produces 1s interrupt with LPO clock source
+*Toggles BLUE LED (PTC0) with the trigger

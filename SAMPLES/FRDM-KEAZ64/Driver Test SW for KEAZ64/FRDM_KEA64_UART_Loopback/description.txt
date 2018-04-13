@@ -1,0 +1,4 @@
+*Loopback mode in UART0 by creating an echo in the hyperteminal
+*Writing an character in the hyperteminal, UART2 will receive the char
+*UART0 will send that char and receives the same
+*Received char by UART0 will be sent to UART2 to verify functionality

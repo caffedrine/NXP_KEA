@@ -1,0 +1,2 @@
+*Reads the Potentiometer, VREFH and VREFL and saving the conversion in an array
+*Results are shown on the screen through serial communication when the user presses a key

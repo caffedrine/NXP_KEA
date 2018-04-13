@@ -1,0 +1,5 @@
+*Demonstrate FTM dual edge capture feature
+*First connect FTM0 CH0 with FTM2 CH0
+*FTM0 CH0 generates toggled waveform, the period is 2ms, positive pulse width 1ms,
+ as the input of FTM2 CH4 and CH5
+*FTM2 captures both rising/falling edge of the input waveform

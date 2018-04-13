@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Lab10_LIN_Master_KEA64_PROD</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>KEA SDK</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/lin_cfg</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/sources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/bsp</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/coreapi</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/diagnostic</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/lowlevel</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/transport</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/lin_cfg/lin_cfg.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/lin_cfg/lin_cfg.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/acmp.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/acmp.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/adc.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/adc.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/crc.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/crc.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/flash.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/flash.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/ftm.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/ftm.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/i2c.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/i2c.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/ics.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/ics.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/kbi.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/kbi.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/nvic.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/nvic.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/pit.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/pit.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/pmc.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/pmc.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/printf.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/printf.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/pwt.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/pwt.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/rtc.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/rtc.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/spi.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/spi.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/uart.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/uart.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/sources/wdog.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/sources/wdog.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/bsp/UART</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/coreapi/lin_common_api.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/coreapi/lin_common_api.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/coreapi/lin_common_proto.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/coreapi/lin_common_proto.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/coreapi/lin_j2602_api.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/coreapi/lin_j2602_api.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/coreapi/lin_j2602_proto.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/coreapi/lin_j2602_proto.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/coreapi/lin_lin21_api.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/coreapi/lin_lin21_api.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/coreapi/lin_lin21_proto.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/coreapi/lin_lin21_proto.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/diagnostic/lin_diagnostic_service.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/diagnostic/lin_diagnostic_service.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/lowlevel/lin.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/lowlevel/lin.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/transport/lin_commontl_api.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/transport/lin_commontl_api.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/transport/lin_commontl_proto.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/transport/lin_commontl_proto.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/transport/lin_j2602tl_api.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/transport/lin_j2602tl_api.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/transport/lin_lin21tl_api.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/transport/lin_lin21tl_api.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/bsp/UART/lin_isr.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/bsp/UART/lin_isr.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/bsp/UART/lin_lld_timesrv.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/bsp/UART/lin_lld_timesrv.c</location>
+		</link>
+		<link>
+			<name>KEA SDK/LIN_Driver/bsp/UART/lin_lld_uart.c</name>
+			<type>1</type>
+			<location>C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/SDK Drivers for KEAZ64/LIN_Driver/bsp/UART/lin_lld_uart.c</location>
+		</link>
+	</linkedResources>
+</projectDescription>

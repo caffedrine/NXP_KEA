@@ -1,0 +1,2 @@
+*Sets up PIT timer-1 in chain mode with PIT timer-0 to generate interrupt at every 1s
+*BLUE LED will toggle at every 1s

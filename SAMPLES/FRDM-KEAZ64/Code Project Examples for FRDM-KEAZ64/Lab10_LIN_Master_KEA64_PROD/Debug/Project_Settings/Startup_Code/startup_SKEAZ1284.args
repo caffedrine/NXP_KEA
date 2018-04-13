@@ -1,0 +1,13 @@
+-I"../include"
+-I"C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/EWL_C/include"
+-I"C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/EWL_C/include/arm"
+-I"C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/EWL_Runtime/include"
+-I"C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/EWL_Runtime/include/arm"
+-x assembler-with-cpp
+-D__START=__thumb_startup
+-O0
+-g3
+-mcpu=cortex-m0plus
+-mthumb
+-specs=ewl_c_noio.specs
+--sysroot="C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2"

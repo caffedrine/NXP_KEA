@@ -1,0 +1,3 @@
+*Demonstrates FTM output compare feature
+*FTM2 CH0 generates toggled waveform on PTH0 connected to RED LED
+*Counter value is printed every FTM interrupt on hyper terminal

@@ -1,0 +1,2 @@
+*Generates an interrupt whenever the ADC module finish reading Potentiometer
+*Conversions are shown on the screen through serial communication

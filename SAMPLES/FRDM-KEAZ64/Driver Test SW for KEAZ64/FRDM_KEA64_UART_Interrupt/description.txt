@@ -1,0 +1,2 @@
+*A demo for UART interrupt operation
+*Demonstrates how to send characters using UART interrupt

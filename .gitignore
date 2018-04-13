@@ -17,9 +17,9 @@
 !/*/Project_Settings/
 !/*/Generated_Code/
 
-!/*/SAMPLES/*/*
-!/*/SAMPLES/*
-!/*/SAMPLES
+!/SAMPLES/*/*
+!/SAMPLES/*
+!/SAMPLES
 
 # Extensions
 !/*/*.md

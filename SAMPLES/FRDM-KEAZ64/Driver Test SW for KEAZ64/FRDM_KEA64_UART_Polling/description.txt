@@ -1,0 +1,2 @@
+*A demo of UART polling operation
+*Demonstrates how to send characters using UART polling

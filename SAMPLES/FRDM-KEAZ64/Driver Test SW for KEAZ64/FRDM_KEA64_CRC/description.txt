@@ -1,0 +1,2 @@
+*Demonstrates the working of CRC module in 16-bit and 32-bit mode
+*Generates the 16 and 32 bit CRC results for a given data

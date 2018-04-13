@@ -1,0 +1,14 @@
+core=Cortex-M0+
+coreType=Cortex-M0+
+eclipse.preferences.version=1
+flashSize=0
+flashStart=-1
+fpu=None
+io=noio
+language=c
+library=ewl_c9x
+pinSet=false
+processor=KEAZ64M4
+productVersion=S32 Design Studio for ARM, Version 1.1 build 151217\r\n
+ramSize=0
+ramStart=-1

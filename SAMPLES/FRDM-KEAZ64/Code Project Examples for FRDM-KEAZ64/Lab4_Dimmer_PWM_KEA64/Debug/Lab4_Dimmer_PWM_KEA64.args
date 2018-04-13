@@ -1,0 +1,14 @@
+"./Project_Settings/Startup_Code/system_SKEAZ1284.o"
+"./Project_Settings/Startup_Code/startup_SKEAZ1284.o"
+"./src/Lab4_Dimmer_PWM_KEA64.o"
+"./src/FTM.o"
+"./src/CLK.o"
+-T
+"C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/Code Project Examples for FRDM-KEAZ64/Lab4_Dimmer_PWM_KEA64/Project_Settings/Linker_Files/SKEAZ_flash.ld"
+-Wl,-Map,"Lab4_Dimmer_PWM_KEA64.map"
+-Xlinker
+--gc-sections
+-mcpu=cortex-m0plus
+-mthumb
+-specs=ewl_c_noio.specs
+--sysroot="C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2"

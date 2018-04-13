@@ -1,0 +1,2 @@
+*The Master sends the ADC port value and reads back the key pressed at slave board
+*Sets the corresponding LEDs

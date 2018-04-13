@@ -1,0 +1,2 @@
+*Demonstrates how to call watchdog driver lib to initialize it and how to check when whatchdog reset occurs
+*The watchdog is initialized to be enabled in low power state and generate watchdogs reset at around 1s

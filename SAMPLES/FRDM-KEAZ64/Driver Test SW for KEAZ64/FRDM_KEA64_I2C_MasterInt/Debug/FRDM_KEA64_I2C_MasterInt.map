@@ -1,0 +1,1140 @@
+Archive member included because of file (symbol)
+
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o (exit)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o (memset)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+                              ./src/printf.o (strlen)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o) (__fill_mem)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                              ./Project_Settings/Startup_Code/system_SKEAZ1284.o (__aeabi_uidiv)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+                              ./src/printf.o (__aeabi_idiv)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o (__init_cpp)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o) (__destroy_global_chain)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o (__copy_rom_sections_to_ram)
+
+Allocating common symbols
+Common symbol       size              file
+
+i                   0x4               ./src/FRDM_KEA64_I2C_MasterInt.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .text.__iar_program_start
+                0x00000000        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf4 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .text          0x00000000        0x0 ./src/uart.o
+ .data          0x00000000        0x0 ./src/uart.o
+ .bss           0x00000000        0x0 ./src/uart.o
+ .text.UART_ReadDataReg
+                0x00000000       0x18 ./src/uart.o
+ .text.UART_WriteDataReg
+                0x00000000       0x1c ./src/uart.o
+ .text.UART_IsTxComplete
+                0x00000000       0x1c ./src/uart.o
+ .text.UART_IsTxBuffEmpty
+                0x00000000       0x1c ./src/uart.o
+ .text.UART_IsRxBuffFull
+                0x00000000       0x1c ./src/uart.o
+ .bss.global_pass_count
+                0x00000000        0x2 ./src/uart.o
+ .bss.global_fail_count
+                0x00000000        0x2 ./src/uart.o
+ .bss.UART_TxDoneCallback
+                0x00000000        0xc ./src/uart.o
+ .bss.UART_RxDoneCallback
+                0x00000000        0xc ./src/uart.o
+ .text.UART_GetChar
+                0x00000000       0x28 ./src/uart.o
+ .text.UART_SetBaudrate
+                0x00000000       0x84 ./src/uart.o
+ .text.UART_DisableInterrupt
+                0x00000000       0xe4 ./src/uart.o
+ .text.UART_GetFlags
+                0x00000000       0x48 ./src/uart.o
+ .text.UART_CheckFlag
+                0x00000000       0x4c ./src/uart.o
+ .text.UART_SendWait
+                0x00000000       0x54 ./src/uart.o
+ .text.UART_ReceiveWait
+                0x00000000       0x54 ./src/uart.o
+ .text.UART_WaitTxComplete
+                0x00000000       0x1c ./src/uart.o
+ .text.UART_SetCallback
+                0x00000000       0x44 ./src/uart.o
+ .debug_macro   0x00000000      0x81a ./src/uart.o
+ .debug_macro   0x00000000       0x3a ./src/uart.o
+ .debug_macro   0x00000000       0x16 ./src/uart.o
+ .debug_macro   0x00000000       0x64 ./src/uart.o
+ .debug_macro   0x00000000      0x17e ./src/uart.o
+ .debug_macro   0x00000000      0x147 ./src/uart.o
+ .debug_macro   0x00000000       0x9d ./src/uart.o
+ .debug_macro   0x00000000       0x10 ./src/uart.o
+ .debug_macro   0x00000000      0x1a1 ./src/uart.o
+ .debug_macro   0x00000000       0x3a ./src/uart.o
+ .debug_macro   0x00000000       0x1f ./src/uart.o
+ .debug_macro   0x00000000      0x250 ./src/uart.o
+ .debug_macro   0x00000000       0x28 ./src/uart.o
+ .debug_macro   0x00000000     0x479a ./src/uart.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .group         0x00000000        0x8 ./src/printf.o
+ .text          0x00000000        0x0 ./src/printf.o
+ .data          0x00000000        0x0 ./src/printf.o
+ .bss           0x00000000        0x0 ./src/printf.o
+ .text.sprintf  0x00000000       0x5c ./src/printf.o
+ .text.in_char  0x00000000       0x1c ./src/printf.o
+ .debug_macro   0x00000000      0x81a ./src/printf.o
+ .debug_macro   0x00000000       0x3a ./src/printf.o
+ .debug_macro   0x00000000       0x16 ./src/printf.o
+ .debug_macro   0x00000000       0x64 ./src/printf.o
+ .debug_macro   0x00000000      0x17e ./src/printf.o
+ .debug_macro   0x00000000      0x147 ./src/printf.o
+ .debug_macro   0x00000000       0x10 ./src/printf.o
+ .debug_macro   0x00000000       0x16 ./src/printf.o
+ .debug_macro   0x00000000       0x9d ./src/printf.o
+ .debug_macro   0x00000000      0x1a1 ./src/printf.o
+ .debug_macro   0x00000000       0x39 ./src/printf.o
+ .debug_macro   0x00000000       0x3a ./src/printf.o
+ .debug_macro   0x00000000       0x1f ./src/printf.o
+ .debug_macro   0x00000000      0x250 ./src/printf.o
+ .debug_macro   0x00000000       0x28 ./src/printf.o
+ .debug_macro   0x00000000     0x479a ./src/printf.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .text          0x00000000        0x0 ./src/nvic.o
+ .data          0x00000000        0x0 ./src/nvic.o
+ .bss           0x00000000        0x0 ./src/nvic.o
+ .debug_macro   0x00000000      0x81a ./src/nvic.o
+ .debug_macro   0x00000000       0x3a ./src/nvic.o
+ .debug_macro   0x00000000       0x16 ./src/nvic.o
+ .debug_macro   0x00000000       0x16 ./src/nvic.o
+ .debug_macro   0x00000000       0x64 ./src/nvic.o
+ .debug_macro   0x00000000      0x17e ./src/nvic.o
+ .debug_macro   0x00000000      0x147 ./src/nvic.o
+ .debug_macro   0x00000000       0x9d ./src/nvic.o
+ .debug_macro   0x00000000       0x10 ./src/nvic.o
+ .debug_macro   0x00000000      0x1a1 ./src/nvic.o
+ .debug_macro   0x00000000       0x39 ./src/nvic.o
+ .debug_macro   0x00000000       0x3a ./src/nvic.o
+ .debug_macro   0x00000000       0x1f ./src/nvic.o
+ .debug_macro   0x00000000      0x250 ./src/nvic.o
+ .debug_macro   0x00000000       0x28 ./src/nvic.o
+ .debug_macro   0x00000000     0x479a ./src/nvic.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .text          0x00000000        0x0 ./src/ics.o
+ .data          0x00000000        0x0 ./src/ics.o
+ .bss           0x00000000        0x0 ./src/ics.o
+ .text.OSC_Disable
+                0x00000000       0x1c ./src/ics.o
+ .text.FEE_to_FEI
+                0x00000000       0x74 ./src/ics.o
+ .text.FEE_to_FBI
+                0x00000000       0x90 ./src/ics.o
+ .text.FEE_to_FBE
+                0x00000000       0x7c ./src/ics.o
+ .text.FBI_to_FBE
+                0x00000000       0x84 ./src/ics.o
+ .text.FBI_to_FEE
+                0x00000000       0xa4 ./src/ics.o
+ .text.FBI_to_FBILP
+                0x00000000       0x24 ./src/ics.o
+ .text.FBI_to_FEI
+                0x00000000       0x80 ./src/ics.o
+ .text.FBE_to_FBI
+                0x00000000       0x7c ./src/ics.o
+ .text.FBE_to_FEE
+                0x00000000       0x70 ./src/ics.o
+ .text.FBE_to_FEI
+                0x00000000       0x84 ./src/ics.o
+ .text.FBE_to_FBELP
+                0x00000000       0x24 ./src/ics.o
+ .text.FBELP_to_FBE
+                0x00000000       0x24 ./src/ics.o
+ .text.FBILP_to_FBI
+                0x00000000       0x24 ./src/ics.o
+ .text.ICS_Trim
+                0x00000000       0x54 ./src/ics.o
+ .text.OSC_DeInit
+                0x00000000       0x14 ./src/ics.o
+ .debug_macro   0x00000000      0x81a ./src/ics.o
+ .debug_macro   0x00000000       0x3a ./src/ics.o
+ .debug_macro   0x00000000       0x16 ./src/ics.o
+ .debug_macro   0x00000000       0x16 ./src/ics.o
+ .debug_macro   0x00000000       0x64 ./src/ics.o
+ .debug_macro   0x00000000      0x17e ./src/ics.o
+ .debug_macro   0x00000000      0x147 ./src/ics.o
+ .debug_macro   0x00000000       0x9d ./src/ics.o
+ .debug_macro   0x00000000       0x10 ./src/ics.o
+ .debug_macro   0x00000000      0x1a1 ./src/ics.o
+ .debug_macro   0x00000000       0x39 ./src/ics.o
+ .debug_macro   0x00000000       0x3a ./src/ics.o
+ .debug_macro   0x00000000       0x1f ./src/ics.o
+ .debug_macro   0x00000000      0x250 ./src/ics.o
+ .debug_macro   0x00000000       0x28 ./src/ics.o
+ .debug_macro   0x00000000     0x479a ./src/ics.o
+ .debug_macro   0x00000000       0x3a ./src/ics.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .group         0x00000000        0x8 ./src/i2c.o
+ .text          0x00000000        0x0 ./src/i2c.o
+ .data          0x00000000        0x0 ./src/i2c.o
+ .bss           0x00000000        0x0 ./src/i2c.o
+ .text.I2C_SendNack
+                0x00000000       0x20 ./src/i2c.o
+ .text.I2C_RepeatStart
+                0x00000000       0x70 ./src/i2c.o
+ .text.I2C_Deinit
+                0x00000000       0x54 ./src/i2c.o
+ .text.I2C_ReadOneByte
+                0x00000000       0xf0 ./src/i2c.o
+ .text.I2C_MasterSendWait
+                0x00000000       0xa8 ./src/i2c.o
+ .text.I2C_MasterReadWait
+                0x00000000       0xd8 ./src/i2c.o
+ .text.I2C1_SetCallBack
+                0x00000000       0x18 ./src/i2c.o
+ .debug_macro   0x00000000      0x81a ./src/i2c.o
+ .debug_macro   0x00000000       0x3a ./src/i2c.o
+ .debug_macro   0x00000000       0x16 ./src/i2c.o
+ .debug_macro   0x00000000       0x16 ./src/i2c.o
+ .debug_macro   0x00000000       0x64 ./src/i2c.o
+ .debug_macro   0x00000000      0x17e ./src/i2c.o
+ .debug_macro   0x00000000      0x147 ./src/i2c.o
+ .debug_macro   0x00000000       0x9d ./src/i2c.o
+ .debug_macro   0x00000000       0x10 ./src/i2c.o
+ .debug_macro   0x00000000      0x1a1 ./src/i2c.o
+ .debug_macro   0x00000000       0x39 ./src/i2c.o
+ .debug_macro   0x00000000       0x3a ./src/i2c.o
+ .debug_macro   0x00000000       0x1f ./src/i2c.o
+ .debug_macro   0x00000000      0x250 ./src/i2c.o
+ .debug_macro   0x00000000       0x28 ./src/i2c.o
+ .debug_macro   0x00000000     0x479a ./src/i2c.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .text          0x00000000        0x0 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .data          0x00000000        0x0 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .bss           0x00000000        0x0 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000      0x81a ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x3a ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x16 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x16 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x64 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000      0x17e ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000      0x147 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x9d ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x10 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000      0x1a1 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x39 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x3a ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x1f ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000      0x250 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x28 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000     0x479a ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x3a ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x1c ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x82 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00000000       0x16 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .bss.__dso_handle
+                0x00000000        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__register_global_object
+                0x00000000       0x14 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__cxa_atexit
+                0x00000000       0x38 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__aeabi_atexit
+                0x00000000        0xe C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__register_atexit
+                0x00000000        0xc C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_curr_func
+                0x00000000        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_funcs
+                0x00000000      0x300 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+ .text.__flush_cache
+                0x00000000        0x2 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .text._ExitProcess
+                0x00000000        0x2 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_info    0x00000000       0x4e C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_abbrev  0x00000000       0x4a C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_aranges
+                0x00000000       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_line    0x00000000       0x45 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_str     0x00000000      0x1bd C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_frame   0x00000000       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .ARM.attributes
+                0x00000000       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000100         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x0001fbf0         xr
+m_data           0x1ffff000         0x00004000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+LOAD ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+LOAD ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+LOAD ./src/uart.o
+LOAD ./src/printf.o
+LOAD ./src/nvic.o
+LOAD ./src/ics.o
+LOAD ./src/i2c.o
+LOAD ./src/FRDM_KEA64_I2C_MasterInt.o
+START GROUP
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libm.a
+LOAD c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a
+END GROUP
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+                0x20003000                _estack = 0x20003000
+                0x20003000                __SP_INIT = _estack
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+
+.interrupts     0x00000000       0xc0
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+                0x00000000                __isr_vector
+                0x000000c0                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410     0x21a0
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x44 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+                0x00000410                Reset_Handler
+                0x00000450                Reserved16_IRQHandler
+                0x00000450                HardFault_Handler
+                0x00000450                SysTick_Handler
+                0x00000450                PendSV_Handler
+                0x00000450                NMI_Handler
+                0x00000450                Reserved19_IRQHandler
+                0x00000450                Reserved42_IRQHandler
+                0x00000450                SPI1_IRQHandler
+                0x00000450                DefaultISR
+                0x00000450                FTMRE_IRQHandler
+                0x00000450                RTC_IRQHandler
+                0x00000450                IRQ_IRQHandler
+                0x00000450                Reserved18_IRQHandler
+                0x00000450                FTM1_IRQHandler
+                0x00000450                PIT_CH0_IRQHandler
+                0x00000450                Reserved20_IRQHandler
+                0x00000450                Default_Handler
+                0x00000450                Reserved17_IRQHandler
+                0x00000450                ADC_IRQHandler
+                0x00000450                MSCAN_RX_IRQHandler
+                0x00000450                ACMP0_IRQHandler
+                0x00000450                MSCAN_TX_IRQHandler
+                0x00000450                PWT_IRQHandler
+                0x00000450                SVC_Handler
+                0x00000450                ICS_IRQHandler
+                0x00000450                PIT_CH1_IRQHandler
+                0x00000450                KBI0_IRQHandler
+                0x00000450                PMC_IRQHandler
+                0x00000450                SPI0_IRQHandler
+                0x00000450                FTM0_IRQHandler
+                0x00000450                WDOG_IRQHandler
+                0x00000450                FTM2_IRQHandler
+                0x00000450                ACMP1_IRQHandler
+                0x00000450                KBI1_IRQHandler
+ .text          0x00000454      0x120 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00000454                __aeabi_uidiv
+                0x00000454                __udivsi3
+                0x00000560                __aeabi_uidivmod
+ .text          0x00000574      0x1e0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+                0x00000574                __divsi3
+                0x00000574                __aeabi_idiv
+                0x00000740                __aeabi_idivmod
+ .text          0x00000754        0x4 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00000754                __aeabi_idiv0
+                0x00000754                __aeabi_ldiv0
+ *(.text*)
+ .text.__thumb_startup
+                0x00000758       0x3c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+                0x00000758                __thumb_startup
+ .text.SystemInit
+                0x00000794       0x90 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+                0x00000794                SystemInit
+ .text.UART_Set1StopBit
+                0x00000824       0x20 ./src/uart.o
+ .text.UART_Set2StopBit
+                0x00000844       0x20 ./src/uart.o
+ .text.UART_Init
+                0x00000864      0x1a4 ./src/uart.o
+                0x00000864                UART_Init
+ .text.UART_PutChar
+                0x00000a08       0x2c ./src/uart.o
+                0x00000a08                UART_PutChar
+ .text.UART0_IRQHandler
+                0x00000a34       0x14 ./src/uart.o
+                0x00000a34                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x00000a48       0x14 ./src/uart.o
+                0x00000a48                UART1_IRQHandler
+ .text.UART2_IRQHandler
+                0x00000a5c       0x14 ./src/uart.o
+                0x00000a5c                UART2_IRQHandler
+ .text.printk_putc
+                0x00000a70       0x50 ./src/printf.o
+ .text.printk_mknumstr
+                0x00000ac0      0x100 ./src/printf.o
+ .text.printk_pad_zero
+                0x00000bc0       0x38 ./src/printf.o
+ .text.printk_pad_space
+                0x00000bf8       0x38 ./src/printf.o
+ .text.printk   0x00000c30      0x57c ./src/printf.o
+                0x00000c30                printk
+ .text.printf   0x000011ac       0x44 ./src/printf.o
+                0x000011ac                printf
+ .text.puts     0x000011f0       0x1c ./src/printf.o
+                0x000011f0                puts
+ .text.out_char
+                0x0000120c       0x24 ./src/printf.o
+                0x0000120c                out_char
+ .text.NVIC_EnableIRQ
+                0x00001230       0x2c ./src/nvic.o
+ .text.NVIC_DisableIRQ
+                0x0000125c       0x30 ./src/nvic.o
+ .text.NVIC_SetPendingIRQ
+                0x0000128c       0x30 ./src/nvic.o
+ .text.NVIC_ClearPendingIRQ
+                0x000012bc       0x30 ./src/nvic.o
+ .text.Enable_Interrupt
+                0x000012ec       0x2c ./src/nvic.o
+                0x000012ec                Enable_Interrupt
+ .text.Disable_Interrupt
+                0x00001318       0x2c ./src/nvic.o
+                0x00001318                Disable_Interrupt
+ .text.ICS_SetBusDivider
+                0x00001344       0x34 ./src/ics.o
+ .text.FEI_factory_to_FEI_custom
+                0x00001378       0x78 ./src/ics.o
+                0x00001378                FEI_factory_to_FEI_custom
+ .text.FEI_to_FEE
+                0x000013f0       0x84 ./src/ics.o
+                0x000013f0                FEI_to_FEE
+ .text.FEI_to_FBI
+                0x00001474       0x7c ./src/ics.o
+                0x00001474                FEI_to_FBI
+ .text.FEI_to_FBE
+                0x000014f0       0xa8 ./src/ics.o
+                0x000014f0                FEI_to_FBE
+ .text.ICS_SetOscDivider
+                0x00001598       0xc4 ./src/ics.o
+                0x00001598                ICS_SetOscDivider
+ .text.ICS_Init
+                0x0000165c       0xa8 ./src/ics.o
+                0x0000165c                ICS_Init
+ .text.OSC_Init
+                0x00001704       0xdc ./src/ics.o
+                0x00001704                OSC_Init
+ .text.I2C_TxEnable
+                0x000017e0       0x20 ./src/i2c.o
+ .text.I2C_RxEnable
+                0x00001800       0x20 ./src/i2c.o
+ .text.I2C_SetBaudRate
+                0x00001820       0x18 ./src/i2c.o
+ .text.I2C_GetStatus
+                0x00001838       0x18 ./src/i2c.o
+ .text.I2C_ClearStatus
+                0x00001850       0x28 ./src/i2c.o
+ .text.I2C_WriteDataReg
+                0x00001878       0x1c ./src/i2c.o
+ .text.I2C_ReadDataReg
+                0x00001894       0x18 ./src/i2c.o
+ .text.I2C_IsBusy
+                0x000018ac       0x1c ./src/i2c.o
+ .text.I2C_SendAck
+                0x000018c8       0x20 ./src/i2c.o
+ .text.I2C_Init
+                0x000018e8      0x23c ./src/i2c.o
+                0x000018e8                I2C_Init
+ .text.I2C_Start
+                0x00001b24       0x78 ./src/i2c.o
+                0x00001b24                I2C_Start
+ .text.I2C_Stop
+                0x00001b9c       0x70 ./src/i2c.o
+                0x00001b9c                I2C_Stop
+ .text.I2C_SetSlaveAddress
+                0x00001c0c       0x54 ./src/i2c.o
+                0x00001c0c                I2C_SetSlaveAddress
+ .text.I2C_IntDisable
+                0x00001c60       0x48 ./src/i2c.o
+                0x00001c60                I2C_IntDisable
+ .text.I2C_IntEnable
+                0x00001ca8       0x48 ./src/i2c.o
+                0x00001ca8                I2C_IntEnable
+ .text.I2C_SetSCLLowTimeout
+                0x00001cf0       0x2c ./src/i2c.o
+                0x00001cf0                I2C_SetSCLLowTimeout
+ .text.I2C_WriteOneByte
+                0x00001d1c       0xf8 ./src/i2c.o
+                0x00001d1c                I2C_WriteOneByte
+ .text.I2C_MasterSend
+                0x00001e14       0x68 ./src/i2c.o
+                0x00001e14                I2C_MasterSend
+ .text.I2C_MasterRead
+                0x00001e7c       0x88 ./src/i2c.o
+                0x00001e7c                I2C_MasterRead
+ .text.I2C0_SetCallBack
+                0x00001f04       0x18 ./src/i2c.o
+                0x00001f04                I2C0_SetCallBack
+ .text.I2C0_IRQHandler
+                0x00001f1c       0x1c ./src/i2c.o
+                0x00001f1c                I2C0_IRQHandler
+ .text.I2C1_IRQHandler
+                0x00001f38       0x1c ./src/i2c.o
+                0x00001f38                I2C1_IRQHandler
+ .text.I2C_ClearStatus
+                0x00001f54       0x28 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .text.I2C_WriteDataReg
+                0x00001f7c       0x1c ./src/FRDM_KEA64_I2C_MasterInt.o
+ .text.I2C_ReadDataReg
+                0x00001f98       0x18 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .text.I2C_IsTxMode
+                0x00001fb0       0x1c ./src/FRDM_KEA64_I2C_MasterInt.o
+ .text.I2C_SendNack
+                0x00001fcc       0x20 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .text.main     0x00001fec      0x1c0 ./src/FRDM_KEA64_I2C_MasterInt.o
+                0x00001fec                main
+ .text.I2C0_ISR
+                0x000021ac       0xd0 ./src/FRDM_KEA64_I2C_MasterInt.o
+                0x000021ac                I2C0_ISR
+ .text.exit     0x0000227c       0x38 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                0x0000227c                exit
+ .text.memset   0x000022b4        0xc C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+                0x000022b4                memset
+ .text.strlen   0x000022c0        0xe C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+                0x000022c0                strlen
+ .text.__fill_mem
+                0x000022ce       0x82 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+                0x000022ce                __fill_mem
+ .text.__init_cpp
+                0x00002350       0x48 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00002350                __init_cpp
+ .text.__fini_cpp
+                0x00002398       0x34 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00002398                __fini_cpp
+ .text._ExitProcess
+                0x000023cc        0x2 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x000023cc                _ExitProcess
+ *fill*         0x000023ce        0x2 
+ .text.__destroy_global_chain
+                0x000023d0       0x1c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x000023d0                __destroy_global_chain
+ .text.__init_registers
+                0x000023ec       0x1c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x000023ec                __init_registers
+ .text.__init_hardware
+                0x00002408        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00002408                __init_hardware
+ .text.__init_user
+                0x0000240c        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x0000240c                __init_user
+ .text.__copy_rom_section
+                0x00002410       0x40 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+                0x00002410                __copy_rom_section
+ .text.__copy_rom_sections_to_ram
+                0x00002450       0x34 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+                0x00002450                __copy_rom_sections_to_ram
+ *(.rodata)
+ .rodata        0x00002484       0x64 ./src/FRDM_KEA64_I2C_MasterInt.o
+ *(.rodata*)
+ .rodata.printk
+                0x000024e8       0xc8 ./src/printf.o
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x000025b0                . = ALIGN (0x4)
+
+.vfp11_veneer   0x000025b0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000025b0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000025b0        0x0
+ .iplt          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+
+.rel.dyn        0x000025b0        0x0
+ .rel.iplt      0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x000025b0        0x0
+                0x000025b0                __exidx_start = .
+ *(.ARM.exidx*)
+                0x000025b0                __exidx_end = .
+
+.ctors          0x000025b0        0x0
+                0x000025b0                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x000025b0                __CTOR_END__ = .
+
+.dtors          0x000025b0        0x0
+                0x000025b0                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x000025b0                __DTOR_END__ = .
+
+.preinit_array  0x000025b0        0x0
+                0x000025b0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x000025b0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000025b0        0x0
+                0x000025b0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x000025b0                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000025b0        0x0
+                0x000025b0                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                0x000025b0                PROVIDE (__fini_array_end, .)
+                0x000025b0                __etext = .
+                0x000025b0                __DATA_ROM = .
+
+.mtb            0x1ffff000        0x0
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_start = .
+ *(.mtb_buf)
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_end = .
+
+.data           0x1ffff000       0x10 load address 0x000025b0
+                0x1ffff000                . = ALIGN (0x4)
+                0x1ffff000                __DATA_RAM = .
+                0x1ffff000                __data_start__ = .
+                0x1ffff000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.pI2C0    0x1ffff000        0x4 ./src/i2c.o
+ .data.pI2C1    0x1ffff004        0x4 ./src/i2c.o
+ .data.send_finish
+                0x1ffff008        0x1 ./src/FRDM_KEA64_I2C_MasterInt.o
+                0x1ffff008                send_finish
+ *fill*         0x1ffff009        0x3 
+ .data.pI2C0    0x1ffff00c        0x4 ./src/FRDM_KEA64_I2C_MasterInt.o
+                0x1ffff00c                pI2C0
+ *(.jcr*)
+                0x1ffff010                . = ALIGN (0x4)
+                0x1ffff010                __data_end__ = .
+                0x1ffff010                _edata = .
+                0x000025c0                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00000010                ___data_size = (_edata - _sdata)
+
+.igot.plt       0x1ffff010        0x0 load address 0x000025c0
+ .igot.plt      0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+
+.bss            0x1ffff010       0x38 load address 0x000025c0
+                0x1ffff010                . = ALIGN (0x4)
+                0x1ffff010                __START_BSS = .
+                0x1ffff010                __bss_start__ = .
+ *(.bss)
+ *(.bss*)
+ .bss.argv      0x1ffff010        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .bss.UART_Callback
+                0x1ffff014        0xc ./src/uart.o
+                0x1ffff014                UART_Callback
+ .bss.I2C_Callback
+                0x1ffff020        0x8 ./src/i2c.o
+ .bss.data_send
+                0x1ffff028        0x4 ./src/FRDM_KEA64_I2C_MasterInt.o
+                0x1ffff028                data_send
+ .bss.data_receive
+                0x1ffff02c        0x4 ./src/FRDM_KEA64_I2C_MasterInt.o
+                0x1ffff02c                data_receive
+ .bss.bytes_to_send
+                0x1ffff030        0x4 ./src/FRDM_KEA64_I2C_MasterInt.o
+                0x1ffff030                bytes_to_send
+ .bss.bytes_to_read
+                0x1ffff034        0x4 ./src/FRDM_KEA64_I2C_MasterInt.o
+                0x1ffff034                bytes_to_read
+ .bss.__stdio_exit
+                0x1ffff038        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                0x1ffff038                __stdio_exit
+ .bss.__console_exit
+                0x1ffff03c        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                0x1ffff03c                __console_exit
+ .bss.__global_destructor_chain
+                0x1ffff040        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x1ffff040                __global_destructor_chain
+ *(COMMON)
+ COMMON         0x1ffff044        0x4 ./src/FRDM_KEA64_I2C_MasterInt.o
+                0x1ffff044                i
+                0x1ffff048                . = ALIGN (0x4)
+                0x1ffff048                __bss_end__ = .
+                0x1ffff048                __END_BSS = .
+                0x000025c0                _romp_at = (__DATA_ROM + SIZEOF (.data))
+
+.romp           0x1ffff048       0x18 load address 0x000025c0
+                0x000025c0                __S_romp = _romp_at
+                0x1ffff048        0x4 LONG 0x25b0 __DATA_ROM
+                0x1ffff04c        0x4 LONG 0x1ffff000 _sdata
+                0x1ffff050        0x4 LONG 0x10 ___data_size
+                0x1ffff054        0x4 LONG 0x0
+                0x1ffff058        0x4 LONG 0x0
+                0x1ffff05c        0x4 LONG 0x0
+
+.heap           0x1ffff060      0x400 load address 0x000025d8
+                0x1ffff060                . = ALIGN (0x8)
+                0x1ffff060                __end__ = .
+                0x1ffff060                PROVIDE (end, .)
+                0x1ffff060                __HeapBase = .
+                0x1ffff460                . = (. + HEAP_SIZE)
+ *fill*         0x1ffff060      0x400 
+                0x1ffff460                __HeapLimit = .
+
+.stack          0x1ffff460      0x400 load address 0x000029d8
+                0x1ffff460                . = ALIGN (0x8)
+                0x1ffff860                . = (. + STACK_SIZE)
+ *fill*         0x1ffff460      0x400 
+                0x1ffff860                __StackTop = .
+                0x1ffff460                __StackLimit = (__StackTop - STACK_SIZE)
+                0x1ffff860                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x2f
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .ARM.attributes
+                0x00000031       0x32 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .ARM.attributes
+                0x00000063       0x1b ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .ARM.attributes
+                0x0000007e       0x32 ./src/uart.o
+ .ARM.attributes
+                0x000000b0       0x32 ./src/printf.o
+ .ARM.attributes
+                0x000000e2       0x32 ./src/nvic.o
+ .ARM.attributes
+                0x00000114       0x32 ./src/ics.o
+ .ARM.attributes
+                0x00000146       0x32 ./src/i2c.o
+ .ARM.attributes
+                0x00000178       0x32 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .ARM.attributes
+                0x000001aa       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .ARM.attributes
+                0x000001db       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .ARM.attributes
+                0x0000020c       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .ARM.attributes
+                0x0000023d       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .ARM.attributes
+                0x0000026e       0x1e c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000028c       0x1e c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000002aa       0x1e c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000002c8       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .ARM.attributes
+                0x000002f9       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .ARM.attributes
+                0x0000032a       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+OUTPUT(FRDM_KEA64_I2C_MasterInt.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x3d7d
+ .debug_info    0x00000000      0x144 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_info    0x00000144      0x31d ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_info    0x00000461      0x121 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .debug_info    0x00000582      0xaf4 ./src/uart.o
+ .debug_info    0x00001076      0x5b2 ./src/printf.o
+ .debug_info    0x00001628      0x34f ./src/nvic.o
+ .debug_info    0x00001977      0x614 ./src/ics.o
+ .debug_info    0x00001f8b      0xaae ./src/i2c.o
+ .debug_info    0x00002a39      0x942 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_info    0x0000337b       0xe8 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_info    0x00003463       0xec C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_info    0x0000354f       0xe9 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .debug_info    0x00003638      0x137 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_info    0x0000376f      0x14a C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x000038b9      0x2b5 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_info    0x00003b6e      0x20f C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_abbrev   0x00000000     0x1260
+ .debug_abbrev  0x00000000       0xc0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_abbrev  0x000000c0      0x102 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_abbrev  0x000001c2       0x14 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .debug_abbrev  0x000001d6      0x289 ./src/uart.o
+ .debug_abbrev  0x0000045f      0x20e ./src/printf.o
+ .debug_abbrev  0x0000066d      0x11a ./src/nvic.o
+ .debug_abbrev  0x00000787      0x191 ./src/ics.o
+ .debug_abbrev  0x00000918      0x21e ./src/i2c.o
+ .debug_abbrev  0x00000b36      0x1c6 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_abbrev  0x00000cfc       0x7a C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_abbrev  0x00000d76       0x62 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_abbrev  0x00000dd8       0x7a C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .debug_abbrev  0x00000e52       0x78 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_abbrev  0x00000eca       0xae C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_abbrev  0x00000f78      0x1ba C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_abbrev  0x00001132      0x12e C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_aranges  0x00000000      0x540
+ .debug_aranges
+                0x00000000       0x28 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_aranges
+                0x00000028       0x28 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_aranges
+                0x00000050       0x20 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .debug_aranges
+                0x00000070       0xc0 ./src/uart.o
+ .debug_aranges
+                0x00000130       0x68 ./src/printf.o
+ .debug_aranges
+                0x00000198       0x48 ./src/nvic.o
+ .debug_aranges
+                0x000001e0       0xd8 ./src/ics.o
+ .debug_aranges
+                0x000002b8      0x100 ./src/i2c.o
+ .debug_aranges
+                0x000003b8       0x50 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_aranges
+                0x00000408       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_aranges
+                0x00000428       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_aranges
+                0x00000448       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .debug_aranges
+                0x00000468       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_aranges
+                0x00000488       0x30 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_aranges
+                0x000004b8       0x58 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_aranges
+                0x00000510       0x30 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_line     0x00000000     0x1f03
+ .debug_line    0x00000000       0x68 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_line    0x00000068      0x229 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_line    0x00000291       0x87 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .debug_line    0x00000318      0x426 ./src/uart.o
+ .debug_line    0x0000073e      0x471 ./src/printf.o
+ .debug_line    0x00000baf      0x241 ./src/nvic.o
+ .debug_line    0x00000df0      0x4de ./src/ics.o
+ .debug_line    0x000012ce      0x4d6 ./src/i2c.o
+ .debug_line    0x000017a4      0x2df ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_line    0x00001a83       0x8d C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_line    0x00001b10       0x90 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_line    0x00001ba0       0x85 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .debug_line    0x00001c25       0xaf C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_line    0x00001cd4       0x74 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x00001d48      0x10f C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_line    0x00001e57       0xac C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_str      0x00000000    0x1d486
+ .debug_str     0x00000000      0x1fd C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+                                0x286 (size before relaxing)
+ .debug_str     0x000001fd    0x1ae75 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+                              0x1b179 (size before relaxing)
+ .debug_str     0x0001b072      0x872 ./src/uart.o
+                              0x1b936 (size before relaxing)
+ .debug_str     0x0001b8e4      0x623 ./src/printf.o
+                              0x1b719 (size before relaxing)
+ .debug_str     0x0001bf07       0xdf ./src/nvic.o
+                              0x1b300 (size before relaxing)
+ .debug_str     0x0001bfe6      0x26f ./src/ics.o
+                              0x1b426 (size before relaxing)
+ .debug_str     0x0001c255      0x568 ./src/i2c.o
+                              0x1b7f5 (size before relaxing)
+ .debug_str     0x0001c7bd      0x808 ./src/FRDM_KEA64_I2C_MasterInt.o
+                              0x1bf28 (size before relaxing)
+ .debug_str     0x0001cfc5      0x1a5 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                                0x243 (size before relaxing)
+ .debug_str     0x0001d16a       0x1c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+                                0x22c (size before relaxing)
+ .debug_str     0x0001d186       0x24 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+                                0x22c (size before relaxing)
+ .debug_str     0x0001d1aa       0x25 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+                                0x23e (size before relaxing)
+ .debug_str     0x0001d1cf      0x113 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                                0x2a4 (size before relaxing)
+ .debug_str     0x0001d2e2      0x103 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                                0x2cb (size before relaxing)
+ .debug_str     0x0001d3e5       0xa1 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+                                0x249 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .comment       0x00000000       0x71 ./src/uart.o
+ .comment       0x00000000       0x71 ./src/printf.o
+ .comment       0x00000000       0x71 ./src/nvic.o
+ .comment       0x00000000       0x71 ./src/ics.o
+ .comment       0x00000000       0x71 ./src/i2c.o
+ .comment       0x00000000       0x71 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_frame    0x00000000      0xf18
+ .debug_frame   0x00000000       0x30 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_frame   0x00000030       0x4c ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_frame   0x0000007c      0x2a4 ./src/uart.o
+ .debug_frame   0x00000320      0x14c ./src/printf.o
+ .debug_frame   0x0000046c       0xd0 ./src/nvic.o
+ .debug_frame   0x0000053c      0x308 ./src/ics.o
+ .debug_frame   0x00000844      0x3a8 ./src/i2c.o
+ .debug_frame   0x00000bec       0xf0 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_frame   0x00000cdc       0x2c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_frame   0x00000d08       0x28 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_frame   0x00000d30       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .debug_frame   0x00000d50       0x2c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_frame   0x00000d7c       0x20 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000d9c       0x20 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000dbc       0x50 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_frame   0x00000e0c       0xbc C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_frame   0x00000ec8       0x50 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_ranges   0x00000000      0x350
+ .debug_ranges  0x00000000       0x18 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_ranges  0x00000018       0xb0 ./src/uart.o
+ .debug_ranges  0x000000c8       0x58 ./src/printf.o
+ .debug_ranges  0x00000120       0x38 ./src/nvic.o
+ .debug_ranges  0x00000158       0xc8 ./src/ics.o
+ .debug_ranges  0x00000220       0xf0 ./src/i2c.o
+ .debug_ranges  0x00000310       0x40 ./src/FRDM_KEA64_I2C_MasterInt.o
+
+.debug_macro    0x00000000     0x630d
+ .debug_macro   0x00000000       0xbf ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x000000bf      0x81a ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x000008d9       0x3a ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000913       0x16 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000929       0x64 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x0000098d      0x17e ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000b0b      0x147 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000c52       0x9d ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000cef       0x10 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000cff      0x1a1 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000ea0       0x4b ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000eeb       0x3a ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000f25       0x1f ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000f44      0x250 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00001194       0x28 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x000011bc     0x479a ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00005956      0x10e ./src/uart.o
+ .debug_macro   0x00005a64       0x16 ./src/uart.o
+ .debug_macro   0x00005a7a       0x39 ./src/uart.o
+ .debug_macro   0x00005ab3       0x1c ./src/uart.o
+ .debug_macro   0x00005acf       0x3a ./src/uart.o
+ .debug_macro   0x00005b09      0x233 ./src/printf.o
+ .debug_macro   0x00005d3c       0x16 ./src/printf.o
+ .debug_macro   0x00005d52       0x22 ./src/printf.o
+ .debug_macro   0x00005d74       0x16 ./src/printf.o
+ .debug_macro   0x00005d8a       0x16 ./src/printf.o
+ .debug_macro   0x00005da0       0x10 ./src/printf.o
+ .debug_macro   0x00005db0       0x1c ./src/printf.o
+ .debug_macro   0x00005dcc       0x16 ./src/printf.o
+ .debug_macro   0x00005de2       0xda ./src/nvic.o
+ .debug_macro   0x00005ebc       0xdd ./src/ics.o
+ .debug_macro   0x00005f99       0xe9 ./src/i2c.o
+ .debug_macro   0x00006082       0x82 ./src/i2c.o
+ .debug_macro   0x00006104      0x155 ./src/FRDM_KEA64_I2C_MasterInt.o
+ .debug_macro   0x00006259       0xb4 ./src/FRDM_KEA64_I2C_MasterInt.o
+
+.debug_loc      0x00000000      0x4fe
+ .debug_loc     0x00000000       0x3e C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_loc     0x0000003e       0x6f C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_loc     0x000000ad       0x13 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(strlen.o)
+ .debug_loc     0x000000c0      0x113 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_loc     0x000001d3       0xb3 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x00000286      0x184 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_loc     0x0000040a       0xf4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)

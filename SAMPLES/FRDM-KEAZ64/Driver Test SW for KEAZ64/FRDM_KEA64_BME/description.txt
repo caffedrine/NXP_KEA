@@ -1,0 +1,3 @@
+*Compares the bit manipulation using simple C code and BME
+*Examples for simple read-modify-write operation on one bit 
+ and bit field using simple C and BME

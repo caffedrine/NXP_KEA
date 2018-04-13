@@ -1,0 +1,2 @@
+*The Slave receives the ADC value sent by Master and changes RED LED accordingly
+*Sends the key pressed at slave board to the master

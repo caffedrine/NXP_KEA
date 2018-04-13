@@ -1,0 +1,2 @@
+*Provides a template for SPI master transfer with polling mode
+*Generates an ehco with the FRDM-KEAZ64 using the Slave project

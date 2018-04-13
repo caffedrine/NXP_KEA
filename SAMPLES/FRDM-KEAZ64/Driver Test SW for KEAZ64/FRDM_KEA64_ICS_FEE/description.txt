@@ -1,0 +1,5 @@
+*Setup internal clock source in FEE Engaged External (FEE)
+*Bus clock is setup at 20 MHz using external crystal
+*Bus clock enable on PTH2 with a prescaler of 128
+*Measure the freq on PTH2 using FTM2 CH4 in Dual Edge Capture mode, it will be 156.25 KHz
+*FTM2 captures both rising/falling edge of the input waveform

@@ -1,0 +1,2 @@
+*Generates a toggle pulse on pin at 10 Hz frequency with RTC library
+*Period and frequency is measure with PWT library

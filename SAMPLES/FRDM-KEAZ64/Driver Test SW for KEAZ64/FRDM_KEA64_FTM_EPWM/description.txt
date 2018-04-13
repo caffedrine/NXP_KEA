@@ -1,0 +1,2 @@
+*Demonstrates EPWM
+*BLUE LED on FRDM-KEAZ64 board will change their brightness

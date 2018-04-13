@@ -1,0 +1,2470 @@
+Archive member included because of file (symbol)
+
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o (exit)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o (memset)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o) (__fill_mem)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                              ./Project_Settings/Startup_Code/system_SKEAZ1284.o (__aeabi_uidiv)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+                              ./include/LIN_Driver/bsp/UART/lin_isr.o (__aeabi_d2uiz)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+                              ./include/LIN_Driver/bsp/UART/lin_isr.o (__aeabi_dadd)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+                              c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o) (__aeabi_dsub)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+                              c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o) (__aeabi_d2iz)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsidf.o)
+                              ./include/LIN_Driver/bsp/UART/lin_isr.o (__aeabi_ui2d)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+                              c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o) (__aeabi_dcmpge)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+                              c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o) (__clzsi2)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+                              c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+                              c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o) (__gedf2)
+c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+                              c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o) (__ledf2)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o (__init_cpp)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o) (__destroy_global_chain)
+C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+                              C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o (__copy_rom_sections_to_ram)
+
+Allocating common symbols
+Common symbol       size              file
+
+tl_current_tx_pdu_ptr
+                    0x4               ./include/lin_cfg/lin_cfg.o
+tl_current_rx_pdu_ptr
+                    0x4               ./include/lin_cfg/lin_cfg.o
+Motor1_temp         0x1               ./src/FRDM_KEA64_LIN_Slave.o
+lin_successful_transfer
+                    0x1               ./include/lin_cfg/lin_cfg.o
+frame_signal_error  0x1               ./include/LIN_Driver/coreapi/lin_common_proto.o
+lin_diag_signal_tbl
+                    0x10              ./include/lin_cfg/lin_cfg.o
+lin_goto_sleep_flg  0x1               ./include/lin_cfg/lin_cfg.o
+lin_word_status     0x4               ./include/lin_cfg/lin_cfg.o
+frame_index         0x1               ./include/LIN_Driver/coreapi/lin_common_proto.o
+lin_current_pid     0x1               ./include/lin_cfg/lin_cfg.o
+lin_error_in_response
+                    0x1               ./include/lin_cfg/lin_cfg.o
+lin_lld_response_buffer
+                    0xa               ./include/lin_cfg/lin_cfg.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .text.__iar_program_start
+                0x00000000        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf4 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .text.lin_lld_uart_deinit
+                0x00000000       0x18 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .text.lin_lld_uart_tx_wake_up
+                0x00000000       0x3c ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .text.lin_lld_uart_int_enable
+                0x00000000       0x40 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .text.lin_lld_uart_int_disable
+                0x00000000       0x48 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .text.lin_lld_uart_set_low_power_mode
+                0x00000000       0x14 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .text.lin_lld_uart_get_status
+                0x00000000       0x14 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .text.lin_lld_uart_get_state
+                0x00000000       0x14 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x34 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x00000000       0x34 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_info    0x00000000       0x6f ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_abbrev  0x00000000       0x29 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_aranges
+                0x00000000       0x18 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000      0x10c ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_line    0x00000000      0x343 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .debug_str     0x00000000    0x1d5a8 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .ARM.attributes
+                0x00000000       0x32 ./include/LIN_Driver/coreapi/lin_lin21_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_info    0x00000000       0x6f ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_abbrev  0x00000000       0x29 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_aranges
+                0x00000000       0x18 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000      0x10c ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_line    0x00000000      0x347 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .debug_str     0x00000000    0x1d5ac ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .ARM.attributes
+                0x00000000       0x32 ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .text.l_ifc_connect
+                0x00000000       0x18 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .text.l_ifc_disconnect
+                0x00000000       0x18 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_info    0x00000000       0xe8 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_abbrev  0x00000000       0x95 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_aranges
+                0x00000000       0x28 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_ranges  0x00000000       0x18 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000      0x10c ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_line    0x00000000      0x365 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_str     0x00000000    0x1d5db ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .debug_frame   0x00000000       0x50 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .ARM.attributes
+                0x00000000       0x32 ./include/LIN_Driver/coreapi/lin_j2602_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .text.l_ifc_goto_sleep
+                0x00000000       0x14 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .text.l_ifc_wake_up
+                0x00000000       0x18 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .text.l_ifc_rx
+                0x00000000       0x14 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .text.l_ifc_tx
+                0x00000000       0x14 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .text.l_ifc_aux
+                0x00000000       0x14 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .text.l_ifc_read_status
+                0x00000000       0x38 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .text.l_sys_irq_disable
+                0x00000000       0x1c ./include/LIN_Driver/coreapi/lin_common_api.o
+ .text.l_sys_irq_restore
+                0x00000000       0x18 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .bss.tmp_word_status.5184
+                0x00000000        0x4 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/lowlevel/lin.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/lowlevel/lin.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/lowlevel/lin.o
+ .text.lin_lld_deinit
+                0x00000000       0x10 ./include/LIN_Driver/lowlevel/lin.o
+ .text.lin_lld_get_status
+                0x00000000       0x1c ./include/LIN_Driver/lowlevel/lin.o
+ .text.lin_lld_get_state
+                0x00000000       0x1c ./include/LIN_Driver/lowlevel/lin.o
+ .text.lin_lld_tx_wake_up
+                0x00000000       0x10 ./include/LIN_Driver/lowlevel/lin.o
+ .text.lin_lld_int_enable
+                0x00000000       0x10 ./include/LIN_Driver/lowlevel/lin.o
+ .text.lin_lld_int_disable
+                0x00000000       0x10 ./include/LIN_Driver/lowlevel/lin.o
+ .text.lin_lld_mcu_reset
+                0x00000000        0x8 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00000000       0x34 ./include/LIN_Driver/lowlevel/lin.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_info    0x00000000       0x6f ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_abbrev  0x00000000       0x29 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_aranges
+                0x00000000       0x18 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000      0x112 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_line    0x00000000      0x349 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .debug_str     0x00000000    0x1d5c4 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .ARM.attributes
+                0x00000000       0x32 ./include/LIN_Driver/transport/lin_lin21tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_info    0x00000000       0x6f ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_abbrev  0x00000000       0x29 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_aranges
+                0x00000000       0x18 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000      0x10c ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_line    0x00000000      0x349 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .debug_str     0x00000000    0x1d5ae ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .ARM.attributes
+                0x00000000       0x32 ./include/LIN_Driver/transport/lin_j2602tl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x70 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .text          0x00000000        0x0 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .data          0x00000000        0x0 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .bss           0x00000000        0x0 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .text.ld_read_configuration
+                0x00000000       0xa4 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .text.ld_set_configuration
+                0x00000000       0x88 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_info    0x00000000      0x1a7 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_abbrev  0x00000000       0xb6 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_aranges
+                0x00000000       0x28 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_ranges  0x00000000       0x18 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000      0x111 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000      0x80e ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x16 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x64 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000      0x17e ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000      0x147 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x9d ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x10 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000      0x1a1 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x39 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x3a ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x1f ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000      0x250 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x28 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000     0x479a ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x76 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000      0x2cd ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000      0x161 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000      0x150 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_macro   0x00000000       0x22 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_line    0x00000000      0x3a0 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_str     0x00000000    0x1d69d ./include/LIN_Driver/transport/lin_commontl_api.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .debug_frame   0x00000000       0x50 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .ARM.attributes
+                0x00000000       0x32 ./include/LIN_Driver/transport/lin_commontl_api.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./include/lin_cfg/lin_cfg.o
+ .text          0x00000000        0x0 ./include/lin_cfg/lin_cfg.o
+ .data          0x00000000        0x0 ./include/lin_cfg/lin_cfg.o
+ .bss           0x00000000        0x0 ./include/lin_cfg/lin_cfg.o
+ .rodata.lin_virtual_ifc
+                0x00000000        0x1 ./include/lin_cfg/lin_cfg.o
+ .rodata.lin_configuration_ROM
+                0x00000000       0x1c ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000      0x80e ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x3a ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x16 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x16 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x64 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000      0x17e ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000      0x147 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x9d ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x10 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000      0x1a1 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x39 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x3a ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x1f ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000      0x250 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x28 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000     0x479a ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000       0x76 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000      0x2cd ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000      0x161 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00000000      0x150 ./include/lin_cfg/lin_cfg.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .group         0x00000000        0x8 ./src/uart.o
+ .text          0x00000000        0x0 ./src/uart.o
+ .data          0x00000000        0x0 ./src/uart.o
+ .bss           0x00000000        0x0 ./src/uart.o
+ .text.UART_ReadDataReg
+                0x00000000       0x18 ./src/uart.o
+ .text.UART_WriteDataReg
+                0x00000000       0x1c ./src/uart.o
+ .text.UART_Set1StopBit
+                0x00000000       0x20 ./src/uart.o
+ .text.UART_Set2StopBit
+                0x00000000       0x20 ./src/uart.o
+ .text.UART_IsTxComplete
+                0x00000000       0x1c ./src/uart.o
+ .text.UART_IsTxBuffEmpty
+                0x00000000       0x1c ./src/uart.o
+ .text.UART_IsRxBuffFull
+                0x00000000       0x1c ./src/uart.o
+ .bss.global_pass_count
+                0x00000000        0x2 ./src/uart.o
+ .bss.global_fail_count
+                0x00000000        0x2 ./src/uart.o
+ .bss.UART_TxDoneCallback
+                0x00000000        0xc ./src/uart.o
+ .bss.UART_RxDoneCallback
+                0x00000000        0xc ./src/uart.o
+ .text.UART_Init
+                0x00000000      0x1a4 ./src/uart.o
+ .text.UART_GetChar
+                0x00000000       0x28 ./src/uart.o
+ .text.UART_PutChar
+                0x00000000       0x2c ./src/uart.o
+ .text.UART_SetBaudrate
+                0x00000000       0x84 ./src/uart.o
+ .text.UART_DisableInterrupt
+                0x00000000       0xe4 ./src/uart.o
+ .text.UART_GetFlags
+                0x00000000       0x48 ./src/uart.o
+ .text.UART_CheckFlag
+                0x00000000       0x4c ./src/uart.o
+ .text.UART_SendWait
+                0x00000000       0x54 ./src/uart.o
+ .text.UART_ReceiveWait
+                0x00000000       0x54 ./src/uart.o
+ .text.UART_WaitTxComplete
+                0x00000000       0x1c ./src/uart.o
+ .debug_macro   0x00000000      0x80e ./src/uart.o
+ .debug_macro   0x00000000       0x3a ./src/uart.o
+ .debug_macro   0x00000000       0x16 ./src/uart.o
+ .debug_macro   0x00000000       0x16 ./src/uart.o
+ .debug_macro   0x00000000       0x64 ./src/uart.o
+ .debug_macro   0x00000000      0x17e ./src/uart.o
+ .debug_macro   0x00000000      0x147 ./src/uart.o
+ .debug_macro   0x00000000       0x9d ./src/uart.o
+ .debug_macro   0x00000000       0x10 ./src/uart.o
+ .debug_macro   0x00000000      0x1a1 ./src/uart.o
+ .debug_macro   0x00000000       0x39 ./src/uart.o
+ .debug_macro   0x00000000       0x3a ./src/uart.o
+ .debug_macro   0x00000000       0x1f ./src/uart.o
+ .debug_macro   0x00000000      0x250 ./src/uart.o
+ .debug_macro   0x00000000       0x28 ./src/uart.o
+ .debug_macro   0x00000000     0x479a ./src/uart.o
+ .debug_macro   0x00000000       0x1c ./src/uart.o
+ .debug_macro   0x00000000       0x76 ./src/uart.o
+ .debug_macro   0x00000000      0x2cd ./src/uart.o
+ .debug_macro   0x00000000      0x161 ./src/uart.o
+ .debug_macro   0x00000000      0x150 ./src/uart.o
+ .debug_macro   0x00000000       0x34 ./src/uart.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .group         0x00000000        0x8 ./src/spi.o
+ .text          0x00000000        0x0 ./src/spi.o
+ .data          0x00000000        0x0 ./src/spi.o
+ .bss           0x00000000        0x0 ./src/spi.o
+ .text.SPI_DeInit
+                0x00000000       0x50 ./src/spi.o
+ .text.SPI_SetCallback
+                0x00000000       0x30 ./src/spi.o
+ .debug_macro   0x00000000      0x80e ./src/spi.o
+ .debug_macro   0x00000000       0x3a ./src/spi.o
+ .debug_macro   0x00000000       0x16 ./src/spi.o
+ .debug_macro   0x00000000       0x16 ./src/spi.o
+ .debug_macro   0x00000000       0x64 ./src/spi.o
+ .debug_macro   0x00000000      0x17e ./src/spi.o
+ .debug_macro   0x00000000      0x147 ./src/spi.o
+ .debug_macro   0x00000000       0x9d ./src/spi.o
+ .debug_macro   0x00000000       0x10 ./src/spi.o
+ .debug_macro   0x00000000      0x1a1 ./src/spi.o
+ .debug_macro   0x00000000       0x39 ./src/spi.o
+ .debug_macro   0x00000000       0x3a ./src/spi.o
+ .debug_macro   0x00000000       0x1f ./src/spi.o
+ .debug_macro   0x00000000      0x250 ./src/spi.o
+ .debug_macro   0x00000000       0x28 ./src/spi.o
+ .debug_macro   0x00000000     0x479a ./src/spi.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .group         0x00000000        0x8 ./src/nvic.o
+ .text          0x00000000        0x0 ./src/nvic.o
+ .data          0x00000000        0x0 ./src/nvic.o
+ .bss           0x00000000        0x0 ./src/nvic.o
+ .text.NVIC_DisableIRQ
+                0x00000000       0x30 ./src/nvic.o
+ .text.NVIC_SetPendingIRQ
+                0x00000000       0x30 ./src/nvic.o
+ .text.Disable_Interrupt
+                0x00000000       0x2c ./src/nvic.o
+ .debug_macro   0x00000000      0x80e ./src/nvic.o
+ .debug_macro   0x00000000       0x3a ./src/nvic.o
+ .debug_macro   0x00000000       0x16 ./src/nvic.o
+ .debug_macro   0x00000000       0x16 ./src/nvic.o
+ .debug_macro   0x00000000       0x64 ./src/nvic.o
+ .debug_macro   0x00000000      0x17e ./src/nvic.o
+ .debug_macro   0x00000000      0x147 ./src/nvic.o
+ .debug_macro   0x00000000       0x9d ./src/nvic.o
+ .debug_macro   0x00000000       0x10 ./src/nvic.o
+ .debug_macro   0x00000000      0x1a1 ./src/nvic.o
+ .debug_macro   0x00000000       0x39 ./src/nvic.o
+ .debug_macro   0x00000000       0x3a ./src/nvic.o
+ .debug_macro   0x00000000       0x1f ./src/nvic.o
+ .debug_macro   0x00000000      0x250 ./src/nvic.o
+ .debug_macro   0x00000000       0x28 ./src/nvic.o
+ .debug_macro   0x00000000     0x479a ./src/nvic.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .group         0x00000000        0x8 ./src/ics.o
+ .text          0x00000000        0x0 ./src/ics.o
+ .data          0x00000000        0x0 ./src/ics.o
+ .bss           0x00000000        0x0 ./src/ics.o
+ .text.OSC_Disable
+                0x00000000       0x1c ./src/ics.o
+ .text.FEE_to_FEI
+                0x00000000       0x74 ./src/ics.o
+ .text.FEE_to_FBI
+                0x00000000       0x90 ./src/ics.o
+ .text.FEE_to_FBE
+                0x00000000       0x7c ./src/ics.o
+ .text.FBI_to_FBE
+                0x00000000       0x84 ./src/ics.o
+ .text.FBI_to_FEE
+                0x00000000       0xa4 ./src/ics.o
+ .text.FBI_to_FBILP
+                0x00000000       0x24 ./src/ics.o
+ .text.FBI_to_FEI
+                0x00000000       0x80 ./src/ics.o
+ .text.FBE_to_FBI
+                0x00000000       0x7c ./src/ics.o
+ .text.FBE_to_FEE
+                0x00000000       0x70 ./src/ics.o
+ .text.FBE_to_FEI
+                0x00000000       0x84 ./src/ics.o
+ .text.FBE_to_FBELP
+                0x00000000       0x24 ./src/ics.o
+ .text.FBELP_to_FBE
+                0x00000000       0x24 ./src/ics.o
+ .text.FBILP_to_FBI
+                0x00000000       0x24 ./src/ics.o
+ .text.ICS_Trim
+                0x00000000       0x54 ./src/ics.o
+ .text.OSC_DeInit
+                0x00000000       0x14 ./src/ics.o
+ .debug_macro   0x00000000      0x80e ./src/ics.o
+ .debug_macro   0x00000000       0x3a ./src/ics.o
+ .debug_macro   0x00000000       0x16 ./src/ics.o
+ .debug_macro   0x00000000       0x16 ./src/ics.o
+ .debug_macro   0x00000000       0x64 ./src/ics.o
+ .debug_macro   0x00000000      0x17e ./src/ics.o
+ .debug_macro   0x00000000      0x147 ./src/ics.o
+ .debug_macro   0x00000000       0x9d ./src/ics.o
+ .debug_macro   0x00000000       0x10 ./src/ics.o
+ .debug_macro   0x00000000      0x1a1 ./src/ics.o
+ .debug_macro   0x00000000       0x39 ./src/ics.o
+ .debug_macro   0x00000000       0x3a ./src/ics.o
+ .debug_macro   0x00000000       0x1f ./src/ics.o
+ .debug_macro   0x00000000      0x250 ./src/ics.o
+ .debug_macro   0x00000000       0x28 ./src/ics.o
+ .debug_macro   0x00000000     0x479a ./src/ics.o
+ .debug_macro   0x00000000       0x3a ./src/ics.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/ftm.o
+ .text          0x00000000        0x0 ./src/ftm.o
+ .data          0x00000000        0x0 ./src/ftm.o
+ .bss           0x00000000        0x0 ./src/ftm.o
+ .data.pFTM0    0x00000000        0x4 ./src/ftm.o
+ .data.pFTM1    0x00000000        0x4 ./src/ftm.o
+ .data.pFTM2    0x00000000        0x4 ./src/ftm.o
+ .text.FTM_ClockSet
+                0x00000000       0x68 ./src/ftm.o
+ .text.FTM_PWMInit
+                0x00000000      0x194 ./src/ftm.o
+ .text.FTM_InputCaptureInit
+                0x00000000       0xe4 ./src/ftm.o
+ .text.FTM_DualEdgeCaptureInit
+                0x00000000      0x1b4 ./src/ftm.o
+ .text.FTM_OutputCompareInit
+                0x00000000       0xa4 ./src/ftm.o
+ .text.FTM_SoftwareSync
+                0x00000000       0x2c ./src/ftm.o
+ .text.FTM_HardwareSync
+                0x00000000       0x60 ./src/ftm.o
+ .text.FTM_HardwareSyncCombine
+                0x00000000       0x44 ./src/ftm.o
+ .text.FTM_GenerateTrig2
+                0x00000000       0x2c ./src/ftm.o
+ .text.FTM_PWMDeadtimeSet
+                0x00000000       0x90 ./src/ftm.o
+ .text.FTM_OutputMaskSet
+                0x00000000       0x8c ./src/ftm.o
+ .text.FTM_SWOutputControlSet
+                0x00000000       0xe4 ./src/ftm.o
+ .text.FTM_PolaritySet
+                0x00000000       0x5c ./src/ftm.o
+ .text.FTM_SetDebugModeBehavior
+                0x00000000       0x40 ./src/ftm.o
+ .text.FTM_SetTOFFrequency
+                0x00000000       0x3c ./src/ftm.o
+ .text.FTM_InvertChannel
+                0x00000000       0x90 ./src/ftm.o
+ .text.FTM_Init
+                0x00000000      0x18c ./src/ftm.o
+ .text.FTM_DeInit
+                0x00000000      0x104 ./src/ftm.o
+ .text.FTM_ChannelInit
+                0x00000000      0x32c ./src/ftm.o
+ .text.FTM_SyncConfigActivate
+                0x00000000       0x20 ./src/ftm.o
+ .text.FTM_SyncConfigDeactivate
+                0x00000000       0x24 ./src/ftm.o
+ .debug_macro   0x00000000      0x80e ./src/ftm.o
+ .debug_macro   0x00000000       0x3a ./src/ftm.o
+ .debug_macro   0x00000000       0x16 ./src/ftm.o
+ .debug_macro   0x00000000       0x16 ./src/ftm.o
+ .debug_macro   0x00000000       0x64 ./src/ftm.o
+ .debug_macro   0x00000000      0x17e ./src/ftm.o
+ .debug_macro   0x00000000      0x147 ./src/ftm.o
+ .debug_macro   0x00000000       0x9d ./src/ftm.o
+ .debug_macro   0x00000000       0x10 ./src/ftm.o
+ .debug_macro   0x00000000      0x1a1 ./src/ftm.o
+ .debug_macro   0x00000000       0x39 ./src/ftm.o
+ .debug_macro   0x00000000       0x3a ./src/ftm.o
+ .debug_macro   0x00000000       0x1f ./src/ftm.o
+ .debug_macro   0x00000000      0x250 ./src/ftm.o
+ .debug_macro   0x00000000       0x28 ./src/ftm.o
+ .debug_macro   0x00000000     0x479a ./src/ftm.o
+ .debug_macro   0x00000000      0x1c3 ./src/ftm.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .group         0x00000000        0x8 ./src/FRDM_KEA64_LIN_Slave.o
+ .text          0x00000000        0x0 ./src/FRDM_KEA64_LIN_Slave.o
+ .data          0x00000000        0x0 ./src/FRDM_KEA64_LIN_Slave.o
+ .bss           0x00000000        0x0 ./src/FRDM_KEA64_LIN_Slave.o
+ .bss.LIN_counter
+                0x00000000        0x1 ./src/FRDM_KEA64_LIN_Slave.o
+ .bss.LED_counter
+                0x00000000        0x1 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000      0x80e ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x3a ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x16 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x16 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x64 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000      0x17e ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000      0x147 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x9d ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x10 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000      0x1a1 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x39 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x3a ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x1f ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000      0x250 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x28 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000     0x479a ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x76 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000      0x2cd ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000      0x161 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000      0x150 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x40 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x00000000       0x3a ./src/FRDM_KEA64_LIN_Slave.o
+ COMMON         0x00000000        0x1 ./src/FRDM_KEA64_LIN_Slave.o
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsidf.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsidf.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .data          0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .bss           0x00000000        0x0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .bss.__dso_handle
+                0x00000000        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__register_global_object
+                0x00000000       0x14 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__cxa_atexit
+                0x00000000       0x38 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__aeabi_atexit
+                0x00000000        0xe C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__register_atexit
+                0x00000000        0xc C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_curr_func
+                0x00000000        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_funcs
+                0x00000000      0x300 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+ .text.__flush_cache
+                0x00000000        0x2 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+ .text          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .data          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .bss           0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .text._ExitProcess
+                0x00000000        0x2 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_info    0x00000000       0x4e C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_abbrev  0x00000000       0x4a C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_aranges
+                0x00000000       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_line    0x00000000       0x45 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_str     0x00000000      0x1bd C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .debug_frame   0x00000000       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+ .ARM.attributes
+                0x00000000       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000100         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x0001fbf0         xr
+m_data           0x1ffff000         0x00004000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+LOAD ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+LOAD ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+LOAD ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+LOAD ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+LOAD ./include/LIN_Driver/bsp/UART/lin_isr.o
+LOAD ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+LOAD ./include/LIN_Driver/coreapi/lin_lin21_api.o
+LOAD ./include/LIN_Driver/coreapi/lin_j2602_proto.o
+LOAD ./include/LIN_Driver/coreapi/lin_j2602_api.o
+LOAD ./include/LIN_Driver/coreapi/lin_common_proto.o
+LOAD ./include/LIN_Driver/coreapi/lin_common_api.o
+LOAD ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+LOAD ./include/LIN_Driver/lowlevel/lin.o
+LOAD ./include/LIN_Driver/transport/lin_lin21tl_api.o
+LOAD ./include/LIN_Driver/transport/lin_j2602tl_api.o
+LOAD ./include/LIN_Driver/transport/lin_commontl_proto.o
+LOAD ./include/LIN_Driver/transport/lin_commontl_api.o
+LOAD ./include/lin_cfg/lin_cfg.o
+LOAD ./src/uart.o
+LOAD ./src/spi.o
+LOAD ./src/nvic.o
+LOAD ./src/ics.o
+LOAD ./src/ftm.o
+LOAD ./src/FRDM_KEA64_LIN_Slave.o
+START GROUP
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libm.a
+LOAD c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a
+END GROUP
+LOAD C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_end.o
+                0x20003000                _estack = 0x20003000
+                0x20003000                __SP_INIT = _estack
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+
+.interrupts     0x00000000       0xc0
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+                0x00000000                __isr_vector
+                0x000000c0                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410     0x3e2c
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x44 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+                0x00000410                Reset_Handler
+                0x00000450                Reserved16_IRQHandler
+                0x00000450                I2C0_IRQHandler
+                0x00000450                HardFault_Handler
+                0x00000450                SysTick_Handler
+                0x00000450                PendSV_Handler
+                0x00000450                NMI_Handler
+                0x00000450                I2C1_IRQHandler
+                0x00000450                Reserved19_IRQHandler
+                0x00000450                Reserved42_IRQHandler
+                0x00000450                DefaultISR
+                0x00000450                FTMRE_IRQHandler
+                0x00000450                RTC_IRQHandler
+                0x00000450                IRQ_IRQHandler
+                0x00000450                Reserved18_IRQHandler
+                0x00000450                PIT_CH0_IRQHandler
+                0x00000450                Reserved20_IRQHandler
+                0x00000450                Default_Handler
+                0x00000450                Reserved17_IRQHandler
+                0x00000450                ADC_IRQHandler
+                0x00000450                MSCAN_RX_IRQHandler
+                0x00000450                ACMP0_IRQHandler
+                0x00000450                MSCAN_TX_IRQHandler
+                0x00000450                PWT_IRQHandler
+                0x00000450                SVC_Handler
+                0x00000450                ICS_IRQHandler
+                0x00000450                PIT_CH1_IRQHandler
+                0x00000450                KBI0_IRQHandler
+                0x00000450                PMC_IRQHandler
+                0x00000450                WDOG_IRQHandler
+                0x00000450                ACMP1_IRQHandler
+                0x00000450                KBI1_IRQHandler
+ .text          0x00000454      0x120 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00000454                __aeabi_uidiv
+                0x00000454                __udivsi3
+                0x00000560                __aeabi_uidivmod
+ .text          0x00000574        0x4 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00000574                __aeabi_idiv0
+                0x00000574                __aeabi_ldiv0
+ .text          0x00000578       0x3c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+                0x00000578                __aeabi_d2uiz
+                0x00000578                __fixunsdfsi
+ .text          0x000005b4      0x650 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+                0x000005b4                __aeabi_dadd
+ .text          0x00000c04      0x6f4 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+                0x00000c04                __aeabi_dsub
+ .text          0x000012f8       0x6c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+                0x000012f8                __aeabi_d2iz
+ .text          0x00001364       0x64 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsidf.o)
+                0x00001364                __aeabi_ui2d
+ .text          0x000013c8       0x7c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+                0x000013c8                __aeabi_cdrcmple
+                0x000013d8                __aeabi_cdcmple
+                0x000013d8                __aeabi_cdcmpeq
+                0x000013e8                __aeabi_dcmpeq
+                0x000013f4                __aeabi_dcmplt
+                0x00001408                __aeabi_dcmple
+                0x0000141c                __aeabi_dcmpgt
+                0x00001430                __aeabi_dcmpge
+ .text          0x00001444       0x3c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+                0x00001444                __clzsi2
+ .text          0x00001480       0x88 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+                0x00001480                __nedf2
+                0x00001480                __eqdf2
+ .text          0x00001508       0xe0 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+                0x00001508                __gedf2
+                0x00001508                __gtdf2
+ .text          0x000015e8       0xcc c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+                0x000015e8                __ledf2
+                0x000015e8                __ltdf2
+ *(.text*)
+ .text.__thumb_startup
+                0x000016b4       0x3c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+                0x000016b4                __thumb_startup
+ .text.SystemInit
+                0x000016f0       0x90 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+                0x000016f0                SystemInit
+ .text.lin_lld_uart_init
+                0x00001780       0xf0 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+                0x00001780                lin_lld_uart_init
+ .text.lin_lld_uart_ignore_response
+                0x00001870        0xc ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+                0x00001870                lin_lld_uart_ignore_response
+ .text.lin_lld_uart_rx_response
+                0x0000187c       0x40 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+                0x0000187c                lin_lld_uart_rx_response
+ .text.lin_lld_uart_tx_response
+                0x000018bc       0x58 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+                0x000018bc                lin_lld_uart_tx_response
+ .text.lin_lld_uart_timeout
+                0x00001914       0xd8 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+                0x00001914                lin_lld_uart_timeout
+ .text.lin_goto_idle_state
+                0x000019ec       0x44 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+                0x000019ec                lin_goto_idle_state
+ .text.lin_lld_uart_rx_isr
+                0x00001a30      0x40c ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+                0x00001a30                lin_lld_uart_rx_isr
+ .text.NVIC_EnableIRQ
+                0x00001e3c       0x2c ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .text.NVIC_ClearPendingIRQ
+                0x00001e68       0x30 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .text.lin_lld_timer_K_init
+                0x00001e98       0x70 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+                0x00001e98                lin_lld_timer_K_init
+ .text.lin_lld_timer_isr
+                0x00001f08        0xc ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+                0x00001f08                lin_lld_timer_isr
+ .text.UART1_IRQHandler_LIN
+                0x00001f14        0xc ./include/LIN_Driver/bsp/UART/lin_isr.o
+                0x00001f14                UART1_IRQHandler_LIN
+ .text.FTM2_IRQHandler_LIN
+                0x00001f20       0x60 ./include/LIN_Driver/bsp/UART/lin_isr.o
+                0x00001f20                FTM2_IRQHandler_LIN
+ .text.lin_update_word_status_lin21
+                0x00001f80       0x6c ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+                0x00001f80                lin_update_word_status_lin21
+ .text.lin_update_err_signal
+                0x00001fec       0x5c ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+                0x00001fec                lin_update_err_signal
+ .text.lin_make_res_evnt_frame
+                0x00002048       0x38 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+                0x00002048                lin_make_res_evnt_frame
+ .text.lin_pid_response_callback_handler
+                0x00002080       0x78 ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x00002080                lin_pid_response_callback_handler
+ .text.lin_process_pid
+                0x000020f8      0x12c ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x000020f8                lin_process_pid
+ .text.lin_update_rx
+                0x00002224       0xe4 ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x00002224                lin_update_rx
+ .text.lin_update_tx
+                0x00002308       0x54 ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x00002308                lin_update_tx
+ .text.lin_handle_error
+                0x0000235c       0x8c ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x0000235c                lin_handle_error
+ .text.lin_bus_activity_timeout
+                0x000023e8       0x20 ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x000023e8                lin_bus_activity_timeout
+ .text.lin_update_tx_flags
+                0x00002408       0x9c ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x00002408                lin_update_tx_flags
+ .text.lin_update_rx_diag_frame
+                0x000024a4       0x2c ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x000024a4                lin_update_rx_diag_frame
+ .text.lin_make_res_diag_frame
+                0x000024d0        0xc ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x000024d0                lin_make_res_diag_frame
+ .text.lin_get_frame_index
+                0x000024dc       0x5c ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x000024dc                lin_get_frame_index
+ .text.lin_process_uncd_frame
+                0x00002538      0x144 ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x00002538                lin_process_uncd_frame
+ .text.l_sys_init
+                0x0000267c       0x10 ./include/LIN_Driver/coreapi/lin_common_api.o
+                0x0000267c                l_sys_init
+ .text.l_ifc_init
+                0x0000268c       0x1c ./include/LIN_Driver/coreapi/lin_common_api.o
+                0x0000268c                l_ifc_init
+ .text.lin_diagservice_assign_frame_id_range
+                0x000026a8      0x140 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+                0x000026a8                lin_diagservice_assign_frame_id_range
+ .text.lin_diagservice_read_by_identifier
+                0x000027e8       0xc4 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+                0x000027e8                lin_diagservice_read_by_identifier
+ .text.lin_condittional_change_nad
+                0x000028ac       0x78 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+                0x000028ac                lin_condittional_change_nad
+ .text.lin_lld_init
+                0x00002924       0x14 ./include/LIN_Driver/lowlevel/lin.o
+                0x00002924                lin_lld_init
+ .text.lin_lld_ignore_response
+                0x00002938       0x10 ./include/LIN_Driver/lowlevel/lin.o
+                0x00002938                lin_lld_ignore_response
+ .text.lin_lld_set_low_power_mode
+                0x00002948        0xc ./include/LIN_Driver/lowlevel/lin.o
+                0x00002948                lin_lld_set_low_power_mode
+ .text.lin_lld_set_response
+                0x00002954       0x4c ./include/LIN_Driver/lowlevel/lin.o
+                0x00002954                lin_lld_set_response
+ .text.lin_lld_rx_response
+                0x000029a0       0x20 ./include/LIN_Driver/lowlevel/lin.o
+                0x000029a0                lin_lld_rx_response
+ .text.lin_process_parity
+                0x000029c0       0xf4 ./include/LIN_Driver/lowlevel/lin.o
+                0x000029c0                lin_process_parity
+ .text.lin_checksum
+                0x00002ab4       0x7c ./include/LIN_Driver/lowlevel/lin.o
+                0x00002ab4                lin_checksum
+ .text.lin_lld_timer_init
+                0x00002b30        0xc ./include/LIN_Driver/lowlevel/lin.o
+                0x00002b30                lin_lld_timer_init
+ .text.lin_tl_make_slaveres_pdu
+                0x00002b3c      0x26c ./include/LIN_Driver/transport/lin_commontl_proto.o
+                0x00002b3c                lin_tl_make_slaveres_pdu
+ .text.lin_tl_get_pdu
+                0x00002da8       0x44 ./include/LIN_Driver/transport/lin_commontl_proto.o
+                0x00002da8                lin_tl_get_pdu
+ .text.lin_tl_put_pdu
+                0x00002dec       0x4c ./include/LIN_Driver/transport/lin_commontl_proto.o
+                0x00002dec                lin_tl_put_pdu
+ .text.lin_tl_handler
+                0x00002e38       0xb4 ./include/LIN_Driver/transport/lin_commontl_proto.o
+                0x00002e38                lin_tl_handler
+ .text.lin_tl_attach_service
+                0x00002eec       0x8c ./include/LIN_Driver/transport/lin_commontl_proto.o
+                0x00002eec                lin_tl_attach_service
+ .text.ld_read_by_id_callout
+                0x00002f78       0x78 ./include/lin_cfg/lin_cfg.o
+                0x00002f78                ld_read_by_id_callout
+ .text.UART_SetCallback
+                0x00002ff0       0x44 ./src/uart.o
+                0x00002ff0                UART_SetCallback
+ .text.UART0_IRQHandler
+                0x00003034       0x14 ./src/uart.o
+                0x00003034                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x00003048       0x14 ./src/uart.o
+                0x00003048                UART1_IRQHandler
+ .text.UART2_IRQHandler
+                0x0000305c       0x14 ./src/uart.o
+                0x0000305c                UART2_IRQHandler
+ .text.SPI_SetLSBFirst
+                0x00003070       0x20 ./src/spi.o
+ .text.SPI_SetClockPol
+                0x00003090       0x40 ./src/spi.o
+ .text.SPI_SetClockPhase
+                0x000030d0       0x40 ./src/spi.o
+ .text.SPI_Enable
+                0x00003110       0x20 ./src/spi.o
+ .text.SPI_IntEnable
+                0x00003130       0x20 ./src/spi.o
+ .text.SPI_SetMasterMode
+                0x00003150       0x20 ./src/spi.o
+ .text.SPI_SetSlaveMode
+                0x00003170       0x20 ./src/spi.o
+ .text.SPI_TxIntEnable
+                0x00003190       0x20 ./src/spi.o
+ .text.SPI_SSOutputEnable
+                0x000031b0       0x20 ./src/spi.o
+ .text.SPI_MatchIntEnable
+                0x000031d0       0x20 ./src/spi.o
+ .text.SPI_ModfEnable
+                0x000031f0       0x20 ./src/spi.o
+ .text.SPI_BidirOutEnable
+                0x00003210       0x20 ./src/spi.o
+ .text.SPI_ClockStopEnable
+                0x00003230       0x20 ./src/spi.o
+ .text.SPI_BidirPinEnable
+                0x00003250       0x20 ./src/spi.o
+ .text.SPI_IsSPRF
+                0x00003270       0x1c ./src/spi.o
+ .text.SPI_IsSPTEF
+                0x0000328c       0x1c ./src/spi.o
+ .text.SPI_ReadDataReg
+                0x000032a8       0x18 ./src/spi.o
+ .text.SPI_WriteDataReg
+                0x000032c0       0x1c ./src/spi.o
+ .text.SPI_Init
+                0x000032dc      0x1d8 ./src/spi.o
+                0x000032dc                SPI_Init
+ .text.SPI_SetBaudRate
+                0x000034b4       0xe4 ./src/spi.o
+                0x000034b4                SPI_SetBaudRate
+ .text.SPI_TransferWait
+                0x00003598       0x7c ./src/spi.o
+                0x00003598                SPI_TransferWait
+ .text.SPI0_IRQHandler
+                0x00003614       0x1c ./src/spi.o
+                0x00003614                SPI0_IRQHandler
+ .text.SPI1_IRQHandler
+                0x00003630       0x1c ./src/spi.o
+                0x00003630                SPI1_IRQHandler
+ .text.NVIC_EnableIRQ
+                0x0000364c       0x2c ./src/nvic.o
+ .text.NVIC_ClearPendingIRQ
+                0x00003678       0x30 ./src/nvic.o
+ .text.Enable_Interrupt
+                0x000036a8       0x2c ./src/nvic.o
+                0x000036a8                Enable_Interrupt
+ .text.ICS_SetBusDivider
+                0x000036d4       0x34 ./src/ics.o
+ .text.FEI_factory_to_FEI_custom
+                0x00003708       0x78 ./src/ics.o
+                0x00003708                FEI_factory_to_FEI_custom
+ .text.FEI_to_FEE
+                0x00003780       0x84 ./src/ics.o
+                0x00003780                FEI_to_FEE
+ .text.FEI_to_FBI
+                0x00003804       0x7c ./src/ics.o
+                0x00003804                FEI_to_FBI
+ .text.FEI_to_FBE
+                0x00003880       0xa8 ./src/ics.o
+                0x00003880                FEI_to_FBE
+ .text.ICS_SetOscDivider
+                0x00003928       0xc4 ./src/ics.o
+                0x00003928                ICS_SetOscDivider
+ .text.ICS_Init
+                0x000039ec       0xa8 ./src/ics.o
+                0x000039ec                ICS_Init
+ .text.OSC_Init
+                0x00003a94       0xdc ./src/ics.o
+                0x00003a94                OSC_Init
+ .text.FTM_SetCallback
+                0x00003b70       0x2c ./src/ftm.o
+                0x00003b70                FTM_SetCallback
+ .text.FTM0_IRQHandler
+                0x00003b9c       0x1c ./src/ftm.o
+                0x00003b9c                FTM0_IRQHandler
+ .text.FTM1_IRQHandler
+                0x00003bb8       0x1c ./src/ftm.o
+                0x00003bb8                FTM1_IRQHandler
+ .text.FTM2_IRQHandler
+                0x00003bd4       0x1c ./src/ftm.o
+                0x00003bd4                FTM2_IRQHandler
+ .text.GPIO_Init
+                0x00003bf0       0x8c ./src/FRDM_KEA64_LIN_Slave.o
+                0x00003bf0                GPIO_Init
+ .text.main     0x00003c7c      0x18c ./src/FRDM_KEA64_LIN_Slave.o
+                0x00003c7c                main
+ .text.Enable_SBC
+                0x00003e08      0x13c ./src/FRDM_KEA64_LIN_Slave.o
+                0x00003e08                Enable_SBC
+ .text.exit     0x00003f44       0x38 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                0x00003f44                exit
+ .text.memset   0x00003f7c        0xc C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+                0x00003f7c                memset
+ .text.__fill_mem
+                0x00003f88       0x82 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+                0x00003f88                __fill_mem
+ *fill*         0x0000400a        0x2 
+ .text.__init_cpp
+                0x0000400c       0x48 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x0000400c                __init_cpp
+ .text.__fini_cpp
+                0x00004054       0x34 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00004054                __fini_cpp
+ .text._ExitProcess
+                0x00004088        0x2 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00004088                _ExitProcess
+ *fill*         0x0000408a        0x2 
+ .text.__destroy_global_chain
+                0x0000408c       0x1c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x0000408c                __destroy_global_chain
+ .text.__init_registers
+                0x000040a8       0x1c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x000040a8                __init_registers
+ .text.__init_hardware
+                0x000040c4        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x000040c4                __init_hardware
+ .text.__init_user
+                0x000040c8        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x000040c8                __init_user
+ .text.__copy_rom_section
+                0x000040cc       0x40 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+                0x000040cc                __copy_rom_section
+ .text.__copy_rom_sections_to_ram
+                0x0000410c       0x34 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+                0x0000410c                __copy_rom_sections_to_ram
+ *(.rodata)
+ *(.rodata*)
+ .rodata.lin_lld_uart_timeout
+                0x00004140       0x28 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .rodata.lin_lld_uart_rx_isr
+                0x00004168       0x20 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .rodata.lin_tl_make_slaveres_pdu
+                0x00004188       0x20 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .rodata.lin_tl_attach_service
+                0x000041a8       0x20 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .rodata.LI0_response_error_signal
+                0x000041c8        0x1 ./include/lin_cfg/lin_cfg.o
+                0x000041c8                LI0_response_error_signal
+ .rodata.response_error_byte_offset
+                0x000041c9        0x1 ./include/lin_cfg/lin_cfg.o
+                0x000041c9                response_error_byte_offset
+ .rodata.response_error_bit_offset
+                0x000041ca        0x1 ./include/lin_cfg/lin_cfg.o
+                0x000041ca                response_error_bit_offset
+ *fill*         0x000041cb        0x1 
+ .rodata.lin_frame_tbl
+                0x000041cc       0x3c ./include/lin_cfg/lin_cfg.o
+                0x000041cc                lin_frame_tbl
+ .rodata.lin_max_frame_res_timeout_val
+                0x00004208       0x20 ./include/lin_cfg/lin_cfg.o
+                0x00004208                lin_max_frame_res_timeout_val
+ .rodata.lin_initial_NAD
+                0x00004228        0x1 ./include/lin_cfg/lin_cfg.o
+                0x00004228                lin_initial_NAD
+ *fill*         0x00004229        0x3 
+ .rodata.product_id
+                0x0000422c        0xc ./include/lin_cfg/lin_cfg.o
+                0x0000422c                product_id
+ .rodata.response_error
+                0x00004238        0x1 ./include/lin_cfg/lin_cfg.o
+                0x00004238                response_error
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x0000423c                . = ALIGN (0x4)
+ *fill*         0x00004239        0x3 
+
+.vfp11_veneer   0x0000423c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0000423c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0000423c        0x0
+ .iplt          0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+
+.rel.dyn        0x0000423c        0x0
+ .rel.iplt      0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0000423c        0x0
+                0x0000423c                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000423c                __exidx_end = .
+
+.ctors          0x0000423c        0x0
+                0x0000423c                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x0000423c                __CTOR_END__ = .
+
+.dtors          0x0000423c        0x0
+                0x0000423c                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x0000423c                __DTOR_END__ = .
+
+.preinit_array  0x0000423c        0x0
+                0x0000423c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x0000423c                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000423c        0x0
+                0x0000423c                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x0000423c                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000423c        0x0
+                0x0000423c                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                0x0000423c                PROVIDE (__fini_array_end, .)
+                0x0000423c                __etext = .
+                0x0000423c                __DATA_ROM = .
+
+.mtb            0x1ffff000        0x0
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_start = .
+ *(.mtb_buf)
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_end = .
+
+.data           0x1ffff000       0x2c load address 0x0000423c
+                0x1ffff000                . = ALIGN (0x4)
+                0x1ffff000                __DATA_RAM = .
+                0x1ffff000                __data_start__ = .
+                0x1ffff000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.pUART    0x1ffff000        0x4 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .data.ifc      0x1ffff004        0x1 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .data.state    0x1ffff005        0x1 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .data.pid      0x1ffff006        0x1 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ *fill*         0x1ffff007        0x1 
+ .data.lin_pFrameBuf
+                0x1ffff008        0x4 ./include/lin_cfg/lin_cfg.o
+                0x1ffff008                lin_pFrameBuf
+ .data.lin_configuration_RAM
+                0x1ffff00c        0x8 ./include/lin_cfg/lin_cfg.o
+                0x1ffff00c                lin_configuration_RAM
+ .data.lin_configured_NAD
+                0x1ffff014        0x1 ./include/lin_cfg/lin_cfg.o
+                0x1ffff014                lin_configured_NAD
+ *fill*         0x1ffff015        0x3 
+ .data.spi_SBC_INIT_SEQ_PART0
+                0x1ffff018        0x4 ./src/FRDM_KEA64_LIN_Slave.o
+                0x1ffff018                spi_SBC_INIT_SEQ_PART0
+ .data.spi_SBC_INIT_SEQ_PART1
+                0x1ffff01c        0x4 ./src/FRDM_KEA64_LIN_Slave.o
+                0x1ffff01c                spi_SBC_INIT_SEQ_PART1
+ .data.spi_SBC_INIT_SEQ_PART2
+                0x1ffff020        0x4 ./src/FRDM_KEA64_LIN_Slave.o
+                0x1ffff020                spi_SBC_INIT_SEQ_PART2
+ .data.spi_SBC_INIT_SEQ_PART3
+                0x1ffff024        0x4 ./src/FRDM_KEA64_LIN_Slave.o
+                0x1ffff024                spi_SBC_INIT_SEQ_PART3
+ .data.spi_SBC_INIT_SEQ_PART4
+                0x1ffff028        0x4 ./src/FRDM_KEA64_LIN_Slave.o
+                0x1ffff028                spi_SBC_INIT_SEQ_PART4
+ *(.jcr*)
+                0x1ffff02c                . = ALIGN (0x4)
+                0x1ffff02c                __data_end__ = .
+                0x1ffff02c                _edata = .
+                0x00004268                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x0000002c                ___data_size = (_edata - _sdata)
+
+.igot.plt       0x1ffff02c        0x0 load address 0x00004268
+ .igot.plt      0x00000000        0x0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+
+.bss            0x1ffff02c       0xb4 load address 0x00004268
+                0x1ffff02c                . = ALIGN (0x4)
+                0x1ffff02c                __START_BSS = .
+                0x1ffff02c                __bss_start__ = .
+ *(.bss)
+ *(.bss*)
+ .bss.argv      0x1ffff02c        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .bss.l_status  0x1ffff030        0x4 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .bss.cnt_byte  0x1ffff034        0x1 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ *fill*         0x1ffff035        0x3 
+ .bss.ptr       0x1ffff038        0x4 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .bss.current_id
+                0x1ffff03c        0x1 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ *fill*         0x1ffff03d        0x3 
+ .bss.response_buffer
+                0x1ffff040        0x4 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .bss.tbit      0x1ffff044        0x4 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .bss.frame_timeout_cnt
+                0x1ffff048        0x4 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .bss.res_frame_timeout_cnt
+                0x1ffff04c        0x4 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .bss.idle_timeout_cnt
+                0x1ffff050        0x4 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .bss.lin_save_configuration_flg
+                0x1ffff054        0x1 ./include/lin_cfg/lin_cfg.o
+                0x1ffff054                lin_save_configuration_flg
+ *fill*         0x1ffff055        0x3 
+ .bss.lin_flag_handle_tbl
+                0x1ffff058        0x4 ./include/lin_cfg/lin_cfg.o
+                0x1ffff058                lin_flag_handle_tbl
+ .bss.lin_frame_flag_tbl
+                0x1ffff05c        0x8 ./include/lin_cfg/lin_cfg.o
+                0x1ffff05c                lin_frame_flag_tbl
+ .bss.tx_single_pdu_data
+                0x1ffff064        0x8 ./include/lin_cfg/lin_cfg.o
+                0x1ffff064                tx_single_pdu_data
+ .bss.rx_single_pdu_data
+                0x1ffff06c        0x8 ./include/lin_cfg/lin_cfg.o
+                0x1ffff06c                rx_single_pdu_data
+ .bss.tl_slaveresp_cnt
+                0x1ffff074        0x1 ./include/lin_cfg/lin_cfg.o
+                0x1ffff074                tl_slaveresp_cnt
+ *fill*         0x1ffff075        0x3 
+ .bss.UART_Callback
+                0x1ffff078        0xc ./src/uart.o
+                0x1ffff078                UART_Callback
+ .bss.SPI_Callback
+                0x1ffff084        0x8 ./src/spi.o
+                0x1ffff084                SPI_Callback
+ .bss.FTM_Callback
+                0x1ffff08c        0xc ./src/ftm.o
+                0x1ffff08c                FTM_Callback
+ .bss.spi_data_receive16bit
+                0x1ffff098        0x4 ./src/FRDM_KEA64_LIN_Slave.o
+                0x1ffff098                spi_data_receive16bit
+ .bss.__stdio_exit
+                0x1ffff09c        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                0x1ffff09c                __stdio_exit
+ .bss.__console_exit
+                0x1ffff0a0        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                0x1ffff0a0                __console_exit
+ .bss.__global_destructor_chain
+                0x1ffff0a4        0x4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x1ffff0a4                __global_destructor_chain
+ *(COMMON)
+ COMMON         0x1ffff0a8        0x2 ./include/LIN_Driver/coreapi/lin_common_proto.o
+                0x1ffff0a8                frame_signal_error
+                0x1ffff0a9                frame_index
+ *fill*         0x1ffff0aa        0x2 
+ COMMON         0x1ffff0ac       0x32 ./include/lin_cfg/lin_cfg.o
+                0x1ffff0ac                tl_current_tx_pdu_ptr
+                0x1ffff0b0                tl_current_rx_pdu_ptr
+                0x1ffff0b4                lin_successful_transfer
+                0x1ffff0b8                lin_diag_signal_tbl
+                0x1ffff0c8                lin_goto_sleep_flg
+                0x1ffff0cc                lin_word_status
+                0x1ffff0d0                lin_current_pid
+                0x1ffff0d1                lin_error_in_response
+                0x1ffff0d4                lin_lld_response_buffer
+                0x1ffff0e0                . = ALIGN (0x4)
+ *fill*         0x1ffff0de        0x2 
+                0x1ffff0e0                __bss_end__ = .
+                0x1ffff0e0                __END_BSS = .
+                0x00004268                _romp_at = (__DATA_ROM + SIZEOF (.data))
+
+.romp           0x1ffff0e0       0x18 load address 0x00004268
+                0x00004268                __S_romp = _romp_at
+                0x1ffff0e0        0x4 LONG 0x423c __DATA_ROM
+                0x1ffff0e4        0x4 LONG 0x1ffff000 _sdata
+                0x1ffff0e8        0x4 LONG 0x2c ___data_size
+                0x1ffff0ec        0x4 LONG 0x0
+                0x1ffff0f0        0x4 LONG 0x0
+                0x1ffff0f4        0x4 LONG 0x0
+
+.heap           0x1ffff0f8      0x400 load address 0x00004280
+                0x1ffff0f8                . = ALIGN (0x8)
+                0x1ffff0f8                __end__ = .
+                0x1ffff0f8                PROVIDE (end, .)
+                0x1ffff0f8                __HeapBase = .
+                0x1ffff4f8                . = (. + HEAP_SIZE)
+ *fill*         0x1ffff0f8      0x400 
+                0x1ffff4f8                __HeapLimit = .
+
+.stack          0x1ffff4f8      0x400 load address 0x00004680
+                0x1ffff4f8                . = ALIGN (0x8)
+                0x1ffff8f8                . = (. + STACK_SIZE)
+ *fill*         0x1ffff4f8      0x400 
+                0x1ffff8f8                __StackTop = .
+                0x1ffff4f8                __StackLimit = (__StackTop - STACK_SIZE)
+                0x1ffff8f8                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x2f
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .ARM.attributes
+                0x00000031       0x32 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .ARM.attributes
+                0x00000063       0x1b ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .ARM.attributes
+                0x0000007e       0x32 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .ARM.attributes
+                0x000000b0       0x32 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .ARM.attributes
+                0x000000e2       0x32 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .ARM.attributes
+                0x00000114       0x32 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .ARM.attributes
+                0x00000146       0x32 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .ARM.attributes
+                0x00000178       0x32 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .ARM.attributes
+                0x000001aa       0x32 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .ARM.attributes
+                0x000001dc       0x32 ./include/LIN_Driver/lowlevel/lin.o
+ .ARM.attributes
+                0x0000020e       0x32 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .ARM.attributes
+                0x00000240       0x32 ./include/lin_cfg/lin_cfg.o
+ .ARM.attributes
+                0x00000272       0x32 ./src/uart.o
+ .ARM.attributes
+                0x000002a4       0x32 ./src/spi.o
+ .ARM.attributes
+                0x000002d6       0x32 ./src/nvic.o
+ .ARM.attributes
+                0x00000308       0x32 ./src/ics.o
+ .ARM.attributes
+                0x0000033a       0x32 ./src/ftm.o
+ .ARM.attributes
+                0x0000036c       0x32 ./src/FRDM_KEA64_LIN_Slave.o
+ .ARM.attributes
+                0x0000039e       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .ARM.attributes
+                0x000003cf       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .ARM.attributes
+                0x00000400       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .ARM.attributes
+                0x00000431       0x1e c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000044f       0x1e c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000046d       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000499       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x000004c5       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x000004f1       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x0000051d       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsidf.o)
+ .ARM.attributes
+                0x00000549       0x1e c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000567       0x1e c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x00000585       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x000005b1       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x000005dd       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x00000609       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .ARM.attributes
+                0x0000063a       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .ARM.attributes
+                0x0000066b       0x31 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+OUTPUT(FRDM_KEA64_LIN_Slave.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x6943
+ .debug_info    0x00000000      0x144 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_info    0x00000144      0x31d ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_info    0x00000461       0x90 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .debug_info    0x000004f1      0xb9d ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_info    0x0000108e      0x538 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_info    0x000015c6      0x262 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_info    0x00001828      0x243 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_info    0x00001a6b      0x53a ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_info    0x00001fa5      0x30c ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_info    0x000022b1      0x22b ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_info    0x000024dc      0x30f ./include/LIN_Driver/lowlevel/lin.o
+ .debug_info    0x000027eb      0x2d9 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_info    0x00002ac4      0x5d3 ./include/lin_cfg/lin_cfg.o
+ .debug_info    0x00003097      0xafb ./src/uart.o
+ .debug_info    0x00003b92      0x8be ./src/spi.o
+ .debug_info    0x00004450      0x34f ./src/nvic.o
+ .debug_info    0x0000479f      0x614 ./src/ics.o
+ .debug_info    0x00004db3      0xb8e ./src/ftm.o
+ .debug_info    0x00005941      0x6e9 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_info    0x0000602a       0xe8 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_info    0x00006112       0xec C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_info    0x000061fe      0x137 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_info    0x00006335      0x14a C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x0000647f      0x2b5 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_info    0x00006734      0x20f C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_abbrev   0x00000000     0x1e72
+ .debug_abbrev  0x00000000       0xc0 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_abbrev  0x000000c0      0x102 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_abbrev  0x000001c2       0x14 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .debug_abbrev  0x000001d6      0x2be ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_abbrev  0x00000494      0x114 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_abbrev  0x000005a8       0xa3 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_abbrev  0x0000064b      0x117 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_abbrev  0x00000762      0x1c4 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_abbrev  0x00000926      0x15d ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_abbrev  0x00000a83       0xce ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_abbrev  0x00000b51      0x143 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_abbrev  0x00000c94      0x147 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_abbrev  0x00000ddb      0x140 ./include/lin_cfg/lin_cfg.o
+ .debug_abbrev  0x00000f1b      0x289 ./src/uart.o
+ .debug_abbrev  0x000011a4      0x208 ./src/spi.o
+ .debug_abbrev  0x000013ac      0x11a ./src/nvic.o
+ .debug_abbrev  0x000014c6      0x191 ./src/ics.o
+ .debug_abbrev  0x00001657      0x1b6 ./src/ftm.o
+ .debug_abbrev  0x0000180d      0x17b ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_abbrev  0x00001988       0x7a C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_abbrev  0x00001a02       0x62 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_abbrev  0x00001a64       0x78 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_abbrev  0x00001adc       0xae C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_abbrev  0x00001b8a      0x1ba C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_abbrev  0x00001d44      0x12e C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_aranges  0x00000000      0x868
+ .debug_aranges
+                0x00000000       0x28 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_aranges
+                0x00000028       0x28 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_aranges
+                0x00000050       0x20 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .debug_aranges
+                0x00000070       0x88 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_aranges
+                0x000000f8       0x38 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_aranges
+                0x00000130       0x28 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_aranges
+                0x00000158       0x30 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_aranges
+                0x00000188       0x70 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_aranges
+                0x000001f8       0x68 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_aranges
+                0x00000260       0x30 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_aranges
+                0x00000290       0x90 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_aranges
+                0x00000320       0x40 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_aranges
+                0x00000360       0x20 ./include/lin_cfg/lin_cfg.o
+ .debug_aranges
+                0x00000380       0xc0 ./src/uart.o
+ .debug_aranges
+                0x00000440       0xe0 ./src/spi.o
+ .debug_aranges
+                0x00000520       0x48 ./src/nvic.o
+ .debug_aranges
+                0x00000568       0xd8 ./src/ics.o
+ .debug_aranges
+                0x00000640       0xe0 ./src/ftm.o
+ .debug_aranges
+                0x00000720       0x30 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_aranges
+                0x00000750       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_aranges
+                0x00000770       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_aranges
+                0x00000790       0x20 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_aranges
+                0x000007b0       0x30 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_aranges
+                0x000007e0       0x58 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_aranges
+                0x00000838       0x30 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_line     0x00000000     0x49b8
+ .debug_line    0x00000000       0x68 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_line    0x00000068      0x229 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_line    0x00000291       0x87 ./Project_Settings/Startup_Code/startup_SKEAZ1284.o
+ .debug_line    0x00000318      0x589 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_line    0x000008a1      0x3f2 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_line    0x00000c93      0x34c ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_line    0x00000fdf      0x39f ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_line    0x0000137e      0x53a ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_line    0x000018b8      0x414 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_line    0x00001ccc      0x40c ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_line    0x000020d8      0x46e ./include/LIN_Driver/lowlevel/lin.o
+ .debug_line    0x00002546      0x476 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_line    0x000029bc      0x30e ./include/lin_cfg/lin_cfg.o
+ .debug_line    0x00002cca      0x55c ./src/uart.o
+ .debug_line    0x00003226      0x437 ./src/spi.o
+ .debug_line    0x0000365d      0x241 ./src/nvic.o
+ .debug_line    0x0000389e      0x4de ./src/ics.o
+ .debug_line    0x00003d7c      0x4bb ./src/ftm.o
+ .debug_line    0x00004237      0x386 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_line    0x000045bd       0x8d C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_line    0x0000464a       0x90 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_line    0x000046da       0xaf C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_line    0x00004789       0x74 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x000047fd      0x10f C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_line    0x0000490c       0xac C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_str      0x00000000    0x21224
+ .debug_str     0x00000000      0x1fd C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+                                0x286 (size before relaxing)
+ .debug_str     0x000001fd    0x1adaf ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+                              0x1b0b3 (size before relaxing)
+ .debug_str     0x0001afac     0x2c9f ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+                              0x1dcf0 (size before relaxing)
+ .debug_str     0x0001dc4b      0x9bd ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+                              0x1e0c8 (size before relaxing)
+ .debug_str     0x0001e608       0x52 ./include/LIN_Driver/bsp/UART/lin_isr.o
+                              0x1d752 (size before relaxing)
+ .debug_str     0x0001e65a      0x192 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+                              0x1d79e (size before relaxing)
+ .debug_str     0x0001e7ec      0x4df ./include/LIN_Driver/coreapi/lin_common_proto.o
+                              0x1dbe7 (size before relaxing)
+ .debug_str     0x0001eccb       0xc6 ./include/LIN_Driver/coreapi/lin_common_api.o
+                              0x1d760 (size before relaxing)
+ .debug_str     0x0001ed91      0x15f ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+                              0x1d898 (size before relaxing)
+ .debug_str     0x0001eef0      0x1e6 ./include/LIN_Driver/lowlevel/lin.o
+                              0x1d86b (size before relaxing)
+ .debug_str     0x0001f0d6      0x10e ./include/LIN_Driver/transport/lin_commontl_proto.o
+                              0x1d903 (size before relaxing)
+ .debug_str     0x0001f1e4       0xbb ./include/lin_cfg/lin_cfg.o
+                              0x1da01 (size before relaxing)
+ .debug_str     0x0001f29f      0x63c ./src/uart.o
+                              0x1df39 (size before relaxing)
+ .debug_str     0x0001f8db      0x466 ./src/spi.o
+                              0x1b63d (size before relaxing)
+ .debug_str     0x0001fd41       0x62 ./src/nvic.o
+                              0x1b23a (size before relaxing)
+ .debug_str     0x0001fda3      0x26f ./src/ics.o
+                              0x1b360 (size before relaxing)
+ .debug_str     0x00020012      0x41c ./src/ftm.o
+                              0x1bd31 (size before relaxing)
+ .debug_str     0x0002042e      0x95e ./src/FRDM_KEA64_LIN_Slave.o
+                              0x1e4ea (size before relaxing)
+ .debug_str     0x00020d8c      0x19e C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+                                0x243 (size before relaxing)
+ .debug_str     0x00020f2a       0x23 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+                                0x22c (size before relaxing)
+ .debug_str     0x00020f4d       0x2d C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+                                0x23e (size before relaxing)
+ .debug_str     0x00020f7a      0x113 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                                0x2a4 (size before relaxing)
+ .debug_str     0x0002108d      0x103 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                                0x2cb (size before relaxing)
+ .debug_str     0x00021190       0x94 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+                                0x249 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/lowlevel/lin.o
+ .comment       0x00000000       0x71 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .comment       0x00000000       0x71 ./include/lin_cfg/lin_cfg.o
+ .comment       0x00000000       0x71 ./src/uart.o
+ .comment       0x00000000       0x71 ./src/spi.o
+ .comment       0x00000000       0x71 ./src/nvic.o
+ .comment       0x00000000       0x71 ./src/ics.o
+ .comment       0x00000000       0x71 ./src/ftm.o
+ .comment       0x00000000       0x71 ./src/FRDM_KEA64_LIN_Slave.o
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .comment       0x00000000       0x71 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_frame    0x00000000     0x1a04
+ .debug_frame   0x00000000       0x30 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m/__arm_start.o
+ .debug_frame   0x00000030       0x4c ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_frame   0x0000007c      0x1ac ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_frame   0x00000228       0x88 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_frame   0x000002b0       0x4c ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_frame   0x000002fc       0x6c ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_frame   0x00000368      0x168 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_frame   0x000004d0      0x14c ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_frame   0x0000061c       0x70 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_frame   0x0000068c      0x1cc ./include/LIN_Driver/lowlevel/lin.o
+ .debug_frame   0x00000858       0xb0 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_frame   0x00000908       0x30 ./include/lin_cfg/lin_cfg.o
+ .debug_frame   0x00000938      0x2a4 ./src/uart.o
+ .debug_frame   0x00000bdc      0x328 ./src/spi.o
+ .debug_frame   0x00000f04       0xd0 ./src/nvic.o
+ .debug_frame   0x00000fd4      0x308 ./src/ics.o
+ .debug_frame   0x000012dc      0x324 ./src/ftm.o
+ .debug_frame   0x00001600       0x6c ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_frame   0x0000166c       0x2c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_frame   0x00001698       0x28 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_frame   0x000016c0       0x2c C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_frame   0x000016ec       0x20 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000170c       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x00001738       0x38 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .debug_frame   0x00001770       0x3c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .debug_frame   0x000017ac       0x2c c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .debug_frame   0x000017d8       0x28 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsidf.o)
+ .debug_frame   0x00001800       0x38 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .debug_frame   0x00001838       0x38 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .debug_frame   0x00001870       0x38 c:/freescale/s32_arm_v1.1/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .debug_frame   0x000018a8       0x50 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_frame   0x000018f8       0xbc C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_frame   0x000019b4       0x50 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_ranges   0x00000000      0x5f8
+ .debug_ranges  0x00000000       0x18 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_ranges  0x00000018       0x78 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_ranges  0x00000090       0x28 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_ranges  0x000000b8       0x18 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_ranges  0x000000d0       0x20 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_ranges  0x000000f0       0x60 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_ranges  0x00000150       0x58 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_ranges  0x000001a8       0x20 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_ranges  0x000001c8       0x80 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_ranges  0x00000248       0x30 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_ranges  0x00000278       0x10 ./include/lin_cfg/lin_cfg.o
+ .debug_ranges  0x00000288       0xb0 ./src/uart.o
+ .debug_ranges  0x00000338       0xd0 ./src/spi.o
+ .debug_ranges  0x00000408       0x38 ./src/nvic.o
+ .debug_ranges  0x00000440       0xc8 ./src/ics.o
+ .debug_ranges  0x00000508       0xd0 ./src/ftm.o
+ .debug_ranges  0x000005d8       0x20 ./src/FRDM_KEA64_LIN_Slave.o
+
+.debug_macro    0x00000000     0x7799
+ .debug_macro   0x00000000       0xbf ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x000000bf      0x80e ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x000008cd       0x3a ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000907       0x16 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x0000091d       0x64 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000981      0x17e ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000aff      0x147 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000c46       0x9d ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000ce3       0x10 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000cf3      0x1a1 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000e94       0x4b ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000edf       0x3a ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000f19       0x1f ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00000f38      0x250 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x00001188       0x28 ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x000011b0     0x479a ./Project_Settings/Startup_Code/system_SKEAZ1284.o
+ .debug_macro   0x0000594a      0x161 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00005aab       0x16 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00005ac1       0x39 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00005afa       0x1c ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00005b16       0x76 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00005b8c      0x15b ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00005ce7      0x2cd ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00005fb4      0x150 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00006104       0x34 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x00006138       0x16 ./include/LIN_Driver/bsp/UART/lin_lld_uart.o
+ .debug_macro   0x0000614e      0x15b ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x000062a9      0x161 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x0000640a      0x1c3 ./include/LIN_Driver/bsp/UART/lin_lld_timesrv.o
+ .debug_macro   0x000065cd      0x129 ./include/LIN_Driver/bsp/UART/lin_isr.o
+ .debug_macro   0x000066f6      0x115 ./include/LIN_Driver/coreapi/lin_lin21_proto.o
+ .debug_macro   0x0000680b      0x145 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x00006950       0x76 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x000069c6       0x10 ./include/LIN_Driver/coreapi/lin_common_proto.o
+ .debug_macro   0x000069d6      0x115 ./include/LIN_Driver/coreapi/lin_common_api.o
+ .debug_macro   0x00006aeb      0x120 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00006c0b       0x70 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00006c7b       0x10 ./include/LIN_Driver/diagnostic/lin_diagnostic_service.o
+ .debug_macro   0x00006c8b      0x123 ./include/LIN_Driver/lowlevel/lin.o
+ .debug_macro   0x00006dae      0x120 ./include/LIN_Driver/transport/lin_commontl_proto.o
+ .debug_macro   0x00006ece      0x106 ./include/lin_cfg/lin_cfg.o
+ .debug_macro   0x00006fd4      0x177 ./src/uart.o
+ .debug_macro   0x0000714b       0x3a ./src/uart.o
+ .debug_macro   0x00007185       0xe9 ./src/spi.o
+ .debug_macro   0x0000726e       0x40 ./src/spi.o
+ .debug_macro   0x000072ae       0xda ./src/nvic.o
+ .debug_macro   0x00007388       0xdd ./src/ics.o
+ .debug_macro   0x00007465       0xe9 ./src/ftm.o
+ .debug_macro   0x0000754e      0x197 ./src/FRDM_KEA64_LIN_Slave.o
+ .debug_macro   0x000076e5       0xb4 ./src/FRDM_KEA64_LIN_Slave.o
+
+.debug_loc      0x00000000      0x4eb
+ .debug_loc     0x00000000       0x3e C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(exit.o)
+ .debug_loc     0x0000003e       0x6f C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(memset.o)
+ .debug_loc     0x000000ad      0x113 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_loc     0x000001c0       0xb3 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x00000273      0x184 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_loc     0x000003f7       0xf4 C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2/lib/armv6-m\librt.a(ROMCopy.o)

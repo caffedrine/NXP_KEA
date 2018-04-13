@@ -1,0 +1,3 @@
+*Provides a template for I2C slave with poll mode
+*Cycle to transfer a frame data(1 byte) and shows it on terminal
+*Provide a template for how to initialize I2C module

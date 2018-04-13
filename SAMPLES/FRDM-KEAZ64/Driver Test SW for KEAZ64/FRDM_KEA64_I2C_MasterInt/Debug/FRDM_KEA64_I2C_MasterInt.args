@@ -1,0 +1,17 @@
+"./Project_Settings/Startup_Code/system_SKEAZ1284.o"
+"./Project_Settings/Startup_Code/startup_SKEAZ1284.o"
+"./src/uart.o"
+"./src/printf.o"
+"./src/nvic.o"
+"./src/ics.o"
+"./src/i2c.o"
+"./src/FRDM_KEA64_I2C_MasterInt.o"
+-T
+"C:/Users/B48683/Documents/Auto Apps/FRDM+ Firmware/Quick Start Packages/QSP Raw Material/SDK Drivers and Code Example Projects/FRDM-KEAZ64/Driver Test SW for KEAZ64/FRDM_KEA64_I2C_MasterInt/Project_Settings/Linker_Files/SKEAZ_flash.ld"
+-Wl,-Map,"FRDM_KEA64_I2C_MasterInt.map"
+-Xlinker
+--gc-sections
+-mcpu=cortex-m0plus
+-mthumb
+-specs=ewl_c_noio.specs
+--sysroot="C:/Freescale/S32_ARM_v1.1/S32DS/arm_ewl2"
