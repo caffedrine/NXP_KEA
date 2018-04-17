@@ -19,7 +19,6 @@ void delay(void);					/* Generate Delay */
 
 int main(void)
 {
-
 	/* Initialize the RED, GREEN and BLUE LEDs as Output */
 	GPIOB_PDDR |= 1<<PTH0; 			/* Setup PTH0 as an output for RED LED */
 	GPIOB_PDDR |= 1<<PTH1; 			/* Setup PTH1 as an output for GREEN LED */
@@ -31,7 +30,6 @@ int main(void)
 	/* Blink LEDs using Delays */
 	while(1)
 	{
-
 	   	GPIOB_PCOR |= 1<<PTH0; 		/* Clear output port PTH0 */
 	   	GPIOB_PSOR |= 1<<PTH1; 		/* Set output port PTH1 */
 	   	GPIOB_PSOR |= 1<<PTE7; 		/* Set output port PTE7 */

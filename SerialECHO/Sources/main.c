@@ -1,132 +1,55 @@
-/* ###################################################################
- **     Filename    : main.c
- **     Project     : SerialECHO
- **     Processor   : SKEAZN64MLH2
- **     Version     : Driver 01.01
- **     Compiler    : GNU C Compiler
- **     Date/Time   : 2018-04-02, 16:19, # CodeGen: 0
- **     Abstract    :
- **         Main module.
- **         This module contains user's application code.
- **     Settings    :
- **     Contents    :
- **         No public methods
- **
- ** ###################################################################*/
-/*!
- ** @file main.c
- ** @version 01.01
- ** @brief
- **         Main module.
- **         This module contains user's application code.
- */
-/*!
- **  @addtogroup main_module main module documentation
- **  @{
- */
-/* MODULE main */
+#include <stdint.h>
+#include "derivative.h"
+#include "UART.h"
 
-/* Including needed modules to compile this module/procedure */
-#include "Cpu.h"
-#include "Events.h"
-#include "Serial.h"
-#include "ASerialLdd1.h"
-/* Including shared modules, which are used for whole project */
-#include "PE_Types.h"
-#include "PE_Error.h"
-#include "PE_Const.h"
-#include "IO_Map.h"
-/* User includes (#include below this line is not maintained by Processor Expert) */
-#include <string.h>
-
-void delay(void)
+/// Configure clock
+void Clk_Init()
 {
-	uint32_t i, j;
-	for ( i = 0; i < 8; i++ )
-		for ( j = 0; j < 65535; j++ )
-			//for (j = 0; j < 1000; j++)
-			;
+	ICS_C1 |= ICS_C1_IRCLKEN_MASK; 			/* Enable the internal reference clock*/
+#ifdef SKEAZ1284
+	ICS_C3 = 0x90; 							/* Reference clock frequency = 31.25 kHz*/
+#elif defined SKEAZN642
+	ICS_C3 = 0x50; 							/* Reference clock frequency = 31.25 kHz*/
+#endif
+	while ( !(ICS_S & ICS_S_LOCK_MASK) );	/* Wait for PLL lock, now running at 40 MHz (1024*39.0625 kHz) */
+	ICS_C2 |= ICS_C2_BDIV( 1 ); 			/*BDIV=2, Bus clock = 20 MHz*/
+	//ICS_S |= ICS_S_LOCK_MASK; 				/* Clear Loss of lock sticky bit */ ????????
+	//???
 }
 
-void Cpu_Delay100us(void)
+/// UART2 Callback Handler
+void Uart_Interrupt(uint8_t data)
 {
-	uint16_t i;
-	for ( i = 0; i < 1000; i++ )
-	{
-		__asm("nop");
-		//in CW tools use asm("nop");
-	}
+	// Print back received character
+	Uart_SendChar( data );
 }
 
-/*lint -save  -e970 Disable MISRA rule (6.3) checking. */
 int main(void)
-/*lint -restore Enable MISRA rule (6.3) checking. */
 {
-	/* Write your local variable definition here */
-	int i = 0;
-	Serial_Init();
+	/// Clock initialization
+	Clk_Init(); /* Configure clocks to run at 20 Mhz */
 
-	char buffer[32];
-	memset( buffer, '\0', sizeof(buffer) );
+	/// UART2 Initialization
+	UART_Init();							/*Initialize Uart2 at 9600 bauds */
+	Uart_SetCallback( Uart_Interrupt ); 	/* Set the callback function that the UART driver will call when receiving a char */
+	NVIC_EnableIRQ( UART2_IRQn ); 			/* Enable UART2 interrupt */
 
-	/*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
-	PE_low_level_init();
-	/*** End of Processor Expert internal initialization.                    ***/
-
-	/* Write your code here */
-	/* For example: for(;;) { } */
+	// Send "WELCOME\r\n"
+	Uart_SendChar( 0x57 );	// W
+	Uart_SendChar( 0x45 );	// E
+	Uart_SendChar( 0x4c );	// L
+	Uart_SendChar( 0x43 );	// C
+	Uart_SendChar( 0x4f );	// O
+	Uart_SendChar( 0x4d );	// M
+	Uart_SendChar( 0x45 );	// E
+	Uart_SendChar( 0xD );	//\r
+	Uart_SendChar( 0xA );	//\n
 
 	for ( ;; )
 	{
-		char tmp;
-		if ( Serial_RecvChar( &tmp ) == ERR_OK )
-		{
-/* !!!!!! */if ( tmp == '0' || i > sizeof(buffer) ) // 0 instead of \n
-			{
-				for ( int j = 0; j < strlen( buffer ); j++ )
-				{
-					Serial_SendChar( buffer[j] );
-					Cpu_Delay100us();
-				}
-
-				// Send final chars
-				Serial_SendChar( '\r' );
-				Cpu_Delay100us();
-				Serial_SendChar( '\n' );
-				Cpu_Delay100us();
-
-				// Reset buffer
-				memset( buffer, '\0', sizeof(buffer) );
-				i = 0;
-			}
-			else
-			{
-				buffer[i++] = tmp;
-			}
-			//*/
-		}
 	}
 
-	/*** Don't write any code pass this line, or it will be deleted during code generation. ***/
-  /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
-  #ifdef PEX_RTOS_START
-    PEX_RTOS_START();                  /* Startup of the selected RTOS. Macro is defined by the RTOS component. */
-  #endif
-  /*** End of RTOS startup code.  ***/
-  /*** Processor Expert end of main routine. DON'T MODIFY THIS CODE!!! ***/
-  for(;;){}
-  /*** Processor Expert end of main routine. DON'T WRITE CODE BELOW!!! ***/
-} /*** End of main routine. DO NOT MODIFY THIS TEXT!!! ***/
+	/* Never leave main */
+	return 0;
+}
 
-/* END main */
-/*!
- ** @}
- */
-/*
- ** ###################################################################
- **
- **     This file was created by Processor Expert 10.5 [05.21]
- **     for the Freescale Kinetis series of microcontrollers.
- **
- ** ###################################################################
- */
