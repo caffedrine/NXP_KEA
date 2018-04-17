@@ -43,11 +43,11 @@
 
 /***********************************************************************************************
 *
-* @brief    CLK_Init - Initialize Core Clock to 40MHz, Bus Clock to 20MHz
+* @brief    CLK_Init - Initialize the clocks to run at 20 MHz from the 4Mhz external XTAL
 * @param    none
 * @return   none
 *
 ************************************************************************************************/  
-void Clk_Init();
+void Clk_Init(void);
 
 #endif /* CLK_H_ */

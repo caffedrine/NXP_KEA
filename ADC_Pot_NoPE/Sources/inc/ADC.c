@@ -1,11 +1,5 @@
-/*
- * CLK.c
- *
- *  Created on: Sep 24, 2013
- *      Author: B46911
- */
+#include "ADC.h"
 
-#include "CLK.h"
 /**********************************************************************************************
 * External objects
 **********************************************************************************************/
@@ -40,23 +34,36 @@
 * Local functions
 **********************************************************************************************/
 
-
-/**********************************************************************************************
-* Global functions
-**********************************************************************************************/
-
 /***********************************************************************************************
 *
-* @brief    CLK_Init - Initialize Core Clock to 40MHz, Bus Clock to 20MHz
-* @param    none
+* @brief    ADC_Init - Initiates the Channel to read the value of the ADC channel
+* 			 
+* @param    Channel to init and resolution
 * @return   none
 *
 ************************************************************************************************/  
-void Clk_Init()
+void ADC_Init(uint8_t channel, uint8_t mode)
 {
- ICS_C1|=ICS_C1_IRCLKEN_MASK;       /* Enable the internal reference clock*/
- ICS_C3= 0x90;                      /* Reference clock frequency = 31.25 kHz*/
- while(!(ICS_S & ICS_S_LOCK_MASK)); /* Wait for PLL, running at 40 MHz (1280 * 31.25 kHz) */
- ICS_C2|=ICS_C2_BDIV(1);	        /* BDIV=2, Bus clock = 20 MHz*/
- ICS_S |= ICS_S_LOLS_MASK;   		/* Clear Loss of lock sticky bit */
+	SIM_SCGC |= SIM_SCGC_ADC_MASK;				/* Enable bus clock in ADC*/
+	ADC_SC3 |= ADC_SC3_ADICLK(0b00);			/* Bus clock selected*/
+	ADC_SC2 |= 0x00;							/* Software Conversion trigger, disable compare function*/
+	ADC_SC1 = 0	;								/* Enable ADC by setting ADCH bits as low*/
+	ADC_SC1|= ADC_SC1_ADCO_MASK;  				/* Continuous mode operation */	
+	ADC_SC1|= ADC_SC1_AIEN_MASK;  				/* ADC Interrupt Enabled */
+	ADC_APCTL1 |= ADC_APCTL1_ADPC(1<<channel);  /* Channel selection */	
+	ADC_SC3 |= ADC_SC3_MODE(mode);				/* 8,10,12 bit mode operation */
+}
+
+/***********************************************************************************************
+*
+* @brief    ADC_Read - Read the selected ADC channel
+* @param    ch - channel to read
+* @return   result
+*
+************************************************************************************************/
+uint16_t ADC_Read(uint8_t channel)
+{
+	ADC_SC1 |= ADC_SC1_ADCH(channel);			/* Select channel to read */
+	while(!(ADC_SC1 & ADC_SC1_COCO_MASK));		/* Wait conversion to complete */
+	return ADC_R;								/* Return adc value */
 }

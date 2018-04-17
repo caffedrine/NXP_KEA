@@ -2,12 +2,12 @@
 <launchConfiguration type="com.pemicro.debug.gdbjtag.pne.launchConfigurationType">
 <listAttribute key="com.pemicro.debug.gdbjtag.pne.ELVES"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.NUMBER_ELVES" value="0"/>
-<stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.DEVICE_NAME" value="NXP_KEx_S9KEAZN64M4"/>
+<stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.DEVICE_NAME" value="NXP_KEx_KEAZ64M4"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.GDB_IP" value="127.0.0.1"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.GDB_OPTIONS" value=""/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.GDB_PORT" value="7224"/>
-<intAttribute key="com.pemicro.debug.gdbjtag.pne.PE.HARDWARE_INTERFACE" value="0"/>
-<stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.LAST_ATTRIBUTE_HEADER" value="com.pemicro.debug.gdbjtag.pne.ml."/>
+<intAttribute key="com.pemicro.debug.gdbjtag.pne.PE.HARDWARE_INTERFACE" value="6"/>
+<stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.LAST_ATTRIBUTE_HEADER" value="com.pemicro.debug.gdbjtag.pne.sda."/>
 <booleanAttribute key="com.pemicro.debug.gdbjtag.pne.PE.USE_EXTERNAL_SERVER" value="true"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.algorithmIndex" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.alternativeAlgorithmPath" value=""/>
@@ -22,7 +22,7 @@
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_eth.POWER_DOWN_DELAY" value="250"/>
 <booleanAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_eth.POWER_OFF" value="false"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_eth.POWER_UP_DELAY" value="250"/>
-<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_eth.PROVIDE_POWER" value="false"/>
+<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_eth.PROVIDE_POWER" value="true"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_eth.REGULATOR_VOLTAGE" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_eth.RESET_DELAY" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_eth.SHIFT_FREQ" value="5000"/>
@@ -38,7 +38,7 @@
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_ser.POWER_DOWN_DELAY" value="250"/>
 <booleanAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_ser.POWER_OFF" value="false"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_ser.POWER_UP_DELAY" value="250"/>
-<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_ser.PROVIDE_POWER" value="false"/>
+<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_ser.PROVIDE_POWER" value="true"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_ser.REGULATOR_VOLTAGE" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_ser.RESET_DELAY" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_ser.SHIFT_FREQ" value="5000"/>
@@ -54,7 +54,7 @@
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_usb.POWER_DOWN_DELAY" value="250"/>
 <booleanAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_usb.POWER_OFF" value="false"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_usb.POWER_UP_DELAY" value="250"/>
-<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_usb.PROVIDE_POWER" value="false"/>
+<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_usb.PROVIDE_POWER" value="true"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_usb.REGULATOR_VOLTAGE" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_usb.RESET_DELAY" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.cyc_usb.SHIFT_FREQ" value="5000"/>
@@ -98,7 +98,7 @@
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.ml.POWER_DOWN_DELAY" value="250"/>
 <booleanAttribute key="com.pemicro.debug.gdbjtag.pne.ml.POWER_OFF" value="false"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.ml.POWER_UP_DELAY" value="1000"/>
-<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.ml.PROVIDE_POWER" value="false"/>
+<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.ml.PROVIDE_POWER" value="true"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.ml.REGULATOR_VOLTAGE" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.ml.RESET_DELAY" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.ml.SHIFT_FREQ" value="5000"/>
@@ -127,7 +127,7 @@
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.sda.POWER_DOWN_DELAY" value=""/>
 <booleanAttribute key="com.pemicro.debug.gdbjtag.pne.sda.POWER_OFF" value="false"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.sda.POWER_UP_DELAY" value=""/>
-<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.sda.PROVIDE_POWER" value="false"/>
+<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.sda.PROVIDE_POWER" value="true"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.sda.REGULATOR_VOLTAGE" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.sda.RESET_DELAY" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.sda.SHIFT_FREQ" value="5000"/>
@@ -148,7 +148,7 @@
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.trc_eth.POWER_DOWN_DELAY" value="250"/>
 <booleanAttribute key="com.pemicro.debug.gdbjtag.pne.trc_eth.POWER_OFF" value="false"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.trc_eth.POWER_UP_DELAY" value="250"/>
-<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.trc_eth.PROVIDE_POWER" value="false"/>
+<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.trc_eth.PROVIDE_POWER" value="true"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.trc_eth.REGULATOR_VOLTAGE" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.trc_eth.RESET_DELAY" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.trc_eth.SHIFT_FREQ" value="5000"/>
@@ -164,7 +164,7 @@
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.trc_usb.POWER_DOWN_DELAY" value="250"/>
 <booleanAttribute key="com.pemicro.debug.gdbjtag.pne.trc_usb.POWER_OFF" value="false"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.trc_usb.POWER_UP_DELAY" value="250"/>
-<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.trc_usb.PROVIDE_POWER" value="false"/>
+<booleanAttribute key="com.pemicro.debug.gdbjtag.pne.trc_usb.PROVIDE_POWER" value="true"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.trc_usb.REGULATOR_VOLTAGE" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.trc_usb.RESET_DELAY" value="0"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.trc_usb.SHIFT_FREQ" value="5000"/>
@@ -196,12 +196,12 @@
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="false"/>
 <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_REGISTER_GROUPS" value=""/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/BlinkyNoPE.elf"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="BlinkyNoPE"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/BlinkyNoPE_PTE0.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="BlinkyNoPE_PTE0"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/BlinkyNoPE"/>
+<listEntry value="/BlinkyNoPE_PTE0"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>

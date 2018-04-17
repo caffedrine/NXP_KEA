@@ -46,7 +46,7 @@ void UART_Init()
 	SIM_SCGC |= SIM_SCGC_UART2_MASK; 	/* Enable bus clock in UART2*/
 	UART2_BDH = 0; 						/* One stop bit*/
 	UART2_BDL = 128; 					/* Baud rate at 9600*/
-	UART2_C1 = 0; 						/* No parity enable,8 bit format*/
+	UART2_C1 = 0; 						/* No parity enable, 8 bit format*/
 	UART2_C2 |= UART_C2_TE_MASK; 		/* Enable Transmitter*/
 	UART2_C2 |= UART_C2_RE_MASK; 		/* Enable Receiver*/
 	UART2_C2 |= UART_C2_RIE_MASK; 		/* Enable Receiver interrupts*/
@@ -75,6 +75,8 @@ void Uart_SendChar(uint8_t send)
 {
 	while ( (UART2_S1 & UART_S1_TDRE_MASK) == 0 )
 		; 				/* Wait for transmit buffer to be empty*/
+
+	//for(int i=0; i<=2000; i++);						// This is devil!
 
 	(void)UART2_S1; 	/* Read UART2_S1 register*/
 	UART2_D = send; 	/* Send data*/

@@ -1,4 +1,4 @@
-#include "SKEAZN642.h"
+#include "SKEAZ1284.h"
 
 static int i = 0;
 
@@ -12,26 +12,18 @@ void delay(void)
 
 void blink()
 {
-#define PTE0 0
-#define PTE1 1
+#define PTH1 25
+#define LED	PTH1
 
-	GPIOB_PDDR |= 1 << PTE0;
-	GPIOB_PDDR |= 1 << PTE1;
+	GPIOB_PDDR |= 1 << LED;
 
 	for ( ;; )
 	{
-		GPIOB_PCOR |= 1 << PTE0;
-		GPIOB_PSOR |= 1 << PTE1;
+		GPIOB_PSOR |= 1 << LED;
 		delay(); /* Generate delay */
 
-		GPIOB_PSOR |= 1 << PTE0;
-		GPIOB_PCOR |= 1 << PTE1;
+		GPIOB_PCOR |= 1 << LED;
 		delay(); /* Generate delay */
-
-		GPIOB_PSOR |= 1 << PTE0;
-		GPIOB_PSOR |= 1 << PTE1;
-		delay();
-
 	}
 }
 

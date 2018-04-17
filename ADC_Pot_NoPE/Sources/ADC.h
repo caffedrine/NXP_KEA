@@ -1,10 +1,19 @@
-#ifndef UART_H_
-#define UART_H_
+/*
+ * ADC.h
+ *
+ *  Created on: Sep 24, 2013
+ *      Author: B46911
+ */
+
+#ifndef ADC_H_
+#define ADC_H_
 /*******************************************************************************
 * Includes
 ********************************************************************************/
-#include <stdint.h>
+
 #include "derivative.h"
+
+	
 /*******************************************************************************
 * Constants
 ********************************************************************************/
@@ -13,13 +22,14 @@
 /*******************************************************************************
 * Macros
 ********************************************************************************/
-
+#define EIGHT_BIT 	0
+#define TEN_BIT 	1
+#define TWELVE_BIT 	2
                 
 /*******************************************************************************
 * Types
 ********************************************************************************/
-typedef void(*pt2Func)(void);		  /* Pointer to Functions, void argument */
-typedef void(*pt2FuncU8)(uint8_t);	  /* Pointer to Functions, UINT8 argument */
+
 
 /*******************************************************************************
 * Variables
@@ -34,43 +44,23 @@ typedef void(*pt2FuncU8)(uint8_t);	  /* Pointer to Functions, UINT8 argument */
 /*******************************************************************************
 * Global Functions
 ********************************************************************************/
-
 /***********************************************************************************************
 *
-* @brief    Uart_Init - Initalizes the Uart 1 to run at 9600 bauds assuming bus clock of 20Mhz
-* @param    none
+* @brief    ADC_Init - Initiates the Channeln to read the value of the ADC channel
+* 			 
+* @param    Channel to init and resolution
 * @return   none
 *
 ************************************************************************************************/  
-void UART_Init(void);
-
-
-/***********************************************************************************************
-*
-* @brief    Uart_SendChar - Send a single byte on Uart2
-* @param    byte to send
-* @return   none
-*
-************************************************************************************************/  
-void Uart_SendChar(uint8_t send);
+void ADC_Init(uint8_t channel, uint8_t mode);
 
 /***********************************************************************************************
 *
-* @brief    Uart_GetChar - Retreive the received char from the Uart1 buffer (should be called from Interrupt) 
-* @param    none
-* @return   received byte
+* @brief    ADC_Read - Read the selected ADC channel
+* @param    ch - channel to read
+* @return   result
 *
 ************************************************************************************************/
-uint8_t Uart_GetChar(void);
+uint16_t ADC_Read(uint8_t channel);
 
-/***********************************************************************************************
-*
-* @brief    Uart_SetCallback - Set a callback function to execute when a byte is received on the Uart1
-* @param    pointer to function with an UINT8 argument
-* @return   none
-*
-************************************************************************************************/  
-void Uart_SetCallback(pt2FuncU8 ptr);
-
-
-#endif /* UART_H_ */
+#endif /* ADC_H_ */

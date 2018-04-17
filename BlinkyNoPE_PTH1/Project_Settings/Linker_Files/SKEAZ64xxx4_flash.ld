@@ -9,10 +9,10 @@ STACK_SIZE = DEFINED(__stack_size__) ? __stack_size__ : 0x00000100;
 /* Specify the memory areas */
 MEMORY
 {
-  m_interrupts          (RX)  : ORIGIN = 0x00002000, LENGTH = 0x00000100
-  m_flash_config        (RX)  : ORIGIN = 0x00002400, LENGTH = 0x00000010
-  m_text                (RX)  : ORIGIN = 0x00002410, LENGTH = 0x0000FBF0
-  m_data                (RW)  : ORIGIN = 0x1FFFFC00, LENGTH = 0x00001000
+  m_interrupts          (RX)  : ORIGIN = 0x00000000, LENGTH = 0x00000100
+  m_flash_config        (RX)  : ORIGIN = 0x00000400, LENGTH = 0x00000010
+  m_text                (RX)  : ORIGIN = 0x00000410, LENGTH = 0x0000FBF0
+  m_data                (RW)  : ORIGIN = 0x1FFFF800, LENGTH = 0x00002000
 }
 
 /* Define output sections */
