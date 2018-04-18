@@ -28,19 +28,36 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <stdint.h>
 #include "derivative.h"
+#include "gpio.h"
 
 static int i = 0;
 
+#define LED_PIN 	PTH0
+#define LED_PORT	PTH
+
+#define BUTTON_PIN	PTE4
+#define BUTTON_PORT PTE
+
 int main(void)
 {
-
 	/* Write your code here */
+	CONFIG_PIN_AS_GPIO(LED_PORT, LED_PIN, OUTPUT);			// Led pin as output as there is a LED
+	CONFIG_PIN_AS_GPIO(BUTTON_PORT, BUTTON_PIN, INPUT);	// Button pin as input as it shall provide a digital value
+
+	ENABLE_INPUT(BUTTON_PORT, BUTTON_PIN);					// Enable input on button
 
 	/* This for loop should be replaced. By default this loop allows a single stepping. */
 	for ( ;; )
 	{
-		i++;
+		// Read button value
+		bool input = READ_INPUT(BUTTON_PORT, BUTTON_PIN);
+
+		if(input == 1)
+			OUTPUT_SET(LED_PORT, LED_PIN);
+		else
+			OUTPUT_CLEAR(LED_PORT, LED_PIN);
 	}
 	/* Never leave main */
 	return 0;
