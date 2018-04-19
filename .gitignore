@@ -21,6 +21,10 @@
 !/SAMPLES/*
 !/SAMPLES
 
+# bin directory
+!/bin
+!/bin/*
+
 # Extensions
 !/*/*.md
 !/*/*.txt
