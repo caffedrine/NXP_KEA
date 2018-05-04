@@ -41,7 +41,7 @@ void TheApp_Uart_Notification_Callback(UART_Type *pUART, UInt8 u8Data);
 /*! \struct Un_DataType
     \brief The Uart data type instance definition.
  */
-typedef struct 
+typedef struct
 {
     UInt8 u8RxBuff[UART_RX_BUF_SIZE];   /**< The RX data buffer */
     UInt8 u8TxBuff[UART_TX_BUF_SIZE];   /**< The TX data buffer */
@@ -333,7 +333,7 @@ void Uart_Write(UInt8 Channel, const UInt8* lpBuffer, UInt8 nNumberOfBytesToWrit
             if ( FALSE == Un_Inst[Channel].bRts )
             {
                 Un_Inst[Channel].bRts = TRUE;
-                if ( NULL_PTR != Un_Inst[Channel].pfRTSCtl ) 
+                if ( NULL_PTR != Un_Inst[Channel].pfRTSCtl )
                 {
                     Un_Inst[Channel].pfRTSCtl( TRUE );
 
@@ -402,7 +402,7 @@ void Uart_Read(UInt8 Channel, UInt8* lpBuffer, UInt8 nNumberOfBytesToRead, UInt8
             pBuff = Un_Inst[Channel].u8RxBuff;
 
             *lpNumberOfBytesRead = 0u;
-            while ( (*pHead != *pTail) && (0u < nNumberOfBytesToRead) ) 
+            while ( (*pHead != *pTail) && (0u < nNumberOfBytesToRead) )
             {
                 *pTail = (UInt16)((*pTail + 1u) & UART_RX_BUF_SIZE_MASK);
                 *lpBuffer++ = pBuff[*pTail];
@@ -410,14 +410,7 @@ void Uart_Read(UInt8 Channel, UInt8* lpBuffer, UInt8 nNumberOfBytesToRead, UInt8
                 (*lpNumberOfBytesRead)++;
             }
         }
-        else {
-            Det_ReportError( 0 );
-        }
     }
-    else {
-        Det_ReportError( 0 );
-    }
-}
 
 
 /***************************************************************************//**
@@ -466,7 +459,7 @@ void Un_RxISR(UInt8 Channel, UInt8 Data)
         /* ################################################ */
         /* Check boot enter sequence */
         /* ************************* */
-        if ( Data == Boot_GetNextByte(Un_Inst[Channel].u8BootByteLast) ) 
+        if ( Data == Boot_GetNextByte(Un_Inst[Channel].u8BootByteLast) )
         {
             if ( 0u < Un_Inst[Channel].u8BootByteCount ) {
                 Un_Inst[Channel].u8BootByteCount--;
@@ -696,7 +689,7 @@ void Uart_GetTxQueueLevel(UInt8 Channel, UInt8* lpLevel)
  * \callgraph
  * \callergraph
  ******************************************************************************/
-void Un0_RTSCtl(BOOL bStatus) {	
+void Un0_RTSCtl(BOOL bStatus) {
     //HalGpio_Write_TX_EN( bStatus );
 }
 

@@ -49,5 +49,5 @@ void Clk_Init()
 	while ( !(ICS_S & ICS_S_LOCK_MASK) )
 		; /* Wait for PLL, running at 40 MHz (1280 * 31.25 kHz) */
 	ICS_C2 |= ICS_C2_BDIV( 1 ); /* BDIV=2, Bus clock = 20 MHz*/
-	ICS_S |= ICS_S_LOLS_MASK; /* Clear Loss of lock sticky bit */
+	//ICS_S |= ICS_S_LOLS_MASK; /* Clear Loss of lock sticky bit */
 }
