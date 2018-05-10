@@ -1,4 +1,5 @@
-#include "SKEAZ1284.h"
+#include "derivative.h"
+#include "GPIO/GPIO.h"
 
 static int i = 0;
 
@@ -12,8 +13,7 @@ void delay(void)
 
 void blink()
 {
-#define PTH1 25
-#define LED	PTH1
+#define LED	PTC0
 
 	GPIOB_PDDR |= 1 << LED;
 

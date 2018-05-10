@@ -4,6 +4,7 @@
 #include "clocks.h"
 
 void init_clk_FEE_40MHz(void);
+
 int main(void)
 {
 	init_clks_FEE_40MHz(); 	/* KEA128 clks FEE, 8MHz xtal: core 40 MHz, bus 20MHz */

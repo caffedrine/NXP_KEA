@@ -34,11 +34,11 @@
 
 static int i = 0;
 
-#define LED_PIN 	PTH0
-#define LED_PORT	PTH
+#define LED_PIN 	PTC0
+#define LED_PORT	PTC
 
-#define BUTTON_PIN	PTE4
-#define BUTTON_PORT PTE
+#define BUTTON_PIN	PTD0
+#define BUTTON_PORT PTD
 
 int main(void)
 {
