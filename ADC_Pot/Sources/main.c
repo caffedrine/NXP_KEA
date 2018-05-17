@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	uint8_t adc_value = 0;
+	uint16_t adc_value = 0;
 
 	/* Initialize Core Clock to 40MHz, Bus Clock to 20MHz  */
 	Clk_Init();
 
 	/* Initialize the ADC module and read at Channel 10 and 8bit conversion mode is imposed */
-	ADC_Init(10,0);
+	ADC_Init(10, ADC_TEN_BIT);
 
 	// Set LED as output
 	GPIOB_PDDR |= 1<<LED;

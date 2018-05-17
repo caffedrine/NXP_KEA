@@ -1,11 +1,11 @@
 /* ###################################################################
 **     Filename    : Events.c
-**     Project     : UARTecho_PE
+**     Project     : SerialConsole_PE
 **     Processor   : SKEAZN64MLH2
 **     Component   : Events
 **     Version     : Driver 01.00
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-03-28, 17:28, # CodeGen: 0
+**     Date/Time   : 2018-05-15, 17:16, # CodeGen: 0
 **     Abstract    :
 **         This is user's event module.
 **         Put your event handler code here.

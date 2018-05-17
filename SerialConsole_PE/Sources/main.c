@@ -1,10 +1,10 @@
 /* ###################################################################
  **     Filename    : main.c
- **     Project     : UARTecho_PE
+ **     Project     : SerialConsole_PE
  **     Processor   : SKEAZN64MLH2
  **     Version     : Driver 01.01
  **     Compiler    : GNU C Compiler
- **     Date/Time   : 2018-03-28, 17:28, # CodeGen: 0
+ **     Date/Time   : 2018-05-15, 17:16, # CodeGen: 0
  **     Abstract    :
  **         Main module.
  **         This module contains user's application code.
@@ -29,9 +29,7 @@
 /* Including needed modules to compile this module/procedure */
 #include "Cpu.h"
 #include "Events.h"
-#include "LEDS.h"
-#include "BitsIoLdd1.h"
-#include "SerialConsole.h"
+#include "DebugConsole.h"
 #include "IO1.h"
 /* Including shared modules, which are used for whole project */
 #include "PE_Types.h"
@@ -39,14 +37,12 @@
 #include "PE_Const.h"
 #include "IO_Map.h"
 /* User includes (#include below this line is not maintained by Processor Expert) */
-#include <stdio.h>
-
 void delay(void)
 {
 	uint32_t i, j;
-	for (i = 0; i < 8; i++)
-		for (j = 0; j < 65535; j++)
-		//for (j = 0; j < 1000; j++)
+	for ( i = 0; i < 8; i++ )
+		for ( j = 0; j < 65535; j++ )
+			//for (j = 0; j < 1000; j++)
 			;
 }
 
@@ -62,16 +58,9 @@ int main(void)
 	/*** End of Processor Expert internal initialization.                    ***/
 
 	/* Write your code here */
-	/* For example: for(;;) { } */
-	bool Mihai_Eminescu_este_cel_mai_tare = 1;
-
-	int j;
-	while ( Mihai_Eminescu_este_cel_mai_tare )
+	while ( 1 )
 	{
-		LEDS_PutVal(0);
-		printf("%d. Hello world!\r\n", i++);
-		LEDS_PutVal(3);
-
+		printf( "%d. Hello world!\r\n", i++ );
 		delay();
 	}
 

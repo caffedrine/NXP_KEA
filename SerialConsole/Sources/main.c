@@ -1,3 +1,9 @@
+/*
+ * Author: caffedrine@github
+ *
+ * PS: Make sure you increase default heap_size and stack_size from *.ld file
+ */
+
 #include "SKEAZN642.h"
 #include "DbgConsole/DbgConsole.h"
 
