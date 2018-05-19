@@ -2,7 +2,20 @@
 
 FTM_Type* pFTM1 = (FTM_Type*) FTM1;
 
-void FTM1_Task(void);
+void FTM1_Task(void)
+{
+
+}
+
+void pwmSetFreq(uint32_t freq)
+{
+
+}
+
+void pwmSetDutyCycle(uint8_t)
+{
+
+}
 
 int main(void)
 {
@@ -27,15 +40,10 @@ int main(void)
 	FTM_ChannelInit(pFTM1, 1, FTM1CH1_Config);
 	FTM_Init(pFTM1, &FTM1_Config);
 
-	FTM_SetChannelValue(pFTM1, FTM_CHANNEL_CHANNEL1, 18000);
+	FTM_SetChannelValue(pFTM1, FTM_CHANNEL_CHANNEL1, 18500);	// adjust duty cycle here
 
 	while (1)
 	{
 
 	}
-}
-
-
-void FTM1_Task(void)
-{
 }
