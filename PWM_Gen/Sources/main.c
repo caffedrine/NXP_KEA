@@ -1,20 +1,33 @@
 #include "ftm.h"
 
-FTM_Type* pFTM1 = (FTM_Type*) FTM1;
-
-void FTM1_Task(void)
+void pwmSetDutyCycle(FTM_Type* pFTM, uint8_t ftmChannel, uint16_t dutyCycle /*0-1000*/)
 {
-
+	uint32_t dc = pFTM->MOD - (pFTM->MOD) / (1000 / dutyCycle);
+	FTM_SetChannelValue(pFTM, FTM_CHANNEL_CHANNEL1, dc);
 }
 
-void pwmSetFreq(uint32_t freq)
+void PWM_Init(FTM_Type* pFTM, uint8_t ftmChannel, uint32_t clkFreqHz, uint32_t freqHz)
 {
+	/* FTM Config */
+	FTM_ConfigType FTM_Config = { 0 };
+	FTM_Config.modulo = 60000;						//adjust period from here
+	FTM_Config.clk_source = FTM_CLOCK_SYSTEMCLOCK;
+	FTM_Config.prescaler = FTM_CLOCK_PS_DIV4;			// 4kHz @ Clk 16.000Hz
+	FTM_Config.mode = 1;			//
+	//FTM_Config.toie=1;			// Enable interrupt
 
-}
+	/* FTM Channel Config */
+	FTM_ChParamsType FTM_CH_Config = { 0 };
+	FTM_CH_Config.ctrl.bits.bMode = FTM_PWMMODE_EDGEALLIGNED;
+	FTM_CH_Config.ctrl.bits.bPWMPol = FTM_PWM_HIGHTRUEPULSE;
+	FTM_CH_Config.u16CnV = (FTM_Config.modulo);		// 0% dutycycle by default
 
-void pwmSetDutyCycle(uint8_t)
-{
-
+	/* Set interrupt */
+	//FTM_SetCallback(pFTM, call);
+	/* Init channel */
+	FTM_ChannelInit(pFTM, ftmChannel, FTM_CH_Config);
+	/* Init FTM module */
+	FTM_Init(pFTM, &FTM_Config);
 }
 
 int main(void)
@@ -22,25 +35,11 @@ int main(void)
 	/* Select Pins corresponds to the PTE7 for output */
 	SIM_PINSEL0 |= SIM_PINSEL_FTM1PS1_MASK;
 
-	/* FTM1 Config */
-	FTM_ConfigType FTM1_Config = { 0 };
-	FTM1_Config.modulo = 19000;							//adjust period from here
-	FTM1_Config.clk_source = FTM_CLOCK_SYSTEMCLOCK;
-	FTM1_Config.prescaler = FTM_CLOCK_PS_DIV1;
-	FTM1_Config.mode = 1;
-	FTM1_Config.toie = 1;
+	/* Init PWM driver */
+	PWM_Init(FTM1/*FTM1*/, 1 /*FTM_CH1*/, DEFAULT_SYSTEM_CLOCK, 10000 /*Hz*/);
 
-	// FTM1CH1 Config
-	FTM_ChParamsType FTM1CH1_Config = { 0 };
-	FTM1CH1_Config.ctrl.bits.bMode = FTM_PWMMODE_EDGEALLIGNED;
-	FTM1CH1_Config.ctrl.bits.bPWMPol = FTM_PWM_HIGHTRUEPULSE;
-	FTM1CH1_Config.u16CnV = 1000;
-
-	FTM_SetCallback(pFTM1, FTM1_Task);
-	FTM_ChannelInit(pFTM1, 1, FTM1CH1_Config);
-	FTM_Init(pFTM1, &FTM1_Config);
-
-	FTM_SetChannelValue(pFTM1, FTM_CHANNEL_CHANNEL1, 18500);	// adjust duty cycle here
+	/* Set duty cycle */
+	pwmSetDutyCycle(FTM1, 1, 15);	/* 1.5% DutyCycle */
 
 	while (1)
 	{
