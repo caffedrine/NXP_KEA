@@ -7,7 +7,7 @@
 **     Version     : Component 01.014, Driver 01.03, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-04-18, 14:28, # CodeGen: 10
+**     Date/Time   : 2018-05-18, 17:20, # CodeGen: 17
 **     Abstract    :
 **          This component implements a pulse-width modulation generator
 **          that generates signal with variable duty and fixed cycle.
@@ -16,10 +16,10 @@
 **          component.
 **     Settings    :
 **          Component name                                 : PwmLdd1
-**          Period device                                  : FTM1_MOD
-**          Duty device                                    : FTM1_C1V
-**          Output pin                                     : PTE7/KBI1_P7/TCLK2/FTM1_CH1/CAN0_TX
-**          Counter                                        : FTM1_CNT
+**          Period device                                  : FTM2_MOD
+**          Duty device                                    : FTM2_C0V
+**          Output pin                                     : PTC0/KBI0_P16/FTM2_CH0/ADC0_SE8
+**          Counter                                        : FTM2_CNT
 **          Interrupt service/event                        : Disabled
 **          Period                                         : 2.730667 ms
 **          Starting pulse width                           : 2.730625 ms

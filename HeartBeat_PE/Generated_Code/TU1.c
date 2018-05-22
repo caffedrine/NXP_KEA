@@ -7,32 +7,32 @@
 **     Version     : Component 01.164, Driver 01.11, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-04-18, 14:28, # CodeGen: 10
+**     Date/Time   : 2018-05-18, 17:20, # CodeGen: 17
 **     Abstract    :
 **          This TimerUnit component provides a low level API for unified hardware access across
 **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
 **     Settings    :
 **          Component name                                 : TU1
-**          Module name                                    : FTM1
-**          Counter                                        : FTM1_CNT
+**          Module name                                    : FTM2
+**          Counter                                        : FTM2_CNT
 **          Counter direction                              : Up
 **          Counter width                                  : 16 bits
 **          Value type                                     : uint16_t
 **          Input clock source                             : Internal
 **            Counter frequency                            : 24 MHz
 **          Counter restart                                : On-match
-**            Period device                                : FTM1_MOD
+**            Period device                                : FTM2_MOD
 **            Period                                       : 2.730667 ms
 **            Interrupt                                    : Disabled
 **          Channel list                                   : 1
 **            Channel 0                                    : 
 **              Mode                                       : Compare
-**                Compare                                  : FTM1_C1V
+**                Compare                                  : FTM2_C0V
 **                Offset                                   : 2.730625 ms
 **                Output on compare                        : Set
 **                  Output on overrun                      : Clear
 **                  Initial state                          : Low
-**                  Output pin                             : PTE7/KBI1_P7/TCLK2/FTM1_CH1/CAN0_TX
+**                  Output pin                             : PTC0/KBI0_P16/FTM2_CH0/ADC0_SE8
 **                Interrupt                                : Disabled
 **          Initialization                                 : 
 **            Enabled in init. code                        : yes
@@ -118,7 +118,7 @@ extern "C" {
 #endif 
 
 /* List of channels used by component */
-static const uint8_t ChannelDevice[TU1_NUMBER_OF_CHANNELS] = {0x01U};
+static const uint8_t ChannelDevice[TU1_NUMBER_OF_CHANNELS] = {0x00U};
 
 /* Table of channels mode / 0 - compare mode, 1 - capture mode */
 static const uint8_t ChannelMode[TU1_NUMBER_OF_CHANNELS] = {0x00U};
@@ -180,26 +180,38 @@ LDD_TDeviceData* TU1_Init(LDD_TUserData *UserDataPtr)
     DeviceDataPrv->InitCntr++;         /* Increment counter of initialization */
     return ((LDD_TDeviceData *)DeviceDataPrv); /* Return pointer to the device data structure */
   }
-  /* SIM_SCGC: FTM1=1 */
-  SIM_SCGC |= SIM_SCGC_FTM1_MASK;
-  /* FTM1_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,TOF=0,TOIE=0,CPWMS=0,CLKS=0,PS=0 */
-  FTM1_SC = (FTM_SC_CLKS(0x00) | FTM_SC_PS(0x00)); /* Clear status and control register */
-  /* FTM1_CNT: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,COUNT=0 */
-  FTM1_CNT = FTM_CNT_COUNT(0x00);      /* Reset counter register */
-  /* FTM1_C0SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,??=0 */
-  FTM1_C0SC = 0x00U;                   /* Clear channel status and control register */
-  /* FTM1_C1SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,??=0 */
-  FTM1_C1SC = 0x00U;                   /* Clear channel status and control register */
-  /* FTM1_MOD: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,MOD=0xFFFF */
-  FTM1_MOD = FTM_MOD_MOD(0xFFFF);      /* Set up modulo register */
-  /* FTM1_C1SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=1,MSA=0,ELSB=1,ELSA=1,??=0,??=0 */
-  FTM1_C1SC = (FTM_CnSC_MSB_MASK | FTM_CnSC_ELSB_MASK | FTM_CnSC_ELSA_MASK); /* Set up channel status and control register */
-  /* FTM1_C1V: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,VAL=0xFFFF */
-  FTM1_C1V = FTM_CnV_VAL(0xFFFF);      /* Set up channel value register */
-  /* SIM_PINSEL0: FTM1PS1=1 */
-  SIM_PINSEL0 |= SIM_PINSEL_FTM1PS1_MASK;
-  /* FTM1_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,TOF=0,TOIE=0,CPWMS=0,CLKS=1,PS=0 */
-  FTM1_SC = (FTM_SC_CLKS(0x01) | FTM_SC_PS(0x00)); /* Set up status and control register */
+  /* SIM_SCGC: FTM2=1 */
+  SIM_SCGC |= SIM_SCGC_FTM2_MASK;
+  /* FTM2_MODE: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,FAULTIE=0,FAULTM=0,CAPTEST=0,PWMSYNC=0,WPDIS=1,INIT=0,FTMEN=0 */
+  FTM2_MODE = (FTM_MODE_FAULTM(0x00) | FTM_MODE_WPDIS_MASK); /* Set up mode register */
+  /* FTM2_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,TOF=0,TOIE=0,CPWMS=0,CLKS=0,PS=0 */
+  FTM2_SC = (FTM_SC_CLKS(0x00) | FTM_SC_PS(0x00)); /* Clear status and control register */
+  /* FTM2_CNTIN: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,INIT=0 */
+  FTM2_CNTIN = FTM_CNTIN_INIT(0x00);   /* Clear counter initial register */
+  /* FTM2_CNT: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,COUNT=0 */
+  FTM2_CNT = FTM_CNT_COUNT(0x00);      /* Reset counter register */
+  /* FTM2_C0SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,??=0 */
+  FTM2_C0SC = 0x00U;                   /* Clear channel status and control register */
+  /* FTM2_C1SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,??=0 */
+  FTM2_C1SC = 0x00U;                   /* Clear channel status and control register */
+  /* FTM2_C2SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,??=0 */
+  FTM2_C2SC = 0x00U;                   /* Clear channel status and control register */
+  /* FTM2_C3SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,??=0 */
+  FTM2_C3SC = 0x00U;                   /* Clear channel status and control register */
+  /* FTM2_C4SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,??=0 */
+  FTM2_C4SC = 0x00U;                   /* Clear channel status and control register */
+  /* FTM2_C5SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,??=0 */
+  FTM2_C5SC = 0x00U;                   /* Clear channel status and control register */
+  /* FTM2_MOD: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,MOD=0xFFFF */
+  FTM2_MOD = FTM_MOD_MOD(0xFFFF);      /* Set up modulo register */
+  /* FTM2_C0SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=1,MSA=0,ELSB=1,ELSA=1,??=0,??=0 */
+  FTM2_C0SC = (FTM_CnSC_MSB_MASK | FTM_CnSC_ELSB_MASK | FTM_CnSC_ELSA_MASK); /* Set up channel status and control register */
+  /* FTM2_C0V: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,VAL=0xFFFF */
+  FTM2_C0V = FTM_CnV_VAL(0xFFFF);      /* Set up channel value register */
+  /* SIM_PINSEL1: FTM2PS0=0 */
+  SIM_PINSEL1 &= (uint32_t)~(uint32_t)(SIM_PINSEL1_FTM2PS0(0x03));
+  /* FTM2_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,TOF=0,TOIE=0,CPWMS=0,CLKS=1,PS=0 */
+  FTM2_SC = (FTM_SC_CLKS(0x01) | FTM_SC_PS(0x00)); /* Set up status and control register */
   /* Registration of the device structure */
   PE_LDD_RegisterDeviceStructure(PE_LDD_COMPONENT_TU1_ID,DeviceDataPrv);
   return ((LDD_TDeviceData *)DeviceDataPrv); /* Return pointer to the device data structure */
@@ -234,7 +246,7 @@ LDD_TError TU1_GetPeriodTicks(LDD_TDeviceData *DeviceDataPtr, TU1_TValueType *Ti
   uint16_t tmp;
 
   (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
-  tmp = (uint16_t)(FTM_PDD_ReadModuloReg(FTM1_BASE_PTR));
+  tmp = (uint16_t)(FTM_PDD_ReadModuloReg(FTM2_BASE_PTR));
   *TicksPtr = (TU1_TValueType)++tmp;
   return ERR_OK;                       /* OK */
 }
@@ -259,7 +271,7 @@ LDD_TError TU1_GetPeriodTicks(LDD_TDeviceData *DeviceDataPtr, TU1_TValueType *Ti
 TU1_TValueType TU1_GetCounterValue(LDD_TDeviceData *DeviceDataPtr)
 {
   (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
-  return (TU1_TValueType)FTM_PDD_ReadCounterReg(FTM1_BASE_PTR);
+  return (TU1_TValueType)FTM_PDD_ReadCounterReg(FTM2_BASE_PTR);
 }
 
 /*
@@ -305,7 +317,7 @@ LDD_TError TU1_SetOffsetTicks(LDD_TDeviceData *DeviceDataPtr, uint8_t ChannelIdx
   if ((ChannelMode[ChannelIdx]) != 0U) { /* Is the channel in compare mode? */
     return ERR_NOTAVAIL;               /* If not then error */
   }
-  FTM_PDD_WriteChannelValueReg(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], (uint16_t)Ticks);
+  FTM_PDD_WriteChannelValueReg(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], (uint16_t)Ticks);
   return ERR_OK;                       /* OK */
 }
 
@@ -350,7 +362,7 @@ LDD_TError TU1_GetOffsetTicks(LDD_TDeviceData *DeviceDataPtr, uint8_t ChannelIdx
   if ((ChannelMode[ChannelIdx]) != 0U) { /* Is the channel in compare mode? */
     return ERR_NOTAVAIL;               /* If not then error */
   }
-  *TicksPtr = (TU1_TValueType)(FTM_PDD_ReadChannelValueReg(FTM1_BASE_PTR, ChannelDevice[ChannelIdx]));
+  *TicksPtr = (TU1_TValueType)(FTM_PDD_ReadChannelValueReg(FTM2_BASE_PTR, ChannelDevice[ChannelIdx]));
   return ERR_OK;                       /* OK */
 }
 
@@ -400,19 +412,19 @@ LDD_TError TU1_SelectOutputAction(LDD_TDeviceData *DeviceDataPtr, uint8_t Channe
   }
   switch (CounterAction) {
     case OUTPUT_NONE:
-      FTM_PDD_SelectChannelMode(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_OUTPUT_TOGGLE);
+      FTM_PDD_SelectChannelMode(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_OUTPUT_TOGGLE);
       switch (CompareAction) {
         case OUTPUT_NONE:
-          FTM_PDD_SelectChannelEdgeLevel(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_NONE);
+          FTM_PDD_SelectChannelEdgeLevel(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_NONE);
           break;
         case OUTPUT_TOGGLE:
-          FTM_PDD_SelectChannelEdgeLevel(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_RISING);
+          FTM_PDD_SelectChannelEdgeLevel(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_RISING);
           break;
         case OUTPUT_CLEAR:
-          FTM_PDD_SelectChannelEdgeLevel(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_FALLING);
+          FTM_PDD_SelectChannelEdgeLevel(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_FALLING);
           break;
         case OUTPUT_SET:
-          FTM_PDD_SelectChannelEdgeLevel(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_BOTH);
+          FTM_PDD_SelectChannelEdgeLevel(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_BOTH);
           break;
         default:
           return ERR_NOTAVAIL;
@@ -422,15 +434,15 @@ LDD_TError TU1_SelectOutputAction(LDD_TDeviceData *DeviceDataPtr, uint8_t Channe
       if (CompareAction != OUTPUT_SET) {
         return ERR_NOTAVAIL;
       }
-      FTM_PDD_SelectChannelMode(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_OUTPUT_CLEAR);
-      FTM_PDD_SelectChannelEdgeLevel(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_BOTH);
+      FTM_PDD_SelectChannelMode(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_OUTPUT_CLEAR);
+      FTM_PDD_SelectChannelEdgeLevel(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_BOTH);
       break;
     case OUTPUT_SET:
       if (CompareAction != OUTPUT_CLEAR) {
         return ERR_NOTAVAIL;
       }
-      FTM_PDD_SelectChannelMode(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_OUTPUT_SET);
-      FTM_PDD_SelectChannelEdgeLevel(FTM1_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_FALLING);
+      FTM_PDD_SelectChannelMode(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_OUTPUT_SET);
+      FTM_PDD_SelectChannelEdgeLevel(FTM2_BASE_PTR, ChannelDevice[ChannelIdx], FTM_PDD_EDGE_FALLING);
       break;
     default:
       return ERR_NOTAVAIL;

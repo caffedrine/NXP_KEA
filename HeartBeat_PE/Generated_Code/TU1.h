@@ -7,32 +7,32 @@
 **     Version     : Component 01.164, Driver 01.11, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-04-18, 14:28, # CodeGen: 10
+**     Date/Time   : 2018-05-18, 17:20, # CodeGen: 17
 **     Abstract    :
 **          This TimerUnit component provides a low level API for unified hardware access across
 **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
 **     Settings    :
 **          Component name                                 : TU1
-**          Module name                                    : FTM1
-**          Counter                                        : FTM1_CNT
+**          Module name                                    : FTM2
+**          Counter                                        : FTM2_CNT
 **          Counter direction                              : Up
 **          Counter width                                  : 16 bits
 **          Value type                                     : uint16_t
 **          Input clock source                             : Internal
 **            Counter frequency                            : 24 MHz
 **          Counter restart                                : On-match
-**            Period device                                : FTM1_MOD
+**            Period device                                : FTM2_MOD
 **            Period                                       : 2.730667 ms
 **            Interrupt                                    : Disabled
 **          Channel list                                   : 1
 **            Channel 0                                    : 
 **              Mode                                       : Compare
-**                Compare                                  : FTM1_C1V
+**                Compare                                  : FTM2_C0V
 **                Offset                                   : 2.730625 ms
 **                Output on compare                        : Set
 **                  Output on overrun                      : Clear
 **                  Initial state                          : Low
-**                  Output pin                             : PTE7/KBI1_P7/TCLK2/FTM1_CH1/CAN0_TX
+**                  Output pin                             : PTC0/KBI0_P16/FTM2_CH0/ADC0_SE8
 **                Interrupt                                : Disabled
 **          Initialization                                 : 
 **            Enabled in init. code                        : yes
@@ -140,7 +140,7 @@ extern "C" {
 #define TU1_COUNTER_DIR    DIR_UP      /* Direction of counting */
 #define TU1_OFFSET_0_TICKS 0xFFFFul    /* Initialization value of offset as 'counter ticks' for channel 0 */
 /*! Peripheral base address of a device allocated by the component. This constant can be used directly in PDD macros. */
-#define TU1_PRPH_BASE_ADDRESS  0x40039000U
+#define TU1_PRPH_BASE_ADDRESS  0x4003A000U
   
 /* Methods configuration constants - generated for all enabled component's methods */
 #define TU1_Init_METHOD_ENABLED        /*!< Init method of the component TU1 is enabled (generated) */

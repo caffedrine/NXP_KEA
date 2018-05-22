@@ -7,16 +7,16 @@
 **     Version     : Component 02.241, Driver 01.01, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-04-18, 14:28, # CodeGen: 10
+**     Date/Time   : 2018-05-18, 17:20, # CodeGen: 17
 **     Abstract    :
 **         This component implements a pulse-width modulation generator
 **         that generates signal with variable duty and fixed cycle. 
 **     Settings    :
 **          Component name                                 : PWM1
-**          PWM or PPG device                              : FTM1_C1V
+**          PWM or PPG device                              : FTM2_C0V
 **          Duty compare                                   : 
-**          Output pin                                     : PTE7/KBI1_P7/TCLK2/FTM1_CH1/CAN0_TX
-**          Counter                                        : FTM1_CNT
+**          Output pin                                     : PTC0/KBI0_P16/FTM2_CH0/ADC0_SE8
+**          Counter                                        : FTM2_CNT
 **          Interrupt service/event                        : Disabled
 **          Period                                         : 2.730667 ms
 **          Starting pulse width                           : 2.730625 ms

@@ -10,9 +10,9 @@ void PWM_Init(FTM_Type* pFTM, uint8_t ftmChannel, uint32_t clkFreqHz, uint32_t f
 {
 	/* FTM Config */
 	FTM_ConfigType FTM_Config = { 0 };
-	FTM_Config.modulo = 60000;						//adjust period from here
+	FTM_Config.modulo = 10000;						//adjust period from here
 	FTM_Config.clk_source = FTM_CLOCK_SYSTEMCLOCK;
-	FTM_Config.prescaler = FTM_CLOCK_PS_DIV4;			// 4kHz @ Clk 16.000Hz
+	FTM_Config.prescaler = FTM_CLOCK_PS_DIV2;			// 4kHz @ Clk 16.000Hz
 	FTM_Config.mode = 1;			//
 	//FTM_Config.toie=1;			// Enable interrupt
 
@@ -39,7 +39,7 @@ int main(void)
 	PWM_Init(FTM1/*FTM1*/, 1 /*FTM_CH1*/, DEFAULT_SYSTEM_CLOCK, 10000 /*Hz*/);
 
 	/* Set duty cycle */
-	pwmSetDutyCycle(FTM1, 1, 15);	/* 1.5% DutyCycle */
+	pwmSetDutyCycle(FTM1, 1, 500);	/* 1.5% DutyCycle */
 
 	while (1)
 	{

@@ -20,9 +20,6 @@ void ADC_OnEnd(void)
 	// Channels counter
 	static int chCount = 0, chNumber = sizeof(adc_channels);
 
-	// Set current channel to be read
-	ADC_SetChannel(ADC, adc_channels[chCount]);
-
 	// Process adc result
 	adcResult = ADC_ReadResultReg(ADC);
 	int tmp = adcResult;
@@ -30,10 +27,11 @@ void ADC_OnEnd(void)
 	// Calculate next channel
 	chCount = ((chCount == chNumber) ? (0) : (++chCount) );
 
+	// Set next channel to be read
+	ADC_SetChannel(ADC, adc_channels[chCount]);
+	
 	// Enable reading on next channel
 	ADC_ContinuousConversion(ADC);
-
-
 }
 
 int main(void)

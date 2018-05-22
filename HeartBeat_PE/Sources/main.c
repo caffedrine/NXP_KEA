@@ -77,22 +77,25 @@ int main(void)
 	//readVal = ADC_Read(10);
 
 	unsigned char maxBright = 180;
+
+	PWM1_SetRatio8(128);
+
 	int speed = 8;
 	for ( ;; )
 	{
 		int i,j;
 
-		for(i = 0; i < maxBright; i++)	//too much brightness at 255
-		{
-			PWM1_SetRatio8(i);
-			delayMs(speed);
-		}
-
-		for(i = maxBright-1; i >= 0; i--)	//too much brightness at 255
-		{
-			PWM1_SetRatio8(i);
-			delayMs(speed);
-		}
+//		for(i = 0; i < maxBright; i++)	//too much brightness at 255
+//		{
+//			PWM1_SetRatio8(i);
+//			delayMs(speed);
+//		}
+//
+//		for(i = maxBright-1; i >= 0; i--)	//too much brightness at 255
+//		{
+//			PWM1_SetRatio8(i);
+//			delayMs(speed);
+//		}
 	}
 
 	/*** Don't write any code pass this line, or it will be deleted during code generation. ***/
