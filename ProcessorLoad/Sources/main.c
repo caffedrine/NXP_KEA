@@ -3,6 +3,7 @@
 // Drivers
 #include "SYSTICK/SysTick.h"
 #include "GPIO/GPIO.h"
+#include "CLK/CLK.h"
 
 #define CLK_FREQ_HZ	16000000
 

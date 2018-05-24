@@ -18,7 +18,7 @@ void Clk_Init();
 //	 | |_| | |___|  _|  | || |\  || |  | |  | | |_| | |\  |___) |
 //	 |____/|_____|_|   |___|_| \_|___| |_| |___\___/|_| \_|____/
 
-void Clk_Init()
+void CLK_Init()
 {
 	ICS_C1|=ICS_C1_IRCLKEN_MASK; 			/* Enable the internal reference clock*/
 #ifdef SKEAZ1284

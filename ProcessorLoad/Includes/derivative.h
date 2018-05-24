@@ -2,7 +2,7 @@
 
 // This trick with comments really works - remove/add just one '/' at the beginning to swap headers
 
-//*
+/*
 #define SKEAZ1284
 //*/#define SKEAZN642
 

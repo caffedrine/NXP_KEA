@@ -3,6 +3,7 @@
 // Drivers
 #include "SYSTICK/SysTick.h"
 #include "GPIO/GPIO.h"
+#include "CLK/CLK.h"
 
 #define LED_BIT		PTC0
 #define LED_PORT	PTC

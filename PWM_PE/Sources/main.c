@@ -49,7 +49,6 @@ int main(void)
 	PE_low_level_init();
 	/*** End of Processor Expert internal initialization.                    ***/
 
-	PWM1_Enable();
 	PWM1_SetRatio16(60000);
 
 	for ( ;; )
