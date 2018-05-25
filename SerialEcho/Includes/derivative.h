@@ -1,7 +1,8 @@
 // Device specific configurations
 
+/*
 #define SKEAZ1284
-//#define SKEAZN642
+//*/#define SKEAZN642
 
 #ifdef SKEAZ1284
 #include "SKEAZ1284.h"
