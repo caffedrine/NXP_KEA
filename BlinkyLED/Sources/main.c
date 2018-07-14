@@ -1,7 +1,15 @@
 #include "derivative.h"
 #include "GPIO/GPIO.h"
 
-static int i = 0;
+#ifdef SKEAZ1284
+	#define LED_BIT		PTH1
+	#define LED_PORT  	PTH
+#endif
+
+#ifdef SKEAZN642
+	#define LED_BIT		PTC0
+	#define LED_PORT  	PTC
+#endif
 
 void delay(void)
 {
@@ -13,9 +21,6 @@ void delay(void)
 
 void blink()
 {
-	#define LED_BIT		PTC0
-	#define LED_PORT  	PTC
-
 	/* Led direction */
 	LED_PORT->PDDR |= 1 << LED_BIT;
 

@@ -6,8 +6,8 @@
 **                          GNU C Compiler - CodeSourcery Sourcery G++
 **                          IAR ANSI C/C++ Compiler for ARM
 **
-**     Reference manual:    MKE02Z64M20SF0RM, Rev.2.1, Apr-23 2013; KEAZ64RM, Rev.1, Sep 2013
-**     Version:             rev. 1.2, 2014-05-28
+**     Reference manual:    MKE06P80M48SF0RM, Rev. 1, Dec 2013
+**     Version:             rev. 1.3, 2014-05-28
 **     Build:               b140528
 **
 **     Abstract:
@@ -47,23 +47,30 @@
 **     mail:                 support@freescale.com
 **
 **     Revisions:
-**     - rev. 1.0 (2013-10-09)
+**     - rev. 1.0 (2013-07-30)
 **         Initial version.
 **     - rev. 1.1 (2013-10-29)
 **         Definition of BITBAND macros updated to support peripherals with 32-bit acces disabled.
-**     - rev. 1.2 (2014-05-28)
-**         The declaration of clock configurations has been moved to separate header file system_SKEAZN642.h
+**     - rev. 1.2 (2014-01-10)
+**         CAN module: corrected address of TSIDR1 register.
+**         CAN module: corrected name of MSCAN_TDLR bit DLC to TDLC.
+**         FTM0 module: added access macro for EXTTRIG register.
+**         NVIC module: registers access macros improved.
+**         SCB module: unused bits removed, mask, shift macros improved.
+**         Defines of interrupt vectors aligned to RM.
+**     - rev. 1.3 (2014-05-28)
+**         The declaration of clock configurations has been moved to separate header file system_MKE02Z2.h
 **         Module access macro {module}_BASES replaced by {module}_BASE_PTRS.
-**         Added register accessor macros.
+**         I2C module: renamed status register S to S1 to match RM naming.
 **
 ** ###################################################################
 */
 
 /*!
- * @file SKEAZN642
- * @version 1.2
+ * @file SKEAZ1284
+ * @version 1.3
  * @date 2014-05-28
- * @brief Device specific configuration file for SKEAZN642 (implementation file)
+ * @brief Device specific configuration file for SKEAZ1284 (implementation file)
  *
  * Provides a system configuration function and a global variable that contains
  * the system frequency. It configures the device and initializes the oscillator
@@ -71,7 +78,7 @@
  */
 
 #include <stdint.h>
-#include "SKEAZN642.h"
+#include "SKEAZ1284.h"
 
 
 
@@ -102,10 +109,10 @@ void SystemInit (void) {
 #if (CLOCK_SETUP == 0)
   /* ICS->C2: BDIV|=1 */
   ICS->C2 |= ICS_C2_BDIV(0x01);         /* Update system prescalers */
-  /* SIM->BUSDIV: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,BUSDIV=0 */
-  SIM->BUSDIV = 0x00U;                  /* Update system prescalers */
+  /* SIM->CLKDIV: ??=0,??=0,OUTDIV1=0,??=0,??=0,??=0,OUTDIV2=0,??=0,??=0,??=0,OUTDIV3=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+  SIM->CLKDIV = SIM_CLKDIV_OUTDIV1(0x00); /* Update system prescalers */
   /* Switch to FEI Mode */
-  /* ICS->C1: CLKS=0,RDIV=0,IREFS=1,IRCLKEN=1,IREFSTEN=0 */
+  /* ICS_C1: CLKS=0,RDIV=0,IREFS=1,IRCLKEN=1,IREFSTEN=0 */
   ICS->C1 = ICS_C1_CLKS(0x00) |
            ICS_C1_RDIV(0x00) |
            ICS_C1_IREFS_MASK |
@@ -124,18 +131,11 @@ void SystemInit (void) {
   while((ICS->S & 0x0CU) != 0x00U) {    /* Wait until output of the FLL is selected */
   }
 #elif (CLOCK_SETUP == 1)
-  /* ICS->C2: BDIV|=1 */
-  ICS->C2 |= ICS_C2_BDIV(0x01);         /* Update system prescalers */
-  /* SIM->BUSDIV: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,BUSDIV=0 */
-  SIM->BUSDIV = 0x00U;                  /* Update system prescalers */
+  /* SIM->CLKDIV: ??=0,??=0,OUTDIV1=0,??=0,??=0,??=0,OUTDIV2=1,??=0,??=0,??=0,OUTDIV3=1,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+  SIM->CLKDIV = (SIM_CLKDIV_OUTDIV2_MASK | SIM_CLKDIV_OUTDIV3_MASK); /* Update system prescalers */
   /* Switch to FEE Mode */
-  /* ICS->C2: BDIV=1,LP=0 */
-  ICS->C2 = (uint8_t)((ICS->C2 & (uint8_t)~(uint8_t)(
-            ICS_C2_BDIV(0x06) |
-            ICS_C2_LP_MASK
-           )) | (uint8_t)(
-            ICS_C2_BDIV(0x01)
-           ));
+  /* ICS->C2: BDIV=0,LP=0 */
+  ICS->C2 &= (uint8_t)~(uint8_t)((ICS_C2_BDIV(0x07) | ICS_C2_LP_MASK));
   /* OSC->CR: OSCEN=1,??=0,OSCSTEN=0,OSCOS=1,??=0,RANGE=1,HGO=0,OSCINIT=0 */
   OSC->CR = (OSC_CR_OSCEN_MASK | OSC_CR_OSCOS_MASK | OSC_CR_RANGE_MASK);
   /* ICS->C1: CLKS=0,RDIV=3,IREFS=0,IRCLKEN=1,IREFSTEN=0 */
@@ -145,8 +145,8 @@ void SystemInit (void) {
   while((ICS->S & 0x0CU) != 0x00U) {    /* Wait until output of the FLL is selected */
   }
 #elif (CLOCK_SETUP == 2)
-  /* SIM->BUSDIV: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,BUSDIV=0 */
-  SIM->BUSDIV = 0x00U;                  /* Update system prescalers */
+  /* SIM->CLKDIV: ??=0,??=0,OUTDIV1=0,??=0,??=0,??=0,OUTDIV2=0,??=0,??=0,??=0,OUTDIV3=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+  SIM->CLKDIV = SIM_CLKDIV_OUTDIV1(0x00); /* Update system prescalers */
   /* Switch to FBI Mode */
   /* ICS->C1: CLKS=1,RDIV=0,IREFS=1,IRCLKEN=1,IREFSTEN=0 */
   ICS->C1 = ICS_C1_CLKS(0x01) |
@@ -171,8 +171,8 @@ void SystemInit (void) {
   while((ICS->S & ICS_S_IREFST_MASK) == 0x00U) { /* Check that the source of the FLL reference clock is the internal reference clock. */
   }
 #elif (CLOCK_SETUP == 3)
-  /* SIM->BUSDIV: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,BUSDIV=0 */
-  SIM->BUSDIV = 0x00U;                  /* Update system prescalers */
+  /* SIM->CLKDIV: ??=0,??=0,OUTDIV1=0,??=0,??=0,??=0,OUTDIV2=0,??=0,??=0,??=0,OUTDIV3=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */
+  SIM->CLKDIV = SIM_CLKDIV_OUTDIV1(0x00); /* Update system prescalers */
   /* Switch to FBE Mode */
   /* ICS->C2: BDIV=0,LP=0 */
   ICS->C2 &= (uint8_t)~(uint8_t)((ICS_C2_BDIV(0x07) | ICS_C2_LP_MASK));
@@ -231,6 +231,6 @@ void SystemCoreClockUpdate (void) {
     return;
   }
   ICSOUTClock = ICSOUTClock >> ((ICS->C2 & ICS_C2_BDIV_MASK) >> ICS_C2_BDIV_SHIFT);
-  SystemCoreClock = (ICSOUTClock / (1u + ((SIM->BUSDIV & SIM_BUSDIV_BUSDIV_MASK) >> SIM_BUSDIV_BUSDIV_SHIFT)));
+  SystemCoreClock = (ICSOUTClock / (1u + ((SIM->CLKDIV & SIM_CLKDIV_OUTDIV1_MASK) >> SIM_CLKDIV_OUTDIV1_SHIFT)));
 
 }
