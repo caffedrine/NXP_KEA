@@ -13,18 +13,20 @@ void delay(void)
 
 void blink()
 {
-#define LED	PTC0
+	#define LED_BIT		PTC0
+	#define LED_PORT  	PTC
 
-	GPIOB_PDDR |= 1 << LED;
+	/* Led direction */
+	LED_PORT->PDDR |= 1 << LED_BIT;
 
 	for ( ;; )
 	{
-		// OR GPIOB_GTOR, to toggle
-
-		GPIOB_PSOR |= 1 << LED;
+		/* Set led */
+		LED_PORT->PSOR |= 1 << LED_BIT;
 		delay(); /* Generate delay */
 
-		GPIOB_PCOR |= 1 << LED;
+		/* Clear led */
+		LED_PORT->PCOR |= 1 << LED_BIT;
 		delay(); /* Generate delay */
 	}
 }
@@ -38,6 +40,4 @@ int main(void)
 	/* Never leave main */
 	return 0;
 }
-////////////////////////////////////////////////////////////////////////////////
-// EOF
-////////////////////////////////////////////////////////////////////////////////
+

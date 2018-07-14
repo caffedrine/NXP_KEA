@@ -51,7 +51,9 @@
  * Ports mapped to GPIOA,GPIOB and GPIOC registers
  * 
  **********************************************************/
-#define PTA     GPIOA_BASE_PTR
+#ifndef PTA
+	#define PTA     GPIOA_BASE_PTR
+#endif
 #define PTB     GPIOA_BASE_PTR
 #define PTC     GPIOA_BASE_PTR
 #define PTD     GPIOA_BASE_PTR
