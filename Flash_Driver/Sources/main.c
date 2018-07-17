@@ -35,16 +35,34 @@ int main(void)
 	uint8_t *payload = "Hello world!";
 	uint16_t size = 12;
 
-	printf("\nWriting '%s' (%d bytes) at address 0x%.8X...", payload, size, start_write_address);
+	/* Sector must be cleared before write */
+//	printf("Erasing sector 0x%.8X before write...", start_write_address);
+//	uint32_t flash_erase_sector_result = FLASH_EraseSector(start_write_address);
+//	if (flash_erase_sector_result != FLASH_ERR_SUCCESS)
+//	{
+//		printf("failed\n");
+//		printf("Fail code: %d\n", flash_erase_sector_result);
+//		while (1)
+//			;
+//	}
+//	printf("done\n");
+
+
+
+
+	printf("Writing '%s' (%d bytes) at address 0x%.8X...", payload, size, start_write_address);
 	uint16_t flash_write_result = FLASH_Program(start_write_address, payload, size);
 
 	if (flash_write_result != FLASH_ERR_SUCCESS)
 	{
 		printf("failed\n");
 		printf("Fail code: %d\n", flash_write_result);
-		while(1);
+		while (1)
+			;
 	}
 	printf("done\n");
+
+	fflush(stdout);
 
 	for (;;)
 	{
