@@ -22,6 +22,7 @@ int main(void)
 	{
 		printf("failed\n");
 		printf("Fail code: %d\n", flash_init_result);
+		fflush(stdout);
 		while (1)
 			;
 	}
@@ -33,19 +34,20 @@ int main(void)
 	/* Begin test */
 	uint32_t start_write_address = 0x2000;
 	uint8_t *payload = "Hello world!";
-	uint16_t size = 12;
+	uint16_t size = 16;
 
 	/* Sector must be cleared before write */
-//	printf("Erasing sector 0x%.8X before write...", start_write_address);
-//	uint32_t flash_erase_sector_result = FLASH_EraseSector(start_write_address);
-//	if (flash_erase_sector_result != FLASH_ERR_SUCCESS)
-//	{
-//		printf("failed\n");
-//		printf("Fail code: %d\n", flash_erase_sector_result);
-//		while (1)
-//			;
-//	}
-//	printf("done\n");
+	printf("Erasing sector 0x%.8X before write...", start_write_address);
+	uint32_t flash_erase_sector_result = FLASH_EraseVerifySection(start_write_address, size);
+	if (flash_erase_sector_result != FLASH_ERR_SUCCESS)
+	{
+		printf("failed\n");
+		printf("Fail code: %d\n", flash_erase_sector_result);
+		fflush(stdout);
+		while (1)
+			;
+	}
+	printf("done\n");
 
 
 
@@ -57,6 +59,8 @@ int main(void)
 	{
 		printf("failed\n");
 		printf("Fail code: %d\n", flash_write_result);
+		fflush(stdout);
+
 		while (1)
 			;
 	}

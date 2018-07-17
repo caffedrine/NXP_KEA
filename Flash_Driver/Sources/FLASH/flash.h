@@ -374,6 +374,7 @@ __STATIC_INLINE void FLASH_IntDisable( void )
 /******************************************************************************
 * Global functions
 ******************************************************************************/
+uint16_t FLASH_Erase(uint32_t start, uint32_t length);
 
 
 uint16_t FLASH_Program1LongWord(uint32_t wNVMTargetAddress, uint32_t dwData);

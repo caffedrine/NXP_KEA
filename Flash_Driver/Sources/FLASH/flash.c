@@ -405,7 +405,10 @@ uint16_t FLASH_Program2LongWords(uint32_t u32NVMTargetAddress, uint32_t u32DwDat
 	return (u16Err);
 }
 
+uint16_t FLASH_Erase(uint32_t start, uint32_t length)
+{
 
+}
 
 /*****************************************************************************//*!
   *
