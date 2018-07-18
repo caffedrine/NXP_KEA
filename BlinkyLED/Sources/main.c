@@ -2,8 +2,8 @@
 #include "GPIO/GPIO.h"
 
 #ifdef SKEAZ1284
-	#define LED_BIT		PTH1
-	#define LED_PORT  	PTH
+	#define LED_BIT		PTE7
+	#define LED_PORT  	PTE
 #endif
 
 #ifdef SKEAZN642

@@ -3,8 +3,8 @@
 /* Entry Point */
 ENTRY(Reset_Handler)
 
-HEAP_SIZE  = DEFINED(__heap_size__)  ? __heap_size__  : 0x00000100;
-STACK_SIZE = DEFINED(__stack_size__) ? __stack_size__ : 0x00000100;
+HEAP_SIZE  = DEFINED(__heap_size__)  ? __heap_size__  : 0x00000150;
+STACK_SIZE = DEFINED(__stack_size__) ? __stack_size__ : 0x00000150;
 
 /* Specify the memory areas */
 MEMORY
