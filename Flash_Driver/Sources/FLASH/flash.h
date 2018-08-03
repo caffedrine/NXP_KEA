@@ -285,7 +285,7 @@ extern "C" {
 * @{
 *******************************************************************************/
 #define FLASH_ERR_BASE				0x3000										/* FTMRE error base */
-#define FLASH_ERR_SUCCESS			0											/* FTMRE sucess */
+#define FLASH_ERR_SUCCESS			0											/* FTMRE success */
 #define FLASH_ERR_INVALID_PARAM		(FLASH_ERR_BASE+1)							/* Invalid parameter error code */
 #define EEPROM_ERR_SINGLE_BIT_FAULT	(FLASH_ERR_BASE+2)							/* EEPROM single bit fault error code */
 #define EEPROM_ERR_DOUBLE_BIT_FAULT	(FLASH_ERR_BASE+4)							/* EEPROM double bits fault error code */
@@ -362,6 +362,18 @@ __STATIC_INLINE void FLASH_IntDisable( void )
 	FTMRE_FCNFG &= ~FTMRE_FCNFG_CCIE_MASK;
 }
 
+
+/* Align bits down */
+__STATIC_INLINE uint32_t align_down(uint32_t data, uint32_t base)
+{
+	return (data & ~(base - 1));
+}
+
+/* align bits up */
+__STATIC_INLINE uint32_t align_up(uint32_t data, uint32_t base)
+{
+	return align_down( data + base - 1, base );
+}
 /******************************************************************************
 * Types
 ******************************************************************************/
@@ -374,9 +386,6 @@ __STATIC_INLINE void FLASH_IntDisable( void )
 /******************************************************************************
 * Global functions
 ******************************************************************************/
-uint16_t FLASH_Erase(uint32_t start, uint32_t length);
-
-
 uint16_t FLASH_Program1LongWord(uint32_t wNVMTargetAddress, uint32_t dwData);
 uint16_t FLASH_Program2LongWords(uint32_t wNVMTargetAddress, uint32_t dwData0, uint32_t dwData1);
 uint16_t FLASH_ProgramOnce(uint8_t bPhraseIndex, uint8_t *pData8Bytes);

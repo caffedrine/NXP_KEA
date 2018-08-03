@@ -74,8 +74,8 @@
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.scriptfile.129019109" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.scriptfile" valueType="stringList">
 									<listOptionValue builtIn="false" value="&quot;SKEAZ64xxx4_flash.ld&quot;"/>
 								</option>
-								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.useprintffloat.416189256" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.useprintffloat" value="true" valueType="boolean"/>
-								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.usescanffloat.1707725536" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.usescanffloat" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.useprintffloat.416189256" name="Use float with nano printf (-u _printf_float)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.useprintffloat" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.usescanffloat.1707725536" name="Use float with nano scanf (-u _scanf_float)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.usescanffloat" value="true" valueType="boolean"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.input.1369031435" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -98,7 +98,7 @@
 					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1703140360.2064614137.Includes/core_cm7.h" name="core_cm7.h" rcbsApplicability="disable" resourcePath="Includes/core_cm7.h" toolsToInvoke=""/>
 					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1703140360.2064614137.Includes/core_cmSimd.h" name="core_cmSimd.h" rcbsApplicability="disable" resourcePath="Includes/core_cmSimd.h" toolsToInvoke=""/>
 					<sourceEntries>
-						<entry excluding="Project_Settings/SKEAZN642|Includes/core_cmSimd.h|Includes/core_cm7.h" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Includes/core_cmSimd.h|Project_Settings/SKEAZN642|Includes/core_cm7.h" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -142,7 +142,7 @@
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1981353767" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" value="true" valueType="boolean"/>
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.949134191" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" value="true" valueType="boolean"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.1200057545" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/Flash_Driver}/Debug" id="ilg.gnuarmeclipse.managedbuild.cross.builder.1282950978" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+							<builder buildPath="${workspace_loc:/Flash_Driver}/Debug" id="ilg.gnuarmeclipse.managedbuild.cross.builder.1282950978" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.2066229210" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.120065627" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1812618251" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
@@ -199,7 +199,7 @@
 					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1703140360.1546960646.Includes/core_cm7.h" name="core_cm7.h" rcbsApplicability="disable" resourcePath="Includes/core_cm7.h" toolsToInvoke=""/>
 					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1703140360.1546960646.Includes/core_cmSimd.h" name="core_cmSimd.h" rcbsApplicability="disable" resourcePath="Includes/core_cmSimd.h" toolsToInvoke=""/>
 					<sourceEntries>
-						<entry excluding="Project_Settings/SKEAZ1284|Includes/core_cmSimd.h|Includes/core_cm7.h" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Includes/core_cmSimd.h|Includes/core_cm7.h|Project_Settings/SKEAZ1284" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -220,6 +220,7 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="SKEAZN642"/>
 		<configuration configurationName="Debug">
 			<resource resourceType="PROJECT" workspacePath="/Flash_Driver"/>
 		</configuration>
