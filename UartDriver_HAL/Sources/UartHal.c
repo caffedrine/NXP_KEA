@@ -120,7 +120,7 @@ void Uart_Init(UART_Type *pUART, UInt32 u32SysClk, UInt32 u32Baud)
 	pUART->BDH = u8Temp | UART_BDH_SBR( u16Sbr >> 8 );		//0
 
 	// How to calculate baudrate: https://community.nxp.com/thread/387950
-	pUART->BDL = 128;		//(uint8_t)(u16Sbr & UART_BDL_SBR_MASK);	//128 (9600 baud)
+	pUART->BDL = (uint8_t)(u16Sbr & UART_BDL_SBR_MASK);	//128 (9600 baud)
 
 	/* Enable receiver */
 	pUART->C2 |= UART_C2_RE_MASK;
