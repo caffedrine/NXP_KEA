@@ -7,7 +7,7 @@
 **     Version     : Component 01.188, Driver 01.12, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-05-15, 17:18, # CodeGen: 1
+**     Date/Time   : 2018-08-10, 17:23, # CodeGen: 4
 **     Abstract    :
 **         This component "Serial_LDD" implements an asynchronous serial
 **         communication. The component supports different settings of
@@ -17,7 +17,7 @@
 **         The component requires one on-chip asynchronous serial communication channel.
 **     Settings    :
 **          Component name                                 : IO1
-**          Device                                         : UART2
+**          Device                                         : UART0
 **          Interrupt service/event                        : Disabled
 **          Settings                                       : 
 **            Data width                                   : 8 bits
@@ -32,10 +32,10 @@
 **            Receiver input                               : Not inverted
 **            Break generation length                      : 10/11 bits
 **            Receiver                                     : Enabled
-**              RxD                                        : PTD6/KBI1_P6/UART2_RX
+**              RxD                                        : PTB0/KBI0_P4/UART0_RX/ADC0_SE4
 **              RxD pin signal                             : 
 **            Transmitter                                  : Enabled
-**              TxD                                        : PTD7/KBI1_P7/UART2_TX
+**              TxD                                        : PTB1/KBI0_P5/UART0_TX/ADC0_SE5
 **              TxD pin signal                             : 
 **            Flow control                                 : None
 **          Initialization                                 : 
@@ -162,20 +162,26 @@ LDD_TDeviceData* IO1_Init(LDD_TUserData *UserDataPtr)
   DeviceDataPrv->OutDataNumReq = 0x00U; /* Clear the counter of characters to be send by SendBlock() */
   DeviceDataPrv->OutDataPtr = NULL;    /* Clear the buffer pointer for data to be transmitted */
   DeviceDataPrv->UserDataPtr = UserDataPtr; /* Store the RTOS device structure */
-  /* SIM_SCGC: UART2=1 */
-  SIM_SCGC |= SIM_SCGC_UART2_MASK;
-  UART_PDD_EnableTransmitter(UART2_BASE_PTR, PDD_DISABLE); /* Disable transmitter. */
-  UART_PDD_EnableReceiver(UART2_BASE_PTR, PDD_DISABLE); /* Disable receiver. */
+  /* SIM_SCGC: UART0=1 */
+  SIM_SCGC |= SIM_SCGC_UART0_MASK;
+  /* SIM_PINSEL: UART0PS=0 */
+  SIM_PINSEL &= (uint32_t)~(uint32_t)(SIM_PINSEL_UART0PS_MASK);
+  /* SIM_SOPT: RXDFE=0 */
+  SIM_SOPT &= (uint32_t)~(uint32_t)(SIM_SOPT_RXDFE_MASK);
+  /* SIM_PINSEL: UART0PS=0 */
+  SIM_PINSEL &= (uint32_t)~(uint32_t)(SIM_PINSEL_UART0PS_MASK);
+  UART_PDD_EnableTransmitter(UART0_BASE_PTR, PDD_DISABLE); /* Disable transmitter. */
+  UART_PDD_EnableReceiver(UART0_BASE_PTR, PDD_DISABLE); /* Disable receiver. */
   DeviceDataPrv->SerFlag = 0x00U;      /* Reset flags */
-  /* UART2_C1: LOOPS=0,UARTSWAI=0,RSRC=0,M=0,WAKE=0,ILT=0,PE=0,PT=0 */
-  UART2_C1 = 0x00U;                    /*  Set the C1 register */
-  /* UART2_C3: R8=0,T8=0,TXDIR=0,TXINV=0,ORIE=0,NEIE=0,FEIE=0,PEIE=0 */
-  UART2_C3 = 0x00U;                    /*  Set the C3 register */
-  /* UART2_S2: LBKDIF=0,RXEDGIF=0,??=0,RXINV=0,RWUID=0,BRK13=0,LBKDE=0,RAF=0 */
-  UART2_S2 = 0x00U;                    /*  Set the S2 register */
-  UART_PDD_SetBaudRate(UART2_BASE_PTR, 104U); /* Set the baud rate register. */
-  UART_PDD_EnableTransmitter(UART2_BASE_PTR, PDD_ENABLE); /* Enable transmitter */
-  UART_PDD_EnableReceiver(UART2_BASE_PTR, PDD_ENABLE); /* Enable receiver */
+  /* UART0_C1: LOOPS=0,UARTSWAI=0,RSRC=0,M=0,WAKE=0,ILT=0,PE=0,PT=0 */
+  UART0_C1 = 0x00U;                    /*  Set the C1 register */
+  /* UART0_C3: R8=0,T8=0,TXDIR=0,TXINV=0,ORIE=0,NEIE=0,FEIE=0,PEIE=0 */
+  UART0_C3 = 0x00U;                    /*  Set the C3 register */
+  /* UART0_S2: LBKDIF=0,RXEDGIF=0,??=0,RXINV=0,RWUID=0,BRK13=0,LBKDE=0,RAF=0 */
+  UART0_S2 = 0x00U;                    /*  Set the S2 register */
+  UART_PDD_SetBaudRate(UART0_BASE_PTR, 104U); /* Set the baud rate register. */
+  UART_PDD_EnableTransmitter(UART0_BASE_PTR, PDD_ENABLE); /* Enable transmitter */
+  UART_PDD_EnableReceiver(UART0_BASE_PTR, PDD_ENABLE); /* Enable receiver */
   /* Registration of the device structure */
   PE_LDD_RegisterDeviceStructure(PE_LDD_COMPONENT_IO1_ID,DeviceDataPrv);
   return ((LDD_TDeviceData *)DeviceDataPrv);
@@ -195,7 +201,7 @@ static void InterruptRx(IO1_TDeviceDataPtr DeviceDataPrv)
 {
   register uint16_t Data;              /* Temporary variable for data */
 
-  Data = (uint16_t)UART_PDD_GetChar8(UART2_BASE_PTR); /* Read an 8-bit character from the receiver */
+  Data = (uint16_t)UART_PDD_GetChar8(UART0_BASE_PTR); /* Read an 8-bit character from the receiver */
   if (DeviceDataPrv->InpDataNumReq != 0x00U) { /* Is the receive block operation pending? */
     *(DeviceDataPrv->InpDataPtr++) = (uint8_t)Data; /* Put an 8-bit character to the receive buffer */
     DeviceDataPrv->InpRecvDataNum++;   /* Increment received char. counter */
@@ -219,7 +225,7 @@ static void InterruptTx(IO1_TDeviceDataPtr DeviceDataPrv)
 {
 
   if (DeviceDataPrv->OutSentDataNum < DeviceDataPrv->OutDataNumReq) { /* Is number of sent characters less than the number of requested incoming characters? */
-    UART_PDD_PutChar8(UART2_BASE_PTR, *(DeviceDataPrv->OutDataPtr++)); /* Put a 8-bit character to the transmit register */
+    UART_PDD_PutChar8(UART0_BASE_PTR, *(DeviceDataPrv->OutDataPtr++)); /* Put a 8-bit character to the transmit register */
     DeviceDataPrv->OutSentDataNum++;   /* Increment the counter of sent characters. */
     if (DeviceDataPrv->OutSentDataNum == DeviceDataPrv->OutDataNumReq) {
       DeviceDataPrv->OutDataNumReq = 0x00U; /* Clear the counter of characters to be send by SendBlock() */
@@ -250,10 +256,10 @@ static void InterruptTx(IO1_TDeviceDataPtr DeviceDataPrv)
 void IO1_Main(LDD_TDeviceData *DeviceDataPtr)
 {
   IO1_TDeviceDataPtr DeviceDataPrv = (IO1_TDeviceDataPtr)DeviceDataPtr;
-  register uint32_t StatReg = UART_PDD_ReadInterruptStatusReg(UART2_BASE_PTR); /* Read status register */
+  register uint32_t StatReg = UART_PDD_ReadInterruptStatusReg(UART0_BASE_PTR); /* Read status register */
 
   if (StatReg & (UART_S1_NF_MASK | UART_S1_OR_MASK | UART_S1_FE_MASK | UART_S1_PF_MASK)) { /* Is any error flag set? */
-    (void)UART_PDD_GetChar8(UART2_BASE_PTR); /* Dummy read 8-bit character from receiver */
+    (void)UART_PDD_GetChar8(UART0_BASE_PTR); /* Dummy read 8-bit character from receiver */
     StatReg &= (uint32_t)(~(uint32_t)UART_S1_RDRF_MASK); /* Clear the receive data flag to discard the errorneous data */
   }
   if (StatReg & UART_S1_RDRF_MASK) {   /* Is the receiver's interrupt flag set? */

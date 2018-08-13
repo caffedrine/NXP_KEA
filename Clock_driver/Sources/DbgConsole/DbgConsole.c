@@ -107,43 +107,20 @@ int _write(int fd, const void *buf, size_t count)
 //	 \___/_/   \_\_| \_\|_|
 //
 
-void UART_Init(UART_Type *pUART, uint32_t BusClock, uint32_t u32Baud)
+void UART_Init(UART_Type *pUART, uint32_t PbClk, uint32_t u32Baud)
 {
-    uint16_t u16Sbr;
-    uint8_t u8Temp;
+	uint16_t u16Sbr;
+	uint8_t u8Temp;
 
 	/* Enable the clock to the selected UART */
-    if (pUART == UART0)
-	{
-		SIM->SCGC |= SIM_SCGC_UART0_MASK;
-	}
-	else if (pUART == UART1)
-	{
-        SIM->SCGC |= SIM_SCGC_UART1_MASK;
-	}
-    else
-	{
-        SIM->SCGC |= SIM_SCGC_UART2_MASK;
-	}
-    /* Make sure that the transmitter and receiver are disabled while we
-     * change settings.
-     */
-    pUART->C2 &= ~(UART_C2_TE_MASK | UART_C2_RE_MASK );
+	(pUART == UART0) ? (SIM->SCGC |= SIM_SCGC_UART0_MASK) : ((pUART == UART1) ? (SIM->SCGC |= SIM_SCGC_UART1_MASK) : (SIM->SCGC |= SIM_SCGC_UART2_MASK));
 
-    /* Configure the UART for 8-bit mode, no parity */
-    pUART->C1 = 0;
-
-    /* Calculate baud settings */
-    u16Sbr = (((BusClock)>>4) + (u32Baud>>1))/u32Baud;
-
-    /* Save off the current value of the UARTx_BDH except for the SBR field */
-    u8Temp = pUART->BDH & ~(UART_BDH_SBR_MASK);
-
-    pUART->BDH = u8Temp |  UART_BDH_SBR(u16Sbr >> 8);
-    pUART->BDL = (uint8_t)(u16Sbr & UART_BDL_SBR_MASK);
-
-    /* Enable receiver and transmitter */
-    pUART->C2 |= (UART_C2_TE_MASK | UART_C2_RE_MASK );
+	pUART->BDH = 0; /* One stop bit*/
+	pUART->BDL = 128; /* Baud rate at 9600*/
+	pUART->C1 = 0; /* No parity enable, 8 bit format*/
+	pUART->C2 |= UART_C2_TE_MASK; /* Enable Transmitter*/
+	pUART->C2 |= UART_C2_RE_MASK; /* Enable Receiver*/
+	pUART->C2 |= UART_C2_RIE_MASK; /* Enable Receiver interrupts*/
 }
 
 void UART_SendChar(UART_Type *pUART, uint8_t u8Char)

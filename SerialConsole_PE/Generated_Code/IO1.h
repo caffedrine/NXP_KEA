@@ -7,7 +7,7 @@
 **     Version     : Component 01.188, Driver 01.12, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-05-15, 17:18, # CodeGen: 1
+**     Date/Time   : 2018-08-10, 17:23, # CodeGen: 4
 **     Abstract    :
 **         This component "Serial_LDD" implements an asynchronous serial
 **         communication. The component supports different settings of
@@ -17,7 +17,7 @@
 **         The component requires one on-chip asynchronous serial communication channel.
 **     Settings    :
 **          Component name                                 : IO1
-**          Device                                         : UART2
+**          Device                                         : UART0
 **          Interrupt service/event                        : Disabled
 **          Settings                                       : 
 **            Data width                                   : 8 bits
@@ -32,10 +32,10 @@
 **            Receiver input                               : Not inverted
 **            Break generation length                      : 10/11 bits
 **            Receiver                                     : Enabled
-**              RxD                                        : PTD6/KBI1_P6/UART2_RX
+**              RxD                                        : PTB0/KBI0_P4/UART0_RX/ADC0_SE4
 **              RxD pin signal                             : 
 **            Transmitter                                  : Enabled
-**              TxD                                        : PTD7/KBI1_P7/UART2_TX
+**              TxD                                        : PTB1/KBI0_P5/UART0_TX/ADC0_SE5
 **              TxD pin signal                             : 
 **            Flow control                                 : None
 **          Initialization                                 : 
@@ -121,7 +121,7 @@ extern "C" {
 
 
 /*! Peripheral base address of a device allocated by the component. This constant can be used directly in PDD macros. */
-#define IO1_PRPH_BASE_ADDRESS  0x4006C000U
+#define IO1_PRPH_BASE_ADDRESS  0x4006A000U
   
 /*! Device data structure pointer used when auto initialization property is enabled. This constant can be passed as a first parameter to all component's methods. */
 #define IO1_DeviceData  ((LDD_TDeviceData *)PE_LDD_GetDeviceStructure(PE_LDD_COMPONENT_IO1_ID))

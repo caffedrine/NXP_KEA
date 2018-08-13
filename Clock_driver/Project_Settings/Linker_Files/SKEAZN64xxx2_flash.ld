@@ -3,8 +3,8 @@
 /* Entry Point */
 ENTRY(Reset_Handler)
 
-HEAP_SIZE  = DEFINED(__heap_size__)  ? __heap_size__  : 0x00000400;
-STACK_SIZE = DEFINED(__stack_size__) ? __stack_size__ : 0x00000400;
+HEAP_SIZE  = DEFINED(__heap_size__)  ? __heap_size__  : 0x00000300;
+STACK_SIZE = DEFINED(__stack_size__) ? __stack_size__ : 0x00000300;
 
 /* Specify the memory areas */
 MEMORY
@@ -12,7 +12,7 @@ MEMORY
   m_interrupts          (RX)  : ORIGIN = 0x00000000, LENGTH = 0x00000100
   m_flash_config        (RX)  : ORIGIN = 0x00000400, LENGTH = 0x00000010
   m_text                (RX)  : ORIGIN = 0x00000410, LENGTH = 0x0000FBF0
-  m_data                (RW)  : ORIGIN = 0x1FFFF800, LENGTH = 0x00002000
+  m_data                (RW)  : ORIGIN = 0x1FFFFC00, LENGTH = 0x00001000
 }
 
 /* Define output sections */

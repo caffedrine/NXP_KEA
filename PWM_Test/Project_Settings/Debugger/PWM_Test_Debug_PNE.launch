@@ -2,7 +2,7 @@
 <launchConfiguration type="com.pemicro.debug.gdbjtag.pne.launchConfigurationType">
 <listAttribute key="com.pemicro.debug.gdbjtag.pne.ELVES"/>
 <intAttribute key="com.pemicro.debug.gdbjtag.pne.NUMBER_ELVES" value="0"/>
-<stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.DEVICE_NAME" value="NXP_KEx_KEAZN64M2"/>
+<stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.DEVICE_NAME" value="NXP_KEx_S9KEAZN64M4"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.GDB_IP" value="127.0.0.1"/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.GDB_OPTIONS" value=""/>
 <stringAttribute key="com.pemicro.debug.gdbjtag.pne.PE.GDB_PORT" value="7224"/>

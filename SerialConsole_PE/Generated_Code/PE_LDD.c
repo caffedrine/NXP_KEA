@@ -6,7 +6,7 @@
 **     Version     : Component 01.044, Driver 01.04, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-05-15, 17:18, # CodeGen: 1
+**     Date/Time   : 2018-08-10, 17:23, # CodeGen: 4
 **     Abstract    :
 **
 **     Settings    :
@@ -140,8 +140,8 @@ bool PE_PeripheralUsed(uint32_t PrphBaseAddress)
   bool result = FALSE;
 
   switch (PrphBaseAddress) {
-    /* Base address allocated by peripheral(s) UART2 */
-    case 0x4006C000UL:
+    /* Base address allocated by peripheral(s) UART0 */
+    case 0x4006A000UL:
       result = TRUE;
       break;
     default:

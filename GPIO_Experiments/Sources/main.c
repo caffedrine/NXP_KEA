@@ -34,8 +34,11 @@
 
 static int i = 0;
 
-#define LED_PIN 	PTC0
-#define LED_PORT	PTC
+#define LED_PIN 	PTH1
+#define LED_PORT	PTH
+
+#define POWER_AC_EXTERNAL_PORT	LED_PORT
+#define POWER_AC_EXTERNAL_BIT	LED_PIN
 
 #define BUTTON_PIN	PTD0
 #define BUTTON_PORT PTD
@@ -43,21 +46,46 @@ static int i = 0;
 int main(void)
 {
 	/* Write your code here */
-	CONFIG_PIN_AS_GPIO(LED_PORT, LED_PIN, OUTPUT);			// Led pin as output as there is a LED
-	CONFIG_PIN_AS_GPIO(BUTTON_PORT, BUTTON_PIN, INPUT);	// Button pin as input as it shall provide a digital value
+	CONFIG_PIN_AS_GPIO( LED_PORT, LED_PIN, OUTPUT );			// Led pin as output as there is a LED
+	CONFIG_PIN_AS_GPIO( BUTTON_PORT, BUTTON_PIN, INPUT );	// Button pin as input as it shall provide a digital value
 
-	ENABLE_INPUT(BUTTON_PORT, BUTTON_PIN);					// Enable input on button
+	ENABLE_INPUT( BUTTON_PORT, BUTTON_PIN );					// Enable input on button
 
 	/* This for loop should be replaced. By default this loop allows a single stepping. */
+
+	int powerState = 0;
 	for ( ;; )
 	{
 		// Read button value
-		bool input = READ_INPUT(BUTTON_PORT, BUTTON_PIN);
+//		bool input = READ_INPUT(BUTTON_PORT, BUTTON_PIN);
+//
+//		if(input == 1)
+//			OUTPUT_SET(LED_PORT, LED_PIN);
+//		else
+//			OUTPUT_CLEAR(LED_PORT, LED_PIN);
 
-		if(input == 1)
-			OUTPUT_SET(LED_PORT, LED_PIN);
+		if ( powerState == 0 )
+		{
+			OUTPUT_SET( POWER_AC_EXTERNAL_PORT, POWER_AC_EXTERNAL_BIT );
+			//setEnableExternalPowerSupply(POWER_ON);
+			powerState = 1;
+		}
 		else
-			OUTPUT_CLEAR(LED_PORT, LED_PIN);
+		{
+			OUTPUT_CLEAR( POWER_AC_EXTERNAL_PORT, POWER_AC_EXTERNAL_BIT );
+			//setEnableExternalPowerSupply(POWER_OFF);
+			powerState = 0;
+		}
+
+		/* Read pin state */
+		//power_state_t externalPowerState = getExternalPowerState();
+		CONFIG_PIN_AS_GPIO( POWER_AC_EXTERNAL_PORT, POWER_AC_EXTERNAL_BIT, INPUT );
+		ENABLE_INPUT( POWER_AC_EXTERNAL_PORT, POWER_AC_EXTERNAL_BIT );
+		int result = READ_INPUT( POWER_AC_EXTERNAL_PORT, POWER_AC_EXTERNAL_BIT );
+		CONFIG_PIN_AS_GPIO(  POWER_AC_EXTERNAL_PORT, POWER_AC_EXTERNAL_BIT, OUTPUT );
+
+		int breakpoint = 0;
+
 	}
 	/* Never leave main */
 	return 0;

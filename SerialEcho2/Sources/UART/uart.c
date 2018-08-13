@@ -83,7 +83,7 @@ void UART_Init(UART_Type *pUART, uint32_t u32SysClk, uint32_t u32Baud)
     u8Temp = pUART->BDH & ~(UART_BDH_SBR_MASK);
     
     pUART->BDH = u8Temp |  UART_BDH_SBR(u16Sbr >> 8);
-    pUART->BDL = 128;//(uint8_t)(u16Sbr & UART_BDL_SBR_MASK);
+    pUART->BDL = (uint8_t)(u16Sbr & UART_BDL_SBR_MASK);
 
     /* Enable receiver and transmitter */
     pUART->C2 |= (UART_C2_TE_MASK | UART_C2_RE_MASK );

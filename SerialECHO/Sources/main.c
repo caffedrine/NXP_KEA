@@ -32,7 +32,7 @@ int main(void)
 	/// UART2 Initialization
 	UART_Init();							/*Initialize Uart2 at 9600 bauds */
 	Uart_SetCallback( Uart_Interrupt ); 	/* Set the callback function that the UART driver will call when receiving a char */
-	NVIC_EnableIRQ( UART2_IRQn ); 			/* Enable UART2 interrupt */
+	NVIC_EnableIRQ( UART0_IRQn ); 			/* Enable UART2 interrupt */
 
 	// Send "WELCOME\r\n"
 	Uart_SendChar( 0x57 );	// W

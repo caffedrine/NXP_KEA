@@ -40,11 +40,11 @@ void PWM_Init(FTM_Type* pFTM, uint8_t ftmChannel, uint32_t clkFreqHz, uint32_t f
 
 int main(void)
 {
-     FTM_Type *pFTM = FTM2;
-     uint8_t ftmChannel = 0;
+     FTM_Type *pFTM = FTM0;
+     uint8_t ftmChannel = 1;
 
-     /* Select Pins corresponds to the PTC0 for output */
-     SIM_PINSEL |= SIM_PINSEL_FTM2PS0_MASK;
+     /* Select Pins corresponds to the for output */
+     SIM_PINSEL |= SIM_PINSEL_FTM0PS1_MASK;
 
      /* Init PWM driver */
      PWM_Init(pFTM, ftmChannel, DEFAULT_SYSTEM_CLOCK, 10000 /*Hz*/);
@@ -54,5 +54,7 @@ int main(void)
 
      while (1)
      {
+
+
      }
 }
