@@ -3,7 +3,7 @@
 #include "CLK/CLK.h"
 #include "UART/uart.h"
 
-#define UART_PORT	UART2
+#define UART_PORT	UART0
 #define SYSCLK		CLK_FREQUENCY_16_MHZ
 #define UART_BAUD	115200
 #define UART_PINS	PTD6_PTD7

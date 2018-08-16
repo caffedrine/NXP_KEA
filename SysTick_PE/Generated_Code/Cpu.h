@@ -8,7 +8,7 @@
 **     Repository  : Kinetis
 **     Datasheet   : MKE02Z64M20SF0RM, Rev.2.1, Apr-23 2013; KEAZ64RM, Rev.1, Sep 2013
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-05-09, 18:29, # CodeGen: 0
+**     Date/Time   : 2018-08-16, 10:26, # CodeGen: 6
 **     Abstract    :
 **
 **     Settings    :
@@ -92,6 +92,7 @@ extern "C" {
 #define CPU_CORE_CLK_HZ_CLOCK_CONFIG0   16000000U /* Value of the core/system clock frequency in the clock configuration 0 in Hz. */
 
 
+#define CPU_XTAL_CLK_HZ                 16000000U /* Value of the external crystal or oscillator clock frequency in Hz */
 #define CPU_INT_SLOW_CLK_HZ             31250U /* Value of the slow internal oscillator clock frequency in Hz  */
 
 #define CPU_FAMILY_Kinetis             /* Specification of the core type of the selected cpu */
@@ -108,7 +109,7 @@ extern "C" {
 #define CPU_USB_CLK_HZ_CONFIG_0         0UL /* USB clock frequency in clock configuration 0 */
 #define CPU_PLL_FLL_CLK_HZ_CONFIG_0     32000000UL /* PLL/FLL clock frequency in clock configuration 0 */
 #define CPU_MCGIR_CLK_HZ_CONFIG_0       31250UL /* MCG internal reference clock frequency in clock configuration 0 */
-#define CPU_OSCER_CLK_HZ_CONFIG_0       0UL /* System OSC external reference clock frequency in clock configuration 0 */
+#define CPU_OSCER_CLK_HZ_CONFIG_0       16000000UL /* System OSC external reference clock frequency in clock configuration 0 */
 #define CPU_ERCLK32K_CLK_HZ_CONFIG_0    0UL /* External reference clock 32k frequency in clock configuration 0 */
 #define CPU_MCGFF_CLK_HZ_CONFIG_0       31250UL /* MCG fixed frequency clock */
 

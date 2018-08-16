@@ -8,7 +8,7 @@
 **     Repository  : Kinetis
 **     Datasheet   : MKE02Z64M20SF0RM, Rev.2.1, Apr-23 2013; KEAZ64RM, Rev.1, Sep 2013
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-05-09, 18:32, # CodeGen: 1
+**     Date/Time   : 2018-08-16, 10:26, # CodeGen: 6
 **     Abstract    :
 **
 **     Settings    :
@@ -20,7 +20,16 @@
 **            Internal oscillator                          : 
 **              Slow internal reference clock [kHz]        : 31.25
 **              Initialize slow trim value                 : no
-**            System oscillator                            : Disabled
+**            System oscillator                            : Enabled
+**              Clock source                               : External crystal
+**                Clock input pin                          : 
+**                  Pin name                               : PTB7/I2C0_SCL/EXTAL
+**                  Pin signal                             : 
+**                Clock output pin                         : 
+**                  Pin name                               : PTB6/I2C0_SDA/XTAL
+**                  Pin signal                             : 
+**                Clock frequency [MHz]                    : 16
+**                Oscillator operating mode                : Low power
 **            Clock source settings                        : 1
 **              Clock source setting 0                     : 
 **                Internal reference clock                 : 
@@ -29,10 +38,10 @@
 **                  ICSIRCLK clock [MHz]                   : 0.03125
 **                External reference clock                 : 
 **                  OSCERCLK in stop                       : Disabled
-**                  OSCERCLK clock [MHz]                   : 0
+**                  OSCERCLK clock [MHz]                   : 16
 **                ICS settings                             : 
 **                  ICS mode                               : FEI
-**                  ICS external ref. clock [MHz]          : 0
+**                  ICS external ref. clock [MHz]          : 16
 **                  Clock monitor                          : Disabled
 **                  FLL settings                           : 
 **                    FLL module                           : Enabled
@@ -119,13 +128,13 @@
 **          Clock configurations                           : 1
 **            Clock configuration 0                        : 
 **              __IRC_32kHz                                : 0.03125
-**              __SYSTEM_OSC                               : 10
+**              __SYSTEM_OSC                               : 16
 **              Clock source setting                       : configuration 0
 **                ICS mode                                 : FEI
 **                ICS output [MHz]                         : 16
 **                ICSIRCLK clock [MHz]                     : 0.03125
 **                ICSFFCLK [kHz]                           : 31.25
-**                OSCERCLK clock [MHz]                     : 0
+**                OSCERCLK clock [MHz]                     : 16
 **              System clocks                              : 
 **                Core clock                               : 16
 **                Bus clock prescaler                      : Auto select
@@ -266,8 +275,8 @@ void __init_hardware(void)
            )) | (uint8_t)(
             ICS_C2_BDIV(0x01)
            ));
-  /* OSC_CR: OSCEN=0,??=0,OSCSTEN=0,OSCOS=0,??=0,RANGE=0,HGO=0,OSCINIT=0 */
-  OSC_CR = 0x00U;
+  /* OSC_CR: OSCEN=1,??=0,OSCSTEN=0,OSCOS=1,??=0,RANGE=1,HGO=0,OSCINIT=0 */
+  OSC_CR = (OSC_CR_OSCEN_MASK | OSC_CR_OSCOS_MASK | OSC_CR_RANGE_MASK);
   while((ICS_S & ICS_S_IREFST_MASK) == 0x00U) { /* Check that the source of the FLL reference clock is the internal reference clock. */
   }
   while((ICS_S & 0x0CU) != 0x00U) {    /* Wait until output of the FLL is selected */

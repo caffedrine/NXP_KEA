@@ -9,25 +9,24 @@
 
 #include <stdio.h>
 
-#ifndef USE_UART_INTERNAL_IMPLEMENTATION
+#ifndef USE_UART_INTERNAL_IMPLEMENTATION_BLOCKING
 #include "UART/UART.h"
 #endif
 
 /** UART unctions definitions */
-static void UART_Init(UART_Type *pUART, uint32_t u32SysClk, uint32_t u32Baud);
-static void UART_SendChar(UART_Type *pUART, uint8_t send);
-static uint8_t UART_GetChar(UART_Type *pUART);
+static void Dbg_UART_Init(UART_Type *pUART, uint32_t u32SysClk, uint32_t u32Baud);
+static void Dbg_UART_SendChar(UART_Type *pUART, uint8_t send);
+static uint8_t Dbg_UART_GetChar(UART_Type *pUART);
 
 /** Default uart channel */
 UART_Type *pUART = UART2;
 
-void DbgConsole_Init(UART_Type *pUartType, uint32_t PbClk, uint32_t u32Baud)
+void DbgConsole_Init(UART_Type *pUartType, uint32_t ClkBus, uint32_t u32Baud)
 {
 	pUART = pUartType;
 
-	UART_Init( pUART, PbClk, u32Baud );
+	Dbg_UART_Init( pUART, ClkBus, u32Baud );
 }
-
 ///!< KDS Versions
 //	 ____   ____    _    _   _ _____    ____
 //	/ ___| / ___|  / \  | \ | |  ___|  / /\ \
@@ -50,7 +49,7 @@ int _read(int fd, const void *buf, size_t count)
 		CharCnt++;
 
 		/* Save character received by UARTx device into the receive buffer */
-		*(uint8_t*)buf = UART_GetChar( pUART );
+		*(uint8_t*)buf = Dbg_UART_GetChar( pUART );
 
 		/* Stop reading if CR (Ox0D) character is received */
 		if ( *(uint8_t*)buf == 0x0DU )
@@ -77,7 +76,7 @@ int _write(int fd, const void *buf, size_t count)
 	(void)fd; /* Parameter is not used, suppress unused argument warning */
 	for ( ; count > 0x00; --count )
 	{
-		UART_SendChar( pUART, (unsigned char)*(uint8_t*)buf );
+		Dbg_UART_SendChar( pUART, (unsigned char)*(uint8_t*)buf );
 
 		(uint8_t*)buf++; /* Increase buffer pointer */
 		CharCnt++; /* Increase char counter */
@@ -92,10 +91,10 @@ int _write(int fd, const void *buf, size_t count)
 //	 \___/_/   \_\_| \_\|_|
 //
 
-#ifdef USE_UART_INTERNAL_IMPLEMENTATION
+#ifdef USE_UART_INTERNAL_IMPLEMENTATION_BLOCKING
 
 // Own UART implementation
-static void UART_Init(UART_Type *pUART, uint32_t BusClock, uint32_t u32Baud)
+static void Dbg_UART_Init(UART_Type *pUART, uint32_t BusClock, uint32_t u32Baud)
 {
     uint16_t u16Sbr;
     uint8_t u8Temp;
@@ -134,7 +133,7 @@ static void UART_Init(UART_Type *pUART, uint32_t BusClock, uint32_t u32Baud)
     pUART->C2 |= (UART_C2_TE_MASK | UART_C2_RE_MASK );
 }
 
-static void UART_SendChar(UART_Type *pUART, uint8_t u8Char)
+static void Dbg_UART_SendChar(UART_Type *pUART, uint8_t u8Char)
 {
 	/* Wait until space is available in the FIFO */
 	while ( !(pUART->S1 & UART_S1_TDRE_MASK) )
@@ -164,24 +163,55 @@ static uint8_t UART_GetChar(UART_Type *pUART)
 
 /* Wrapping all UART functions from driver */
 
-static void UART_Init(UART_Type *_pUART, uint32_t PbClk, uint32_t u32Baud)
+static void Dbg_UART_Init(UART_Type *_pUART, uint32_t PbClk, uint32_t u32Baud)
 {
 	pUART = _pUART;
+#ifdef USE_UART_INTERNAL_IMPLEMENTATION_BLOCKING
 	Uart_Init( (pUART == UART0) ? 0 :( (pUART == UART1) ? 1 : 2), PbClk, u32Baud );
+#else
+    UART_ConfigType Uart_Config={{0}};
+
+    Uart_Config.sctrl1settings.bits.bM=0; 	/* 8 bit Mode */
+    Uart_Config.sctrl1settings.bits.bPe=0; 	/* Parity disable */
+    Uart_Config.bSbns=0;					/* One stop bit*/
+    Uart_Config.sctrl2settings.bits.bRe=1;	/* Receiver enable*/
+    Uart_Config.sctrl2settings.bits.bTe=1;	/* Transmitter enable*/
+    Uart_Config.sctrl2settings.bits.bTie=1;	/* Transmit buffer empty interrupt enable*/
+    Uart_Config.u32SysClkHz = PbClk;   		/* Bus clock in Hz*/
+    Uart_Config.u32Baudrate = u32Baud;     	/* Baud rate*/
+
+    /*Initialization of UART module*/
+    if(_pUART == UART2)
+    {
+    	//UART_SetCallback(_pUART, UART2_ISR, &Uart_Config);
+    }
+    else if (_pUART == UART1)
+    {
+    	//UART_SetCallback(_pUART, UART1_ISR, &Uart_Config);
+    }
+    else if (_pUART == UART0)
+    {
+    	//UART_SetCallback(_pUART, UART0_ISR, &Uart_Config);
+    }
+    UART_Init(_pUART, &Uart_Config);
+#endif
 }
 
-static void UART_SendChar(UART_Type *_pUART, uint8_t u8Char)
+static void Dbg_UART_SendChar(UART_Type *_pUART, uint8_t u8Char)
 {
-	uint8_t tmp;
-	Uart_Write((pUART == UART0) ? 0 : ((pUART == UART1) ? 1 : 2), &u8Char, 1, &tmp);
+//	uint8_t tmp;
+//	Uart_Write((pUART == UART0) ? 0 : ((pUART == UART1) ? 1 : 2), &u8Char, 1, &tmp);
+	UART_PutChar(_pUART, u8Char);
 }
 
-static uint8_t UART_GetChar(UART_Type *_pUART)
+static uint8_t Dbg_UART_GetChar(UART_Type *_pUART)
 {
+	return Dbg_UART_GetChar(_pUART);
+
 	//TODO: !!!
-	uint8_t tmp, c;
-	Uart_Read((pUART == UART0) ? 0 : ((pUART == UART1) ? 1 : 2), &c, 1, &tmp);
-	return c;
+//	uint8_t tmp, c;
+//	Uart_Read((pUART == UART0) ? 0 : ((pUART == UART1) ? 1 : 2), &c, 1, &tmp);
+//	return c;
 }
 
 #endif

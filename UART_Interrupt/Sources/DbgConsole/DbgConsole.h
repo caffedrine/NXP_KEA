@@ -15,7 +15,7 @@
 #include <stdio.h>
 #include "derivative.h"
 
-//#define USE_UART_INTERNAL_IMPLEMENTATION
+//#define USE_UART_INTERNAL_IMPLEMENTATION_BLOCKING
 
 void DbgConsole_Init(UART_Type *pUART, uint32_t u32SysClk, uint32_t u32Baud);
 
